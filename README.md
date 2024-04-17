@@ -3,7 +3,7 @@
 
 ## 0. Overview
 
-This repository accompanies the academic paper "Cryptography in the Wild: An Empirical Study of Vulnerabilities in Cryptographic Libraries". We present an empirical analysis of the causes and characteristics of vulnerabilities in 22 widely used cryptographic libraries written in C, C++, Java, Python, and Rust.
+This repository accompanies the academic paper "Cryptography in the Wild: An Empirical Study of Vulnerabilities in Cryptographic Libraries". We present an empirical analysis of the causes and characteristics of vulnerabilities in 23 widely used cryptographic libraries written in C, C++, Java, Python, and Rust.
 
 The primary component of the repository is the compiled vulnerability dataset, available in cve_database/crypto_lib_cve_dataset.csv. We relied on the NVD to generate an initial vulnerability list, which we then heavily augmented with data from individual project security advisories, project repositories, academic papers, and project version release information.
 
@@ -42,7 +42,7 @@ Miscellaneous | One-line bugs due to typos and copy & paste errors, missing impo
 
 ## 3. Vulnerability Dataset
 
-In total, our dataset consists of 549 vulnerabilities published from 2005 through 2022 in 22 open-source libraries.
+In total, our dataset consists of 552 vulnerabilities published from 2005 through 2022 in 23 open-source libraries.
 
 For each CVE, we include the following fields:
 1. cve_id: Unique CVE identifier assigned by the NVD.
