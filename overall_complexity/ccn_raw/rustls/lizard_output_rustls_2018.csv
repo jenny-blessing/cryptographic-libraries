@@ -1,0 +1,1145 @@
+3,1,15,1,3,"generate@18-20@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","generate","generate & self",18,20
+3,1,23,2,3,"put@21-23@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","put","put & self , _id : & SessionID , _sec : Vec < u8 >",21,23
+3,1,22,2,3,"get@24-26@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","get","get & self , _id : & SessionID",24,26
+3,1,16,2,3,"del@27-29@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","del","del & self , _id : & SessionID",27,29
+7,1,49,1,7,"new@43-49@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","new","new size : usize",43,49
+7,2,65,1,7,"limit_size@51-57@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","limit_size","limit_size & self",51,57
+5,1,36,1,5,"generate@61-65@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","generate","generate & self",61,65
+7,1,52,2,7,"put@67-73@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","put","put & self , id : & SessionID , sec : Vec < u8 >",67,73
+5,1,46,2,5,"get@75-79@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","get","get & self , id : & SessionID",75,79
+5,1,40,2,5,"del@81-85@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","del","del & self , id : & SessionID",81,85
+3,1,11,1,3,"enabled@92-94@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","enabled","enabled & self",92,94
+3,1,11,1,3,"get_lifetime@95-97@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","get_lifetime","get_lifetime & self",95,97
+3,1,24,1,3,"encrypt@98-100@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","encrypt","encrypt & self , _bytes : & [ u8 ]",98,100
+3,1,24,1,3,"decrypt@101-103@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","decrypt","decrypt & self , _bytes : & [ u8 ]",101,103
+6,1,32,1,6,"resolve@110-115@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","resolve","resolve & self , _server_name : Option < webpki :: DNSNameRef > , _sigschemes : & [ SignatureScheme ]",110,115
+7,1,78,1,7,"new_rsa@122-128@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","new_rsa","new_rsa chain : Vec < key :: Certificate > , priv_key : & key :: PrivateKey",122,128
+13,3,91,1,13,"new_rsa_with_extras@130-142@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","new_rsa_with_extras","new_rsa_with_extras chain : Vec < key :: Certificate > , priv_key : & key :: PrivateKey , ocsp : Vec < u8 > , scts : Vec < u8 >",130,142
+6,1,41,1,6,"resolve@146-151@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","resolve","resolve & self , _server_name : Option < webpki :: DNSNameRef > , _sigschemes : & [ SignatureScheme ]",146,151
+3,1,20,0,3,"new@162-164@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","new","new",162,164
+7,3,89,3,8,"add@171-178@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","add","add & mut self , name : & str , ck : sign :: CertifiedKey",171,178
+11,2,69,1,12,"resolve@182-193@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/handy.rs","resolve","resolve & self , server_name : Option < webpki :: DNSNameRef > , _sigschemes : & [ SignatureScheme ]",182,193
+7,1,77,2,8,"check_message@60-67@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",60,67
+4,1,39,2,4,"illegal_param@69-72@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","illegal_param","illegal_param sess : & mut ServerSessionImpl , why : & str",69,72
+4,1,39,2,4,"decode_error@74-77@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","decode_error","decode_error sess : & mut ServerSessionImpl , why : & str",74,77
+12,6,96,2,20,"can_resume@79-98@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","can_resume","can_resume sess : & ServerSessionImpl , handshake : & HandshakeDetails , resumedata : & Option < persist :: ServerSessionValue >",79,98
+12,2,97,0,12,"same_dns_name_or_both_none@102-113@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","same_dns_name_or_both_none","same_dns_name_or_both_none a : Option < & webpki :: DNSName > , b : Option < & webpki :: DNSName >",102,113
+7,2,49,1,7,"check_aligned_handshake@119-125@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_aligned_handshake","check_aligned_handshake sess : & mut ServerSessionImpl",119,125
+13,2,58,1,15,"new@136-150@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","new","new perhaps_client_auth : bool",136,150
+7,1,33,1,7,"into_expect_tls12_ccs@152-158@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls12_ccs","into_expect_tls12_ccs self",152,158
+9,1,45,1,9,"into_expect_retried_client_hello@160-168@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_retried_client_hello","into_expect_retried_client_hello self",160,168
+6,1,29,1,6,"into_expect_tls13_certificate@170-175@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls13_certificate","into_expect_tls13_certificate self",170,175
+6,1,29,1,6,"into_expect_tls13_finished@177-182@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls13_finished","into_expect_tls13_finished self",177,182
+7,1,44,2,7,"into_expect_tls12_certificate@184-190@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls12_certificate","into_expect_tls12_certificate self , kx : suites :: KeyExchange",184,190
+8,1,48,2,8,"into_expect_tls12_client_kx@192-199@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls12_client_kx","into_expect_tls12_client_kx self , kx : suites :: KeyExchange",192,199
+64,22,460,4,90,"process_extensions@201-290@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","process_extensions","process_extensions & mut self , sess : & mut ServerSessionImpl , server_key : Option < & mut sign :: CertifiedKey > , hello : & ClientHelloPayload , for_resume : bool",201,290
+19,2,161,3,22,"check_binder@292-313@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_binder","check_binder & self , sess : & mut ServerSessionImpl , client_hello : & Message , psk : & [ u8 ] , binder : & [ u8 ]",292,313
+54,6,480,4,65,"emit_server_hello_tls13@315-379@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_server_hello_tls13","emit_server_hello_tls13 & mut self , sess : & mut ServerSessionImpl , session_id : & SessionID , share : & KeyShareEntry , chosen_psk_idx : Option < usize > , resuming_psk : Option < Vec < u8 > >",315,379
+9,1,55,2,9,"emit_fake_ccs@381-389@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_fake_ccs","emit_fake_ccs & mut self , sess : & mut ServerSessionImpl",381,389
+24,1,180,3,27,"emit_hello_retry_request@391-417@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_hello_retry_request","emit_hello_retry_request & mut self , sess : & mut ServerSessionImpl , group : NamedGroup",391,417
+20,2,141,5,21,"emit_encrypted_extensions@419-439@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_encrypted_extensions","emit_encrypted_extensions & mut self , sess : & mut ServerSessionImpl , server_key : & mut sign :: CertifiedKey , hello : & ClientHelloPayload , for_resume : bool",419,439
+27,3,193,2,32,"emit_certificate_req_tls13@441-472@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_certificate_req_tls13","emit_certificate_req_tls13 & mut self , sess : & mut ServerSessionImpl",441,472
+40,8,297,3,50,"emit_certificate_tls13@474-523@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_certificate_tls13","emit_certificate_tls13 & mut self , sess : & mut ServerSessionImpl , server_key : & mut sign :: CertifiedKey",474,523
+28,4,229,3,33,"emit_certificate_verify_tls13@525-557@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_certificate_verify_tls13","emit_certificate_verify_tls13 & mut self , sess : & mut ServerSessionImpl , server_key : & mut sign :: CertifiedKey , schemes : & [ SignatureScheme ]",525,557
+36,1,265,2,41,"emit_finished_tls13@559-599@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_finished_tls13","emit_finished_tls13 & mut self , sess : & mut ServerSessionImpl",559,599
+27,2,195,4,29,"emit_server_hello@601-629@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_server_hello","emit_server_hello & mut self , sess : & mut ServerSessionImpl , server_key : Option < & mut sign :: CertifiedKey > , hello : & ClientHelloPayload , for_resume : bool",601,629
+15,1,100,3,17,"emit_certificate@631-647@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_certificate","emit_certificate & mut self , sess : & mut ServerSessionImpl , server_certkey : & mut sign :: CertifiedKey",631,647
+20,3,129,3,23,"emit_cert_status@649-671@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_cert_status","emit_cert_status & mut self , sess : & mut ServerSessionImpl , server_certkey : & mut sign :: CertifiedKey",649,671
+34,5,286,5,39,"emit_server_kx@673-711@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_server_kx","emit_server_kx & mut self , sess : & mut ServerSessionImpl , sigscheme : SignatureScheme , group : & NamedGroup , server_certkey : & mut sign :: CertifiedKey",673,711
+25,2,158,2,30,"emit_certificate_req@713-742@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_certificate_req","emit_certificate_req & mut self , sess : & mut ServerSessionImpl",713,742
+12,1,80,2,13,"emit_server_hello_done@744-756@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_server_hello_done","emit_server_hello_done & mut self , sess : & mut ServerSessionImpl",744,756
+28,5,202,5,34,"start_resumption@758-791@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","start_resumption","start_resumption mut self , sess : & mut ServerSessionImpl , client_hello : & ClientHelloPayload , sni : Option < & webpki :: DNSName > , id : & SessionID , resumedata : persist :: ServerSessionValue",758,791
+106,27,826,4,134,"handle_client_hello_tls13@793-926@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle_client_hello_tls13","handle_client_hello_tls13 mut self , sess : & mut ServerSessionImpl , sni : Option < webpki :: DNSName > , mut server_key : sign :: CertifiedKey , chm : & Message",793,926
+7,2,40,2,8,"save_sni@928-935@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","save_sni","save_sni & self , sess : & mut ServerSessionImpl , sni : Option < webpki :: DNSName >",928,935
+3,1,26,2,3,"check_message@939-941@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",939,941
+153,43,1342,2,218,"handle@943-1160@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ServerSessionImpl , m : Message",943,1160
+8,1,46,1,8,"into_expect_tls12_client_kx@1171-1178@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls12_client_kx","into_expect_tls12_client_kx self , cert : Option < ClientCertDetails >",1171,1178
+3,1,26,2,3,"check_message@1182-1184@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",1182,1184
+18,4,166,2,22,"handle@1186-1207@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ServerSessionImpl , m : Message",1186,1207
+6,1,29,1,6,"into_expect_tls13_finished@1216-1221@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls13_finished","into_expect_tls13_finished self",1216,1221
+8,1,37,2,8,"into_expect_tls13_certificate_verify@1223-1230@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls13_certificate_verify","into_expect_tls13_certificate_verify self , cert : ClientCertDetails",1223,1230
+3,1,26,2,3,"check_message@1234-1236@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",1234,1236
+25,5,206,2,33,"handle@1238-1270@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ServerSessionImpl , m : Message",1238,1270
+7,1,39,1,7,"into_expect_tls12_certificate_verify@1282-1288@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls12_certificate_verify","into_expect_tls12_certificate_verify self",1282,1288
+7,1,33,1,7,"into_expect_tls12_ccs@1290-1296@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls12_ccs","into_expect_tls12_ccs self",1290,1296
+3,1,26,2,3,"check_message@1300-1302@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",1300,1302
+30,6,251,2,36,"handle@1304-1339@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ServerSessionImpl , m : Message",1304,1339
+7,1,33,1,7,"into_expect_tls12_ccs@1350-1356@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls12_ccs","into_expect_tls12_ccs self",1350,1356
+3,1,26,2,3,"check_message@1360-1362@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",1360,1362
+16,2,154,2,20,"handle@1364-1383@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ServerSessionImpl , m : Message",1364,1383
+6,1,29,1,6,"into_expect_tls13_finished@1393-1398@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls13_finished","into_expect_tls13_finished self",1393,1398
+3,1,26,2,3,"check_message@1402-1404@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",1402,1404
+20,2,167,2,24,"handle@1406-1429@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ServerSessionImpl , m : Message",1406,1429
+7,1,35,1,7,"into_expect_tls12_finished@1440-1446@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls12_finished","into_expect_tls12_finished self",1440,1446
+3,1,30,2,3,"check_message@1450-1452@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",1450,1452
+11,2,85,2,14,"handle@1454-1467@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle self : Box < Self > , sess : & mut ServerSessionImpl , _m : Message",1454,1467
+16,2,101,2,19,"get_server_session_value_tls12@1471-1489@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","get_server_session_value_tls12","get_server_session_value_tls12 handshake : & HandshakeDetails , sess : & ServerSessionImpl",1471,1489
+18,1,120,2,20,"get_server_session_value_tls13@1491-1510@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","get_server_session_value_tls13","get_server_session_value_tls13 handshake : & HandshakeDetails , sess : & ServerSessionImpl , nonce : & [ u8 ]",1491,1510
+22,1,139,2,26,"emit_ticket@1512-1537@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_ticket","emit_ticket handshake : & mut HandshakeDetails , sess : & mut ServerSessionImpl",1512,1537
+9,1,60,1,10,"emit_ccs@1539-1548@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_ccs","emit_ccs sess : & mut ServerSessionImpl",1539,1548
+18,1,127,2,20,"emit_finished@1550-1569@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_finished","emit_finished handshake : & mut HandshakeDetails , sess : & mut ServerSessionImpl",1550,1569
+5,1,27,2,5,"into_expect_tls12_traffic@1578-1582@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls12_traffic","into_expect_tls12_traffic self , fin : verify :: FinishedMessageVerified",1578,1582
+3,1,26,2,3,"check_message@1586-1588@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",1586,1588
+37,7,284,2,45,"handle@1590-1634@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ServerSessionImpl , m : Message",1590,1634
+5,1,27,2,5,"into_expect_tls13_traffic@1643-1647@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","into_expect_tls13_traffic","into_expect_tls13_traffic self , fin : verify :: FinishedMessageVerified",1643,1647
+29,3,202,2,33,"emit_ticket_tls13@1649-1681@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","emit_ticket_tls13","emit_ticket_tls13 & mut self , sess : & mut ServerSessionImpl",1649,1681
+3,1,26,2,3,"check_message@1685-1687@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",1685,1687
+31,4,263,2,42,"handle@1689-1730@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ServerSessionImpl , m : Message",1689,1730
+3,1,30,2,3,"check_message@1742-1744@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",1742,1744
+4,1,46,2,4,"handle@1746-1749@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle self : Box < Self > , sess : & mut ServerSessionImpl , mut m : Message",1746,1749
+4,1,49,3,4,"handle_traffic@1757-1760@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle_traffic","handle_traffic & self , sess : & mut ServerSessionImpl , mut m : Message",1757,1760
+4,1,55,3,4,"handle_key_update@1762-1765@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle_key_update","handle_key_update & self , sess : & mut ServerSessionImpl , m : Message",1762,1765
+5,1,37,2,5,"check_message@1769-1773@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","check_message","check_message & self , m : & Message",1769,1773
+8,5,71,2,9,"handle@1775-1783@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/hs.rs","handle","handle self : Box < Self > , sess : & mut ServerSessionImpl , m : Message",1775,1783
+19,1,116,1,43,"resolve@91-133@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","resolve","resolve & self , server_name : Option < webpki :: DNSNameRef > , sigschemes : & [ SignatureScheme ]",91,133
+13,1,100,0,13,"new@147-159@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","new","new client_cert_verifier : Arc < verify :: ClientCertVerifier >",147,159
+3,1,20,1,3,"get_verifier@162-164@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","get_verifier","get_verifier & self",162,164
+3,1,26,1,3,"set_persistence@167-169@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","set_persistence","set_persistence & mut self , persist : Arc < StoresServerSessions + Send + Sync >",167,169
+5,1,45,2,5,"set_single_cert@182-186@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","set_single_cert","set_single_cert & mut self , cert_chain : Vec < key :: Certificate > , key_der : key :: PrivateKey",182,186
+11,1,68,2,11,"set_single_cert_with_ocsp_and_sct@197-207@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","set_single_cert_with_ocsp_and_sct","set_single_cert_with_ocsp_and_sct & mut self , cert_chain : Vec < key :: Certificate > , key_der : key :: PrivateKey , ocsp : Vec < u8 > , scts : Vec < u8 >",197,207
+4,1,33,1,4,"set_protocols@214-217@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","set_protocols","set_protocols & mut self , protocols : & [ String ]",214,217
+3,1,30,2,3,"fmt@231-233@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","fmt","fmt & self , f : & mut fmt :: Formatter",231,233
+12,1,85,0,13,"new@237-249@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","new","new server_config : & Arc < ServerConfig >",237,249
+3,1,18,1,9,"wants_read@251-259@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","wants_read","wants_read & self",251,259
+3,1,20,1,3,"wants_write@261-263@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","wants_write","wants_write & self",261,263
+3,1,16,1,3,"is_handshaking@265-267@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","is_handshaking","is_handshaking & self",265,267
+3,1,21,2,3,"set_buffer_limit@269-271@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","set_buffer_limit","set_buffer_limit & mut self , len : usize",269,271
+25,10,177,2,35,"process_msg@273-307@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","process_msg","process_msg & mut self , mut msg : Message",273,307
+6,3,50,1,7,"process_new_handshake_messages@309-315@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","process_new_handshake_messages","process_new_handshake_messages & mut self",309,315
+3,1,20,1,3,"queue_unexpected_alert@317-319@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","queue_unexpected_alert","queue_unexpected_alert & mut self",317,319
+12,6,127,2,15,"process_main_protocol@321-335@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","process_main_protocol","process_main_protocol & mut self , msg : Message",321,335
+18,5,125,1,22,"process_new_packets@337-358@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","process_new_packets","process_new_packets & mut self",337,358
+10,3,72,1,13,"get_peer_certificates@360-372@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","get_peer_certificates","get_peer_certificates & self",360,372
+3,1,33,1,3,"get_alpn_protocol@374-376@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","get_alpn_protocol","get_alpn_protocol & self",374,376
+3,1,18,1,3,"get_protocol_version@378-380@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","get_protocol_version","get_protocol_version & self",378,380
+39,1,52,1,51,"get_negotiated_ciphersuite@382-432@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","get_negotiated_ciphersuite","get_negotiated_ciphersuite & self",382,432
+3,1,34,2,3,"read_tls@436-438@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","read_tls","read_tls & mut self , rd : & mut io :: Read",436,438
+3,1,34,2,3,"write_tls@441-443@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","write_tls","write_tls & mut self , wr : & mut io :: Write",441,443
+3,1,24,1,3,"process_new_packets@445-447@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","process_new_packets","process_new_packets & mut self",445,447
+3,1,17,1,3,"wants_read@449-451@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","wants_read","wants_read & self",449,451
+3,1,17,1,3,"wants_write@453-455@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","wants_write","wants_write & self",453,455
+3,1,17,1,3,"is_handshaking@457-459@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","is_handshaking","is_handshaking & self",457,459
+3,1,21,2,3,"set_buffer_limit@461-463@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","set_buffer_limit","set_buffer_limit & mut self , len : usize",461,463
+3,1,18,1,3,"send_close_notify@465-467@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","send_close_notify","send_close_notify & mut self",465,467
+3,1,25,1,3,"get_peer_certificates@469-471@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","get_peer_certificates","get_peer_certificates & self",469,471
+3,1,21,1,3,"get_alpn_protocol@473-475@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","get_alpn_protocol","get_alpn_protocol & self",473,475
+3,1,20,1,3,"get_protocol_version@477-479@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","get_protocol_version","get_protocol_version & self",477,479
+6,1,55,1,6,"export_keying_material@481-486@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","export_keying_material","export_keying_material & self , output : & mut [ u8 ] , label : & [ u8 ] , context : Option < & [ u8 ] >",481,486
+3,1,23,1,3,"get_negotiated_ciphersuite@488-490@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","get_negotiated_ciphersuite","get_negotiated_ciphersuite & self",488,490
+3,1,34,1,3,"read@496-498@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","read","read & mut self , buf : & mut [ u8 ]",496,498
+3,1,33,1,3,"write@512-514@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","write","write & mut self , buf : & [ u8 ]",512,514
+4,1,32,1,4,"flush@516-519@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/mod.rs","flush","flush & mut self",516,519
+9,1,49,0,9,"new@18-26@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/common.rs","new","new",18,26
+5,1,23,1,5,"new@34-38@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/common.rs","new","new kx : suites :: KeyExchange",34,38
+3,1,24,1,3,"take_kx@40-42@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/common.rs","take_kx","take_kx & mut self",40,42
+5,1,23,0,5,"new@50-54@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/common.rs","new","new chain : Vec < key :: Certificate >",50,54
+3,1,32,1,3,"take_chain@56-58@crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/server/common.rs","take_chain","take_chain & mut self",56,58
+8,2,82,1,8,"encode@22-29@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","encode","encode & self , bytes : & mut Vec < u8 >",22,29
+25,4,168,3,26,"decode_given_type@31-56@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","decode_given_type","decode_given_type & self , typ : ContentType , vers : ProtocolVersion",31,56
+8,2,71,1,8,"length@58-65@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","length","length & self",58,65
+3,1,25,0,3,"new_opaque@67-69@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","new_opaque","new_opaque data : Vec < u8 >",67,69
+12,1,112,1,14,"read@82-95@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","read","read r : & mut Reader",82,95
+6,1,59,1,6,"encode@97-102@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","encode","encode & self , bytes : & mut Vec < u8 >",97,102
+16,4,126,0,22,"check_header@109-130@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","check_header","check_header bytes : & [ u8 ]",109,130
+3,1,19,2,3,"is_content_type@132-134@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","is_content_type","is_content_type & self , typ : ContentType",132,134
+10,3,53,2,12,"is_handshake_type@136-147@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","is_handshake_type","is_handshake_type & self , hstyp : HandshakeType",136,147
+11,3,58,1,13,"decode_payload@149-161@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","decode_payload","decode_payload & mut self",149,161
+3,1,27,1,3,"take_payload@163-165@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","take_payload","take_payload self",163,165
+7,2,49,1,7,"take_opaque_payload@167-173@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","take_opaque_payload","take_opaque_payload & mut self",167,173
+12,2,71,1,14,"into_opaque@175-188@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","into_opaque","into_opaque self",175,188
+10,1,49,2,10,"build_alert@190-199@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","build_alert","build_alert level : AlertLevel , desc : AlertDescription",190,199
+7,1,36,0,7,"build_key_update_notify@201-207@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message.rs","build_key_update_notify","build_key_update_notify",201,207
+3,1,17,1,3,"read@32-34@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","read","read _r : & mut Reader",32,34
+7,1,50,1,7,"session_for_dns_name@38-44@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","session_for_dns_name","session_for_dns_name dns_name : webpki :: DNSNameRef",38,44
+7,1,50,1,7,"hint_for_dns_name@46-52@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","hint_for_dns_name","hint_for_dns_name dns_name : webpki :: DNSNameRef",46,52
+11,2,114,1,11,"encode@69-79@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","encode","encode & self , bytes : & mut Vec < u8 >",69,79
+22,1,186,1,23,"read@81-103@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","read","read r : & mut Reader",81,103
+18,1,84,3,18,"new@109-126@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","new","new v : ProtocolVersion , cs : CipherSuite , sessid : & SessionID , ticket : Vec < u8 > , ms : Vec < u8 >",109,126
+3,1,15,1,3,"set_extended_ms_used@128-130@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","set_extended_ms_used","set_extended_ms_used & mut self",128,130
+6,1,46,4,6,"set_times@132-137@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","set_times","set_times & mut self , receipt_time_secs : u64 , lifetime_secs : u32 , age_add : u32",132,137
+3,2,33,2,3,"has_expired@139-141@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","has_expired","has_expired & self , time_now : u64",139,141
+5,1,43,2,5,"get_obfuscated_ticket_age@143-147@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","get_obfuscated_ticket_age","get_obfuscated_ticket_age & self , time_now : u64",143,147
+5,1,47,1,5,"take_ticket@149-153@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","take_ticket","take_ticket & mut self",149,153
+16,4,159,1,16,"encode@170-185@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","encode","encode & self , bytes : & mut Vec < u8 >",170,185
+28,3,206,1,29,"read@187-215@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","read","read r : & mut Reader",187,215
+15,1,88,2,15,"new@219-233@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","new","new sni : Option < & webpki :: DNSName > , v : ProtocolVersion , cs : CipherSuite , ms : Vec < u8 > , cert_chain : & Option < CertificatePayload >",219,233
+3,1,15,1,3,"set_extended_ms_used@235-237@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/persist.rs","set_extended_ms_used","set_extended_ms_used & mut self",235,237
+5,1,47,1,5,"get8@7-11@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/enums_test.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/enums_test.rs","get8","get8 enum_value : & T",7,11
+5,1,47,1,5,"get16@13-17@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/enums_test.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/enums_test.rs","get16","get16 enum_value : & T",13,17
+11,2,105,2,13,"test_enum16@19-31@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/enums_test.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/enums_test.rs","test_enum16","test_enum16 first : T , last : T",19,31
+11,2,105,2,13,"test_enum8@33-45@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/enums_test.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/enums_test.rs","test_enum8","test_enum8 first : T , last : T",33,45
+32,1,336,0,32,"test_enums@48-79@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/enums_test.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/enums_test.rs","test_enums","test_enums",48,79
+13,2,126,0,14,"test_read_fuzz_corpus@9-22@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message_test.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/message_test.rs","test_read_fuzz_corpus","test_read_fuzz_corpus",9,22
+3,1,26,1,3,"encode@25-27@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",25,27
+3,1,28,1,3,"read@29-31@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",29,31
+3,1,26,1,3,"encode@41-43@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",41,43
+3,1,28,1,3,"read@45-47@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",45,47
+3,1,27,1,3,"encode@68-70@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",68,70
+6,1,54,1,7,"read@72-78@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",72,78
+4,1,37,0,4,"from_slice@82-85@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","from_slice","from_slice bytes : & [ u8 ]",82,85
+4,1,38,1,4,"write_slice@87-90@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","write_slice","write_slice & self , mut bytes : & mut [ u8 ]",87,90
+7,2,62,2,7,"fmt@100-106@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","fmt","fmt & self , f : & mut fmt :: Formatter",100,106
+10,3,63,2,12,"eq@110-121@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","eq","eq & self , other : & Self",110,121
+5,1,55,1,5,"encode@125-129@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",125,129
+15,3,98,1,17,"read@131-147@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",131,147
+11,2,74,0,11,"new@151-161@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new bytes : & [ u8 ]",151,161
+6,1,23,0,6,"empty@163-168@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","empty","empty",163,168
+3,1,13,1,3,"len@170-172@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","len","len & self",170,172
+3,1,15,1,3,"is_empty@174-176@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","is_empty","is_empty & self",174,176
+3,1,26,1,3,"encode@186-188@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",186,188
+7,1,48,2,7,"read@190-196@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read typ : ExtensionType , r : & mut Reader",190,196
+3,1,15,0,3,"supported@206-208@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","supported","supported",206,208
+5,2,15,0,8,"supported@202-209@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","supported","supported",202,209
+3,1,23,0,3,"supported@218-220@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","supported","supported",218,220
+5,2,15,0,8,"supported@214-221@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","supported","supported",214,221
+15,2,72,1,15,"sign@231-245@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","sign","sign & self",231,245
+14,2,134,2,15,"make@247-261@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","make","make alg : SignatureAlgorithm , hash : HashAlgorithm",247,261
+7,2,32,1,37,"sign@226-262@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","sign","sign & self",226,262
+13,1,48,0,17,"supported_verify@271-287@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","supported_verify","supported_verify",271,287
+9,1,32,0,10,"supported_sign_tls13@289-298@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","supported_sign_tls13","supported_sign_tls13",289,298
+7,2,23,0,35,"supported_verify@265-299@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","supported_verify","supported_verify",265,299
+7,1,86,1,7,"read_hostname@308-314@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read_hostname","read_hostname r : & mut Reader",308,314
+5,1,58,1,5,"encode_hostname@316-320@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode_hostname","encode_hostname name : webpki :: DNSNameRef , bytes : & mut Vec < u8 >",316,320
+6,2,58,1,6,"encode@322-327@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",322,327
+4,1,35,1,4,"encode@337-340@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",337,340
+11,2,85,1,13,"read@342-354@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",342,354
+8,3,47,1,9,"get_hostname@364-372@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_hostname","get_hostname & self",364,372
+5,2,22,1,14,"get_hostname@360-373@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_hostname","get_hostname & self",360,373
+7,2,51,0,9,"from_strings@384-392@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","from_strings","from_strings names : & [ String ]",384,392
+9,3,58,1,9,"to_strings@394-402@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","to_strings","to_strings & self",394,402
+7,2,46,1,7,"as_single_string@404-410@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","as_single_string","as_single_string & self",404,410
+9,2,48,0,34,"from_strings@378-411@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","from_strings","from_strings names : & [ String ]",378,411
+6,1,38,1,6,"new@421-426@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new group : NamedGroup , payload : & [ u8 ]",421,426
+4,1,35,1,4,"encode@430-433@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",430,433
+8,1,58,1,9,"read@435-443@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",435,443
+6,1,34,1,6,"new@454-459@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new id : Vec < u8 > , age : u32",454,459
+4,1,37,1,4,"encode@463-466@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",463,466
+6,1,48,1,6,"read@468-473@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",468,473
+6,1,42,1,6,"new@488-493@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new id : PresharedKeyIdentity , binder : Vec < u8 >",488,493
+4,1,35,1,4,"encode@497-500@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",497,500
+6,1,48,1,6,"read@502-507@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",502,507
+5,1,44,1,5,"encode@520-524@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",520,524
+6,1,48,1,6,"read@526-531@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",526,531
+9,2,65,1,9,"encode@541-549@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",541,549
+13,2,94,1,14,"read@551-564@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",551,564
+7,1,37,0,7,"build_ocsp@568-574@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","build_ocsp","build_ocsp",568,574
+20,2,179,1,20,"get_type@609-628@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_type","get_type & self",609,628
+24,2,308,1,26,"encode@632-657@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",632,657
+54,5,421,1,55,"read@659-713@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",659,713
+7,1,49,1,8,"make_sni@718-725@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","make_sni","make_sni dns_name : webpki :: DNSNameRef",718,725
+9,1,94,0,10,"can_roundtrip_unknown_client_ext@729-738@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","can_roundtrip_unknown_client_ext","can_roundtrip_unknown_client_ext",729,738
+14,1,99,0,15,"can_roundtrip_single_sni@741-755@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","can_roundtrip_single_sni","can_roundtrip_single_sni",741,755
+25,2,198,0,28,"can_roundtrip_multiname_sni@758-785@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","can_roundtrip_multiname_sni","can_roundtrip_multiname_sni",758,785
+24,2,170,0,25,"can_roundtrip_multi_proto@788-812@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","can_roundtrip_multi_proto","can_roundtrip_multi_proto",788,812
+22,2,162,0,23,"can_roundtrip_single_proto@815-837@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","can_roundtrip_single_proto","can_roundtrip_single_proto",815,837
+16,2,136,1,16,"get_type@856-871@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_type","get_type & self",856,871
+20,2,228,1,22,"encode@875-896@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",875,896
+34,2,288,1,35,"read@898-932@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",898,932
+3,1,25,1,3,"make_alpn@936-938@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","make_alpn","make_alpn proto : String",936,938
+4,1,28,0,4,"make_empty_renegotiation_info@940-943@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","make_empty_renegotiation_info","make_empty_renegotiation_info",940,943
+5,1,36,0,5,"make_sct@945-949@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","make_sct","make_sct sctl : Vec < u8 >",945,949
+10,2,91,1,11,"encode@963-973@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",963,973
+14,2,136,1,17,"read@975-991@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",975,991
+11,3,65,1,14,"has_duplicate_extension@997-1010@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","has_duplicate_extension","has_duplicate_extension & self",997,1010
+3,1,39,2,3,"find_extension@1012-1014@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","find_extension","find_extension & self , ext : ExtensionType",1012,1014
+7,2,52,1,7,"get_sni_extension@1016-1022@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_sni_extension","get_sni_extension & self",1016,1022
+7,2,52,1,7,"get_sigalgs_extension@1024-1030@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_sigalgs_extension","get_sigalgs_extension & self",1024,1030
+7,2,52,1,7,"get_namedgroups_extension@1032-1038@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_namedgroups_extension","get_namedgroups_extension & self",1032,1038
+7,2,52,1,7,"get_ecpoints_extension@1040-1046@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_ecpoints_extension","get_ecpoints_extension & self",1040,1046
+7,2,52,1,7,"get_alpn_extension@1048-1054@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_alpn_extension","get_alpn_extension & self",1048,1054
+3,1,22,1,3,"get_ticket_extension@1056-1058@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_ticket_extension","get_ticket_extension & self",1056,1058
+7,2,52,1,7,"get_versions_extension@1060-1066@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_versions_extension","get_versions_extension & self",1060,1066
+7,2,52,1,7,"get_keyshare_extension@1068-1074@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_keyshare_extension","get_keyshare_extension & self",1068,1074
+15,4,84,1,20,"has_keyshare_extension_with_duplicates@1076-1095@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","has_keyshare_extension_with_duplicates","has_keyshare_extension_with_duplicates & self",1076,1095
+7,2,52,1,7,"get_psk@1097-1103@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_psk","get_psk & self",1097,1103
+5,1,35,1,5,"check_psk_ext_is_last@1105-1109@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","check_psk_ext_is_last","check_psk_ext_is_last & self",1105,1109
+7,2,52,1,7,"get_psk_modes@1111-1117@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_psk_modes","get_psk_modes & self",1111,1117
+6,1,48,2,6,"psk_mode_offered@1119-1124@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","psk_mode_offered","psk_mode_offered & self , mode : PSKKeyExchangeMode",1119,1124
+6,2,60,1,6,"set_psk_binder@1127-1132@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","set_psk_binder","set_psk_binder & mut self , binder : Vec < u8 >",1127,1132
+4,1,22,1,4,"ems_support_offered@1134-1137@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","ems_support_offered","ems_support_offered & self",1134,1137
+8,2,60,1,8,"get_type@1149-1156@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_type","get_type & self",1149,1156
+12,2,140,1,14,"encode@1160-1173@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1160,1173
+17,2,159,1,18,"read@1175-1192@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1175,1192
+8,1,72,1,8,"encode@1204-1211@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1204,1211
+14,2,109,1,16,"read@1213-1228@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1213,1228
+11,3,65,1,14,"has_duplicate_extension@1234-1247@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","has_duplicate_extension","has_duplicate_extension & self",1234,1247
+9,3,55,1,9,"has_unknown_extension@1249-1257@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","has_unknown_extension","has_unknown_extension & self",1249,1257
+3,1,39,2,3,"find_extension@1259-1261@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","find_extension","find_extension & self , ext : ExtensionType",1259,1261
+7,2,50,1,7,"get_requested_key_share_group@1263-1269@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_requested_key_share_group","get_requested_key_share_group & self",1263,1269
+7,2,52,1,7,"get_cookie@1271-1277@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_cookie","get_cookie & self",1271,1277
+7,2,50,1,7,"get_supported_versions@1279-1285@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_supported_versions","get_supported_versions & self",1279,1285
+10,2,85,1,12,"encode@1299-1310@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1299,1310
+17,2,134,1,20,"read@1313-1332@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1313,1332
+3,1,17,1,3,"get_extensions@1336-1338@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_extensions","get_extensions & self",1336,1338
+7,2,52,1,7,"get_key_share@1342-1348@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_key_share","get_key_share & self",1342,1348
+7,2,52,1,7,"get_psk_index@1350-1356@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_psk_index","get_psk_index & self",1350,1356
+7,2,52,1,7,"get_ecpoints_extension@1358-1364@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_ecpoints_extension","get_ecpoints_extension & self",1358,1364
+4,1,22,1,4,"ems_support_acked@1366-1369@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","ems_support_acked","ems_support_acked & self",1366,1369
+7,2,52,1,7,"get_sct_list@1371-1377@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_sct_list","get_sct_list & self",1371,1377
+7,2,50,1,7,"get_supported_versions@1379-1385@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_supported_versions","get_supported_versions & self",1379,1385
+3,1,26,1,3,"encode@1391-1393@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1391,1393
+3,1,24,1,4,"read@1395-1398@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1395,1398
+7,2,49,1,7,"get_type@1413-1419@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_type","get_type & self",1413,1419
+5,1,36,0,5,"make_sct@1421-1425@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","make_sct","make_sct sct_list : Vec < u8 >",1421,1425
+6,2,43,1,6,"get_cert_status@1427-1432@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_cert_status","get_cert_status & self",1427,1432
+6,2,35,1,6,"get_sct_list@1434-1439@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_sct_list","get_sct_list & self",1434,1439
+11,2,123,1,13,"encode@1443-1455@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1443,1455
+16,2,146,1,17,"read@1457-1473@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1457,1473
+4,1,35,1,4,"encode@1485-1488@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1485,1488
+6,1,50,1,6,"read@1490-1495@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1490,1495
+6,1,28,1,6,"new@1499-1504@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new cert : key :: Certificate",1499,1504
+11,3,65,1,14,"has_duplicate_extension@1506-1519@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","has_duplicate_extension","has_duplicate_extension & self",1506,1519
+8,2,45,1,8,"has_unknown_extension@1521-1528@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","has_unknown_extension","has_unknown_extension & self",1521,1528
+6,1,52,1,6,"get_ocsp_response@1530-1535@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_ocsp_response","get_ocsp_response & self",1530,1535
+6,1,49,1,6,"get_scts@1537-1542@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_scts","get_scts & self",1537,1542
+4,1,38,1,4,"encode@1552-1555@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1552,1555
+6,1,54,1,6,"read@1557-1562@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1557,1562
+6,1,27,0,6,"new@1566-1571@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new",1566,1571
+8,3,31,1,9,"any_entry_has_duplicate_extension@1573-1581@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","any_entry_has_duplicate_extension","any_entry_has_duplicate_extension & self",1573,1581
+8,3,31,1,9,"any_entry_has_unknown_extension@1583-1591@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","any_entry_has_unknown_extension","any_entry_has_unknown_extension & self",1583,1591
+8,3,34,1,9,"any_entry_has_extension@1593-1601@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","any_entry_has_extension","any_entry_has_extension & self",1593,1601
+6,1,43,1,6,"get_end_entity_ocsp@1603-1608@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_end_entity_ocsp","get_end_entity_ocsp & self",1603,1608
+5,1,36,1,5,"get_end_entity_scts@1610-1614@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_end_entity_scts","get_end_entity_scts & self",1610,1614
+7,2,43,1,7,"convert@1616-1622@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","convert","convert & self",1616,1622
+4,1,35,1,4,"encode@1645-1648@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1645,1648
+11,2,69,1,14,"read@1650-1663@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1650,1663
+6,1,34,1,6,"new@1673-1678@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new scheme : SignatureScheme , sig : Vec < u8 >",1673,1678
+4,1,35,1,4,"encode@1682-1685@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1682,1685
+8,1,58,1,9,"read@1687-1695@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1687,1695
+3,1,26,1,3,"encode@1704-1706@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1704,1706
+4,1,39,1,4,"read@1708-1711@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1708,1711
+9,1,52,1,9,"new@1721-1729@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new named_group : & NamedGroup , pubkey : & [ u8 ]",1721,1729
+4,1,35,1,4,"encode@1733-1736@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1733,1736
+8,1,58,1,9,"read@1738-1746@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1738,1746
+4,1,35,1,4,"encode@1756-1759@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1756,1759
+8,1,58,1,9,"read@1761-1769@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1761,1769
+6,2,52,1,6,"encode@1779-1784@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1779,1784
+3,1,38,1,5,"read@1786-1790@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1786,1790
+16,4,103,2,19,"unwrap_given_kxa@1794-1812@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","unwrap_given_kxa","unwrap_given_kxa & self , kxa : & KeyExchangeAlgorithm",1794,1812
+7,2,51,1,8,"encode_params@1814-1821@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode_params","encode_params & self , bytes : & mut Vec < u8 >",1814,1821
+6,2,41,1,6,"get_sig@1823-1828@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_sig","get_sig & self",1823,1828
+12,3,78,1,18,"get_extensions@1835-1852@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_extensions","get_extensions & self",1835,1852
+3,1,41,2,3,"find_extension@1854-1856@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","find_extension","find_extension & self , ext : ExtensionType",1854,1856
+7,2,53,1,7,"get_alpn_protocol@1858-1864@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_alpn_protocol","get_alpn_protocol & self",1858,1864
+3,1,14,1,3,"get_extensions@1868-1870@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_extensions","get_extensions & self",1868,1870
+5,1,44,1,5,"encode@1886-1890@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1886,1890
+10,1,76,1,11,"read@1892-1902@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1892,1902
+7,2,49,1,7,"get_type@1913-1919@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_type","get_type & self",1913,1919
+11,2,123,1,13,"encode@1923-1935@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1923,1935
+16,2,146,1,17,"read@1937-1953@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1937,1953
+4,1,35,1,4,"encode@1965-1968@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",1965,1968
+8,1,58,1,9,"read@1970-1978@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",1970,1978
+3,1,39,2,3,"find_extension@1982-1984@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","find_extension","find_extension & self , ext : ExtensionType",1982,1984
+7,2,52,1,7,"get_sigalgs_extension@1986-1992@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_sigalgs_extension","get_sigalgs_extension & self",1986,1992
+7,2,52,1,7,"get_authorities_extension@1994-2000@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_authorities_extension","get_authorities_extension & self",1994,2000
+6,1,34,1,6,"new@2011-2016@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new lifetime_hint : u32 , ticket : Vec < u8 >",2011,2016
+4,1,37,1,4,"encode@2020-2023@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",2020,2023
+8,1,58,1,9,"read@2025-2033@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",2025,2033
+5,2,27,1,5,"get_type@2043-2047@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_type","get_type & self",2043,2047
+9,2,89,1,11,"encode@2051-2061@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",2051,2061
+10,2,91,1,11,"read@2063-2073@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",2063,2073
+12,1,65,2,12,"new@2088-2099@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new lifetime : u32 , age_add : u32 , nonce : Vec < u8 > , ticket : Vec < u8 >",2088,2099
+7,1,66,1,7,"encode@2103-2109@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",2103,2109
+14,1,112,1,15,"read@2111-2125@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",2111,2125
+4,1,35,1,4,"encode@2137-2140@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",2137,2140
+11,2,61,1,12,"read@2142-2153@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",2142,2153
+3,1,25,0,3,"new@2157-2159@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","new","new ocsp : Vec < u8 >",2157,2159
+4,1,42,1,4,"take_ocsp_response@2161-2164@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","take_ocsp_response","take_ocsp_response & mut self",2161,2164
+24,2,302,1,24,"encode@2192-2215@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",2192,2215
+10,2,93,1,13,"encode@2225-2237@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","encode","encode & self , bytes : & mut Vec < u8 >",2225,2237
+3,1,26,1,3,"read@2239-2241@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read","read r : & mut Reader",2239,2241
+5,1,34,1,5,"length@2245-2249@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","length","length & self",2245,2249
+92,9,661,2,97,"read_version@2251-2347@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","read_version","read_version r : & mut Reader , vers : ProtocolVersion",2251,2347
+6,1,28,0,6,"build_key_update_notify@2349-2354@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","build_key_update_notify","build_key_update_notify",2349,2354
+15,2,105,1,18,"get_encoding_for_binder_signing@2356-2373@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","get_encoding_for_binder_signing","get_encoding_for_binder_signing & self",2356,2373
+6,1,40,0,6,"build_handshake_hash@2375-2380@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/handshake.rs","build_handshake_hash","build_handshake_hash hash : & [ u8 ]",2375,2380
+6,1,27,0,6,"new@25-30@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","new","new",25,30
+3,1,23,2,3,"want_message@33-35@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","want_message","want_message & self , msg : & Message",33,35
+3,1,17,1,3,"is_empty@38-40@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","is_empty","is_empty & self",38,40
+12,3,85,2,18,"take_message@49-66@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","take_message","take_message & mut self , mut msg : Message",49,66
+4,2,53,1,4,"buf_contains_message@71-74@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","buf_contains_message","buf_contains_message & self",71,74
+18,2,120,2,21,"deframe_one@80-100@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","deframe_one","deframe_one & mut self , version : ProtocolVersion",80,100
+16,1,121,0,19,"want@112-130@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","want","want",112,130
+9,1,108,2,11,"pop_eq@132-142@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","pop_eq","pop_eq expect : & Message , hj : & mut HandshakeJoiner",132,142
+21,1,153,0,27,"split@145-171@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","split","split",145,171
+10,1,76,0,14,"broken@174-187@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","broken","broken",174,187
+38,1,322,0,50,"join@190-239@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/hsjoiner.rs","join","join",190,239
+4,1,25,1,4,"new@18-21@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/fragmenter.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/fragmenter.rs","new","new max_fragment_len : usize",18,21
+17,3,118,2,20,"fragment@27-46@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/fragmenter.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/fragmenter.rs","fragment","fragment & self , msg : Message , out : & mut VecDeque < Message >",27,46
+7,1,32,0,7,"new@34-40@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/deframer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/deframer.rs","new","new",34,40
+24,3,153,2,33,"read@45-77@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/deframer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/deframer.rs","read","read & mut self , rd : & mut io :: Read",45,77
+3,2,27,1,3,"has_pending@82-84@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/deframer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/deframer.rs","has_pending","has_pending & self",82,84
+15,4,92,1,22,"buf_contains_message@89-110@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/deframer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/deframer.rs","buf_contains_message","buf_contains_message & self",89,110
+9,1,74,1,9,"deframe_one@114-122@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/deframer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/deframer.rs","deframe_one","deframe_one & mut self",114,122
+3,1,27,1,3,"encode@9-11@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","encode","encode & self , bytes : & mut Vec < u8 >",9,11
+3,1,31,1,3,"read@13-15@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","read","read r : & mut Reader",13,15
+3,1,18,0,3,"new@19-21@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","new","new bytes : Vec < u8 >",19,21
+3,1,18,0,3,"empty@23-25@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","empty","empty",23,25
+5,1,40,0,5,"from_slice@27-31@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","from_slice","from_slice data : & [ u8 ]",27,31
+3,1,17,1,3,"len@33-35@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","len","len & self",33,35
+4,1,44,1,4,"encode@39-42@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","encode","encode & self , bytes : & mut Vec < u8 >",39,42
+6,1,71,1,6,"read@44-49@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","read","read r : & mut Reader",44,49
+3,1,18,0,3,"new@57-59@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","new","new bytes : Vec < u8 >",57,59
+3,1,17,1,3,"len@61-63@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","len","len & self",61,63
+3,1,18,0,3,"empty@65-67@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","empty","empty",65,67
+4,1,44,1,4,"encode@71-74@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","encode","encode & self , bytes : & mut Vec < u8 >",71,74
+6,1,67,1,6,"read@76-81@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","read","read r : & mut Reader",76,81
+3,1,18,0,3,"new@89-91@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","new","new bytes : Vec < u8 >",89,91
+3,1,17,1,3,"len@93-95@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","len","len & self",93,95
+3,1,18,0,3,"empty@97-99@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","empty","empty",97,99
+4,1,44,1,4,"encode@103-106@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","encode","encode & self , bytes : & mut Vec < u8 >",103,106
+6,1,67,1,6,"read@108-113@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","read","read r : & mut Reader",108,113
+3,1,18,0,3,"new@121-123@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","new","new bytes : Vec < u8 >",121,123
+3,1,16,0,3,"empty@125-127@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","empty","empty",125,127
+3,1,17,1,3,"len@129-131@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","len","len & self",129,131
+4,1,44,1,4,"encode@135-138@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","encode","encode & self , bytes : & mut Vec < u8 >",135,138
+6,1,67,1,6,"read@140-145@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/base.rs","read","read r : & mut Reader",140,145
+14,2,113,0,17,"smoketest@27-43@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/mod.rs","smoketest","smoketest",27,43
+4,1,35,1,4,"encode@11-14@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/alert.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/alert.rs","encode","encode & self , bytes : & mut Vec < u8 >",11,14
+8,1,58,1,9,"read@16-24@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/alert.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/alert.rs","read","read r : & mut Reader",16,24
+3,1,13,1,3,"length@28-30@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/alert.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/alert.rs","length","length & self",28,30
+6,1,25,0,6,"init@10-15@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","init","init bytes : & [ u8 ]",10,15
+5,1,42,1,5,"rest@17-21@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","rest","rest & mut self",17,21
+8,2,62,2,9,"take@23-31@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","take","take & mut self , len : usize",23,31
+3,1,21,1,3,"any_left@33-35@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","any_left","any_left & self",33,35
+3,1,21,1,3,"left@37-39@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","left","left & self",37,39
+3,1,13,1,3,"used@41-43@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","used","used & self",41,43
+3,1,40,2,3,"sub@45-47@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","sub","sub & mut self , len : usize",45,47
+7,1,62,1,12,"encode@53-64@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","encode","encode & self , bytes : & mut Vec < u8 >",53,64
+4,1,36,0,4,"read_bytes@68-71@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","read_bytes","read_bytes bytes : & [ u8 ]",68,71
+3,1,25,1,3,"encode_u8@75-77@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","encode_u8","encode_u8 v : u8 , bytes : & mut Vec < u8 >",75,77
+3,1,24,0,3,"decode_u8@79-81@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","decode_u8","decode_u8 bytes : & [ u8 ]",79,81
+3,1,27,1,3,"read_u8@83-85@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","read_u8","read_u8 r : & mut Reader",83,85
+4,1,40,1,4,"put_u16@87-90@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","put_u16","put_u16 v : u16 , out : & mut [ u8 ]",87,90
+5,1,45,1,5,"encode_u16@92-96@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","encode_u16","encode_u16 v : u16 , bytes : & mut Vec < u8 >",92,96
+3,1,40,0,3,"decode_u16@98-100@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","decode_u16","decode_u16 bytes : & [ u8 ]",98,100
+3,1,27,1,3,"read_u16@102-104@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","read_u16","read_u16 r : & mut Reader",102,104
+5,1,55,1,5,"encode_u24@106-110@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","encode_u24","encode_u24 v : u32 , bytes : & mut Vec < u8 >",106,110
+3,1,54,0,3,"decode_u24@112-114@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","decode_u24","decode_u24 bytes : & [ u8 ]",112,114
+3,1,27,1,3,"read_u24@116-118@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","read_u24","read_u24 r : & mut Reader",116,118
+6,1,69,1,6,"encode_u32@120-125@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","encode_u32","encode_u32 v : u32 , bytes : & mut Vec < u8 >",120,125
+4,1,68,0,4,"decode_u32@127-130@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","decode_u32","decode_u32 bytes : & [ u8 ]",127,130
+3,1,27,1,3,"read_u32@132-134@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","read_u32","read_u32 r : & mut Reader",132,134
+5,1,45,1,5,"encode_u64@136-140@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","encode_u64","encode_u64 v : u64 , bytes : & mut Vec < u8 >",136,140
+10,1,124,1,10,"put_u64@142-151@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","put_u64","put_u64 v : u64 , bytes : & mut [ u8 ]",142,151
+6,1,124,0,6,"decode_u64@153-158@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","decode_u64","decode_u64 bytes : & [ u8 ]",153,158
+3,1,27,1,3,"read_u64@160-162@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","read_u64","read_u64 r : & mut Reader",160,162
+9,2,90,0,10,"encode_vec_u8@164-173@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","encode_vec_u8","encode_vec_u8 bytes : & mut Vec < u8 > , items : & [ T ]",164,173
+9,2,90,0,10,"encode_vec_u16@175-184@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","encode_vec_u16","encode_vec_u16 bytes : & mut Vec < u8 > , items : & [ T ]",175,184
+9,2,90,0,10,"encode_vec_u24@186-195@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","encode_vec_u24","encode_vec_u24 bytes : & mut Vec < u8 > , items : & [ T ]",186,195
+9,2,98,1,11,"read_vec_u8@197-207@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","read_vec_u8","read_vec_u8 r : & mut Reader",197,207
+9,2,98,1,11,"read_vec_u16@209-219@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","read_vec_u16","read_vec_u16 r : & mut Reader",209,219
+12,3,111,2,15,"read_vec_u24_limited@221-235@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/codec.rs","read_vec_u24_limited","read_vec_u24_limited r : & mut Reader , max_bytes : usize",221,235
+3,1,24,1,3,"encode@7-9@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/ccs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/ccs.rs","encode","encode & self , bytes : & mut Vec < u8 >",7,9
+8,3,51,1,9,"read@11-19@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/ccs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/ccs.rs","read","read r : & mut Reader",11,19
+3,1,11,1,3,"length@23-25@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/ccs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/ccs.rs","length","length & self",23,25
+7,2,46,1,7,"get_u8@19-25@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","get_u8","get_u8 & self",19,25
+3,1,28,1,3,"encode@28-30@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","encode","encode & self , bytes : & mut Vec < u8 >",28,30
+7,2,60,1,7,"read@32-38@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","read","read r : & mut Reader",32,38
+7,2,46,1,7,"get_u16@51-57@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","get_u16","get_u16 & self",51,57
+3,1,28,1,3,"encode@60-62@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","encode","encode & self , bytes : & mut Vec < u8 >",60,62
+7,2,60,1,7,"read@64-70@crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/msgs/macros.rs","read","read r : & mut Reader",64,70
+3,1,25,1,3,"put@13-15@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","put","put & self , _key : Vec < u8 > , _value : Vec < u8 >",13,15
+3,1,24,1,3,"get@17-19@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","get","get & self , _key : & [ u8 ]",17,19
+7,1,49,1,7,"new@33-39@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","new","new size : usize",33,39
+7,2,65,1,7,"limit_size@41-47@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","limit_size","limit_size & self",41,47
+7,1,50,1,7,"put@51-57@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","put","put & self , key : Vec < u8 > , value : Vec < u8 >",51,57
+5,1,43,1,5,"get@59-63@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","get","get & self , key : & [ u8 ]",59,63
+6,1,33,1,6,"resolve@69-74@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","resolve","resolve & self , _acceptable_issuers : & [ & [ u8 ] ] , _sigschemes : & [ SignatureScheme ]",69,74
+3,1,11,1,3,"has_certs@76-78@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","has_certs","has_certs & self",76,78
+6,1,78,1,6,"new_rsa@84-89@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","new_rsa","new_rsa chain : Vec < key :: Certificate > , priv_key : & key :: PrivateKey",84,89
+6,1,42,1,6,"resolve@93-98@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","resolve","resolve & self , _acceptable_issuers : & [ & [ u8 ] ] , _sigschemes : & [ SignatureScheme ]",93,98
+3,1,11,1,3,"has_certs@100-102@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/handy.rs","has_certs","has_certs & self",100,102
+7,1,77,2,8,"check_message@73-80@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",73,80
+7,2,49,1,7,"check_aligned_handshake@82-88@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_aligned_handshake","check_aligned_handshake sess : & mut ClientSessionImpl",82,88
+20,4,131,2,23,"find_session@90-112@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","find_session","find_session sess : & mut ClientSessionImpl , dns_name : webpki :: DNSNameRef",90,112
+6,1,73,2,7,"find_kx_hint@114-120@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","find_kx_hint","find_kx_hint sess : & mut ClientSessionImpl , dns_name : webpki :: DNSNameRef",114,120
+4,1,54,3,5,"save_kx_hint@122-126@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","save_kx_hint","save_kx_hint sess : & mut ClientSessionImpl , dns_name : webpki :: DNSNameRef , group : NamedGroup",122,126
+7,2,56,1,7,"randomise_sessionid_for_ticket@130-136@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","randomise_sessionid_for_ticket","randomise_sessionid_for_ticket csv : & mut persist :: ClientSessionValue",130,136
+19,2,186,3,28,"fill_in_psk_binder@140-167@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","fill_in_psk_binder","fill_in_psk_binder sess : & mut ClientSessionImpl , handshake : & mut HandshakeDetails , hmp : & mut HandshakeMessagePayload",140,167
+5,1,25,1,5,"new@174-178@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","new","new host_name : webpki :: DNSName",174,178
+7,2,59,2,7,"emit_initial_client_hello@180-186@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_initial_client_hello","emit_initial_client_hello mut self , sess : & mut ClientSessionImpl",180,186
+4,1,30,2,4,"start_handshake@190-193@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","start_handshake","start_handshake sess : & mut ClientSessionImpl , host_name : webpki :: DNSName",190,193
+12,2,71,2,13,"emit_fake_ccs@205-217@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_fake_ccs","emit_fake_ccs hs : & mut HandshakeDetails , sess : & mut ClientSessionImpl",205,217
+13,3,63,1,13,"compatible_suite@219-231@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","compatible_suite","compatible_suite sess : & ClientSessionImpl , resuming_suite : Option < & suites :: SupportedCipherSuite >",219,231
+149,31,1149,3,196,"emit_client_hello_for_retry@233-428@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_client_hello_for_retry","emit_client_hello_for_retry sess : & mut ClientSessionImpl , mut handshake : HandshakeDetails , mut hello : ClientHelloDetails , retryreq : Option < & HelloRetryRequest >",233,428
+12,3,79,2,13,"validate_server_hello_tls13@446-458@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","validate_server_hello_tls13","validate_server_hello_tls13 sess : & mut ClientSessionImpl , server_hello : & ServerHelloPayload",446,458
+11,3,103,1,11,"process_alpn_protocol@460-470@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","process_alpn_protocol","process_alpn_protocol sess : & mut ClientSessionImpl , proto : Option < & str >",460,470
+51,12,444,3,60,"start_handshake_traffic@473-532@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","start_handshake_traffic","start_handshake_traffic & mut self , sess : & mut ClientSessionImpl , server_hello : & ServerHelloPayload",473,532
+7,1,35,1,7,"into_expect_tls13_encrypted_extensions@534-540@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls13_encrypted_extensions","into_expect_tls13_encrypted_extensions self",534,540
+10,1,47,3,10,"into_expect_tls12_new_ticket_resume@542-551@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_new_ticket_resume","into_expect_tls12_new_ticket_resume self , certv : verify :: ServerCertVerified , sigv : verify :: HandshakeSignatureValid",542,551
+11,1,55,3,11,"into_expect_tls12_ccs_resume@553-563@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_ccs_resume","into_expect_tls12_ccs_resume self , certv : verify :: ServerCertVerified , sigv : verify :: HandshakeSignatureValid",553,563
+8,1,41,1,8,"into_expect_tls12_certificate@565-572@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_certificate","into_expect_tls12_certificate self",565,572
+3,1,26,2,3,"check_message@576-578@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",576,578
+129,30,983,2,175,"handle@580-754@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",580,754
+3,1,17,1,3,"into_expect_server_hello@758-760@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_server_hello","into_expect_server_hello self",758,760
+53,14,436,3,77,"handle_hello_retry_request@762-838@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle_hello_retry_request","handle_hello_retry_request mut self , sess : & mut ClientSessionImpl , m : Message",762,838
+5,1,30,2,5,"check_message@842-846@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",842,846
+7,2,58,2,7,"handle@848-854@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",848,854
+23,6,175,3,26,"validate_encrypted_extensions@857-882@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","validate_encrypted_extensions","validate_encrypted_extensions sess : & mut ClientSessionImpl , hello : & ClientHelloDetails , exts : & EncryptedExtensions",857,882
+10,1,47,3,10,"into_expect_tls13_finished_resume@891-900@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls13_finished_resume","into_expect_tls13_finished_resume self , certv : verify :: ServerCertVerified , sigv : verify :: HandshakeSignatureValid",891,900
+6,1,29,1,6,"into_expect_tls13_certificate_or_certreq@902-907@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls13_certificate_or_certreq","into_expect_tls13_certificate_or_certreq self",902,907
+3,1,32,2,3,"check_message@911-913@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",911,913
+14,4,143,2,16,"handle@915-930@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",915,930
+4,2,37,1,4,"sct_list_is_invalid@934-937@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","sct_list_is_invalid","sct_list_is_invalid scts : & SCTList",934,937
+7,1,35,1,7,"into_expect_tls13_certificate_verify@946-952@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls13_certificate_verify","into_expect_tls13_certificate_verify self",946,952
+3,1,32,2,3,"check_message@956-958@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",956,958
+29,7,263,2,36,"handle@960-995@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",960,995
+7,1,35,1,7,"into_expect_tls12_certificate_status_or_server_kx@1006-1012@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_certificate_status_or_server_kx","into_expect_tls12_certificate_status_or_server_kx self",1006,1012
+7,1,35,1,7,"into_expect_tls12_server_kx@1014-1020@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_server_kx","into_expect_tls12_server_kx self",1014,1020
+3,1,32,2,3,"check_message@1024-1026@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1024,1026
+10,2,91,2,12,"handle@1028-1039@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , _sess : & mut ClientSessionImpl , m : Message",1028,1039
+7,1,35,1,7,"into_expect_tls12_server_kx@1049-1055@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_server_kx","into_expect_tls12_server_kx self",1049,1055
+3,1,32,2,3,"check_message@1059-1061@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1059,1061
+7,1,87,2,8,"handle@1063-1070@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , _sess : & mut ClientSessionImpl , m : Message",1063,1070
+7,1,35,1,7,"into_expect_tls12_server_kx@1080-1086@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_server_kx","into_expect_tls12_server_kx self",1080,1086
+7,1,35,1,7,"into_expect_tls12_certificate_status@1088-1094@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_certificate_status","into_expect_tls12_certificate_status self",1088,1094
+5,1,36,2,5,"check_message@1098-1102@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1098,1102
+7,2,62,2,7,"handle@1104-1110@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",1104,1110
+7,1,33,1,7,"into_expect_tls13_certificate@1119-1125@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls13_certificate","into_expect_tls13_certificate self",1119,1125
+6,1,29,1,6,"into_expect_tls13_certificate_req@1127-1132@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls13_certificate_req","into_expect_tls13_certificate_req self",1127,1132
+5,1,36,2,5,"check_message@1136-1140@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1136,1140
+7,2,62,2,7,"handle@1142-1148@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",1142,1148
+8,1,43,2,8,"into_expect_tls12_server_done_or_certreq@1158-1165@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_server_done_or_certreq","into_expect_tls12_server_done_or_certreq self , skx : ServerKXDetails",1158,1165
+3,1,32,2,3,"check_message@1169-1171@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1169,1171
+17,3,186,2,23,"handle@1173-1195@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",1173,1195
+10,1,49,3,10,"into_expect_tls13_finished@1206-1215@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls13_finished","into_expect_tls13_finished self , certv : verify :: ServerCertVerified , sigv : verify :: HandshakeSignatureValid",1206,1215
+14,2,82,2,15,"send_cert_error_alert@1218-1232@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","send_cert_error_alert","send_cert_error_alert sess : & mut ClientSessionImpl , err : TLSError",1218,1232
+3,1,32,2,3,"check_message@1235-1237@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1235,1237
+31,6,283,2,41,"handle@1239-1279@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",1239,1279
+15,1,107,3,17,"emit_certificate@1282-1298@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_certificate","emit_certificate handshake : & mut HandshakeDetails , client_auth : & mut ClientAuthDetails , sess : & mut ClientSessionImpl",1282,1298
+18,1,135,3,20,"emit_clientkx@1300-1319@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_clientkx","emit_clientkx handshake : & mut HandshakeDetails , sess : & mut ClientSessionImpl , kxd : & suites :: KeyExchangeResult",1300,1319
+25,3,192,3,28,"emit_certverify@1321-1348@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_certverify","emit_certverify handshake : & mut HandshakeDetails , client_auth : & mut ClientAuthDetails , sess : & mut ClientSessionImpl",1321,1348
+9,1,60,1,10,"emit_ccs@1350-1359@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_ccs","emit_ccs sess : & mut ClientSessionImpl",1350,1359
+19,1,127,2,21,"emit_finished@1361-1381@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_finished","emit_finished handshake : & mut HandshakeDetails , sess : & mut ClientSessionImpl",1361,1381
+9,1,52,2,9,"into_expect_tls12_server_done@1394-1402@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_server_done","into_expect_tls12_server_done self , client_auth : ClientAuthDetails",1394,1402
+3,1,32,2,3,"check_message@1406-1408@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1406,1408
+25,3,232,2,35,"handle@1410-1444@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",1410,1444
+7,1,40,2,7,"into_expect_tls13_certificate@1455-1461@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls13_certificate","into_expect_tls13_certificate self , client_auth : ClientAuthDetails",1455,1461
+3,1,32,2,3,"check_message@1465-1467@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1465,1467
+41,4,372,2,51,"handle@1469-1519@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",1469,1519
+8,1,41,1,8,"into_expect_tls12_certificate_req@1530-1537@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_certificate_req","into_expect_tls12_certificate_req self",1530,1537
+9,1,45,1,9,"into_expect_tls12_server_done@1539-1547@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_server_done","into_expect_tls12_server_done self",1539,1547
+5,1,36,2,5,"check_message@1551-1555@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1551,1555
+8,2,78,2,8,"handle@1557-1564@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",1557,1564
+10,1,47,3,10,"into_expect_tls12_new_ticket@1577-1586@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_new_ticket","into_expect_tls12_new_ticket self , certv : verify :: ServerCertVerified , sigv : verify :: HandshakeSignatureValid",1577,1586
+11,1,55,3,11,"into_expect_tls12_ccs@1588-1598@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_ccs","into_expect_tls12_ccs self , certv : verify :: ServerCertVerified , sigv : verify :: HandshakeSignatureValid",1588,1598
+3,1,32,2,3,"check_message@1602-1604@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1602,1604
+76,14,620,2,117,"handle@1606-1722@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",1606,1722
+9,1,47,1,9,"into_expect_tls12_finished@1735-1743@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_finished","into_expect_tls12_finished self",1735,1743
+3,1,36,2,3,"check_message@1747-1749@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1747,1749
+11,2,85,2,16,"handle@1751-1766@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle self : Box < Self > , sess : & mut ClientSessionImpl , _m : Message",1751,1766
+9,1,49,2,9,"into_expect_tls12_ccs@1777-1785@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_ccs","into_expect_tls12_ccs self , ticket : ReceivedTicketDetails",1777,1785
+3,1,32,2,3,"check_message@1789-1791@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1789,1791
+6,1,81,2,7,"handle@1793-1799@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , _sess : & mut ClientSessionImpl , m : Message",1793,1799
+34,7,263,3,41,"save_session@1803-1843@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","save_session","save_session handshake : & mut HandshakeDetails , recvd_ticket : & mut ReceivedTicketDetails , sess : & mut ClientSessionImpl",1803,1843
+26,3,168,3,29,"emit_certificate_tls13@1845-1873@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_certificate_tls13","emit_certificate_tls13 handshake : & mut HandshakeDetails , client_auth : & mut ClientAuthDetails , sess : & mut ClientSessionImpl",1845,1873
+27,3,214,3,31,"emit_certverify_tls13@1875-1905@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_certverify_tls13","emit_certverify_tls13 handshake : & mut HandshakeDetails , client_auth : & mut ClientAuthDetails , sess : & mut ClientSessionImpl",1875,1905
+18,1,125,2,20,"emit_finished_tls13@1907-1926@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","emit_finished_tls13","emit_finished_tls13 handshake : & mut HandshakeDetails , sess : & mut ClientSessionImpl",1907,1926
+9,1,45,2,9,"into_expect_tls13_traffic@1936-1944@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls13_traffic","into_expect_tls13_traffic self , fin : verify :: FinishedMessageVerified",1936,1944
+3,1,26,2,3,"check_message@1948-1950@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",1948,1950
+52,5,416,2,67,"handle@1952-2018@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",1952,2018
+8,1,39,2,8,"into_expect_tls12_traffic@2030-2037@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","into_expect_tls12_traffic","into_expect_tls12_traffic self , fin : verify :: FinishedMessageVerified",2030,2037
+3,1,32,2,3,"check_message@2041-2043@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",2041,2043
+26,3,214,2,36,"handle@2045-2080@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle self : Box < Self > , sess : & mut ClientSessionImpl , m : Message",2045,2080
+3,1,36,2,3,"check_message@2091-2093@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",2091,2093
+4,1,46,2,4,"handle@2095-2098@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle self : Box < Self > , sess : & mut ClientSessionImpl , mut m : Message",2095,2098
+27,2,233,3,31,"handle_new_ticket_tls13@2112-2142@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle_new_ticket_tls13","handle_new_ticket_tls13 & mut self , sess : & mut ClientSessionImpl , m : Message",2112,2142
+4,1,56,3,4,"handle_key_update@2144-2147@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle_key_update","handle_key_update & mut self , sess : & mut ClientSessionImpl , m : Message",2144,2147
+5,1,47,2,5,"check_message@2151-2155@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","check_message","check_message & self , m : & Message",2151,2155
+10,6,102,2,11,"handle@2157-2167@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/hs.rs","handle","handle mut self : Box < Self > , sess : & mut ClientSessionImpl , mut m : Message",2157,2167
+21,1,47,2,23,"find_cipher_suite@265-287@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","find_cipher_suite","find_cipher_suite & self , suite : CipherSuite",265,287
+3,1,16,1,3,"is_handshaking@289-291@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","is_handshaking","is_handshaking & self",289,291
+3,1,21,2,3,"set_buffer_limit@293-295@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","set_buffer_limit","set_buffer_limit & mut self , len : usize",293,295
+29,11,193,2,40,"process_msg@297-336@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","process_msg","process_msg & mut self , mut msg : Message",297,336
+6,3,50,1,7,"process_new_handshake_messages@338-344@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","process_new_handshake_messages","process_new_handshake_messages & mut self",338,344
+3,1,20,1,3,"queue_unexpected_alert@346-348@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","queue_unexpected_alert","queue_unexpected_alert & mut self",346,348
+4,1,33,1,4,"reject_renegotiation_attempt@350-353@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","reject_renegotiation_attempt","reject_renegotiation_attempt & mut self",350,353
+16,6,117,2,20,"process_main_protocol@358-377@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","process_main_protocol","process_main_protocol & mut self , msg : Message",358,377
+18,5,125,1,21,"process_new_packets@379-399@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","process_new_packets","process_new_packets & mut self",379,399
+10,3,65,1,12,"get_peer_certificates@401-412@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","get_peer_certificates","get_peer_certificates & self",401,412
+3,1,33,1,3,"get_alpn_protocol@414-416@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","get_alpn_protocol","get_alpn_protocol & self",414,416
+3,1,18,1,3,"get_protocol_version@418-420@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","get_protocol_version","get_protocol_version & self",418,420
+77,1,23,1,77,"get_negotiated_ciphersuite@422-498@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","get_negotiated_ciphersuite","get_negotiated_ciphersuite & self",422,498
+191,1,157,1,439,"resolve@61-499@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","resolve","resolve & self , acceptable_issuers : & [ & [ u8 ] ] , sigschemes : & [ SignatureScheme ]",61,499
+3,1,34,1,3,"read@504-506@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","read","read & mut self , buf : & mut [ u8 ]",504,506
+3,1,33,1,3,"write@520-522@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","write","write & mut self , buf : & [ u8 ]",520,522
+4,1,32,1,4,"flush@524-527@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/mod.rs","flush","flush & mut self",524,527
+7,1,31,0,7,"new@24-30@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","new","new",24,30
+3,1,27,1,3,"take_chain@32-34@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","take_chain","take_chain & mut self",32,34
+6,1,29,1,6,"new@43-48@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","new","new params : Vec < u8 > , sig : DigitallySignedStruct",43,48
+11,1,58,1,11,"new@62-72@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","new","new host_name : webpki :: DNSName",62,72
+6,1,27,0,6,"new@81-86@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","new","new",81,86
+5,1,33,2,5,"has_key_share@88-92@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","has_key_share","has_key_share & self , group : NamedGroup",88,92
+5,1,54,2,5,"find_key_share@94-98@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","find_key_share","find_key_share & mut self , group : NamedGroup",94,98
+12,2,53,2,12,"find_key_share_and_discard_others@100-111@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","find_key_share_and_discard_others","find_key_share_and_discard_others & mut self , group : NamedGroup",100,111
+12,4,73,1,13,"server_sent_unsolicited_extensions@113-125@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","server_sent_unsolicited_extensions","server_sent_unsolicited_extensions & self , received_exts : & [ ServerExtension ] , allowed_unsolicited : & [ ExtensionType ]",113,125
+3,1,20,0,3,"new@134-136@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","new","new",134,136
+6,1,29,1,6,"from@138-143@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","from","from ticket : Vec < u8 > , lifetime : u32",138,143
+7,1,23,0,7,"new@153-159@crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/client/common.rs","new","new",153,159
+165,1,53,2,165,"new@49-213@crypto_codebases/rustls/rustls_2018/ccn_lib/src/key_schedule.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/key_schedule.rs","new","new hash : & 'static digest::Algorithm) -> KeySchedule {
+        let zeroes = [0u8; digest::MAX_OUTPUT_LEN];
+
+        let mut empty_hash = [0u8; digest::MAX_OUTPUT_LEN];
+        empty_hash[..hash.output_len]
+            .clone_from_slice(digest::digest(hash, &[]).as_ref());
+
+        KeySchedule {
+            current: hmac::SigningKey::new(hash, &zeroes[..hash.output_len]),
+            need_derive_for_extract: false,
+            hash: hash,
+            hash_of_empty_message: empty_hash,
+            current_server_traffic_secret: Vec::new(),
+            current_client_traffic_secret: Vec::new(),
+            current_exporter_secret: Vec::new(),
+        }
+    }
+
+    pub fn get_hash_of_empty_message(&self) -> &[u8] {
+        &self.hash_of_empty_message[..self.hash.output_len]
+    }
+
+    /// Input the empty secret.
+    pub fn input_empty(&mut self) {
+        let zeroes = [0u8; digest::MAX_OUTPUT_LEN];
+        let hash_len = self.hash.output_len;
+        self.input_secret(&zeroes[..hash_len]);
+    }
+
+    /// Input the given secret.
+    pub fn input_secret(&mut self, secret: &[u8]) {
+        if self.need_derive_for_extract {
+            let derived = self.derive(SecretKind::DerivedSecret,
+                                      self.get_hash_of_empty_message());
+            self.current = hmac::SigningKey::new(self.hash, &derived);
+        }
+        self.need_derive_for_extract = true;
+        let new = hkdf::extract(&self.current, secret);
+        self.current = new
+    }
+
+    /// Derive a secret of given `kind`, using current handshake hash `hs_hash`.
+    pub fn derive(&self, kind: SecretKind, hs_hash: &[u8]) -> Vec<u8> {
+        debug_assert_eq!(hs_hash.len(), self.hash.output_len);
+
+        _hkdf_expand_label_vec(&self.current,
+                               kind.to_bytes(),
+                               hs_hash,
+                               self.hash.output_len)
+    }
+
+    /// Return the current traffic secret, of given `kind`.
+    fn current_traffic_secret(&self, kind: SecretKind) -> &[u8] {
+        match kind {
+            SecretKind::ServerHandshakeTrafficSecret |
+            SecretKind::ServerApplicationTrafficSecret => &self.current_server_traffic_secret,
+            SecretKind::ClientHandshakeTrafficSecret |
+            SecretKind::ClientApplicationTrafficSecret => &self.current_client_traffic_secret,
+            _ => unreachable!(),
+        }
+    }
+
+    /// Sign the finished message consisting of `hs_hash` using the current
+    /// traffic secret.
+    pub fn sign_finish(&self, kind: SecretKind, hs_hash: &[u8]) -> Vec<u8> {
+        let base_key = self.current_traffic_secret(kind);
+        self.sign_verify_data(base_key, hs_hash)
+    }
+
+    /// Sign the finished message consisting of `hs_hash` using the key material
+    /// `base_key`.
+    pub fn sign_verify_data(&self, base_key: &[u8], hs_hash: &[u8]) -> Vec<u8> {
+        debug_assert_eq!(hs_hash.len(), self.hash.output_len);
+
+        let hmac_key = _hkdf_expand_label_vec(&hmac::SigningKey::new(self.hash, base_key),
+                                              b'finished',
+                                              &[],
+                                              self.hash.output_len);
+
+        hmac::sign(&hmac::SigningKey::new(self.hash, &hmac_key), hs_hash)
+            .as_ref()
+            .to_vec()
+    }
+
+    /// Derive the next application traffic secret of given `kind`, returning
+    /// it.
+    pub fn derive_next(&self, kind: SecretKind) -> Vec<u8> {
+        let base_key = self.current_traffic_secret(kind);
+        _hkdf_expand_label_vec(&hmac::SigningKey::new(self.hash, base_key),
+                               b'traffic upd',
+                               &[],
+                               self.hash.output_len)
+    }
+
+    /// Derive the PSK to use given a resumption_master_secret and
+    /// ticket_nonce.
+    pub fn derive_ticket_psk(&self, rms: &[u8], nonce: &[u8]) -> Vec<u8> {
+        _hkdf_expand_label_vec(&hmac::SigningKey::new(self.hash, rms),
+                               b'resumption',
+                               nonce,
+                               self.hash.output_len)
+    }
+
+    pub fn export_keying_material(&self, out: &mut [u8],
+                                  label: &[u8],
+                                  context: Option<&[u8]>) -> Result<(), TLSError> {
+        if self.current_exporter_secret.is_empty() {
+            return Err(TLSError::HandshakeNotComplete);
+        }
+
+        let h_empty = digest::digest(self.hash, &[]);
+        let mut secret = [0u8; digest::MAX_OUTPUT_LEN];
+        _hkdf_expand_label(&mut secret[..self.hash.output_len],
+                           &hmac::SigningKey::new(self.hash,
+                                                  &self.current_exporter_secret),
+                           label,
+                           h_empty.as_ref());
+
+        let mut h_context = [0u8; digest::MAX_OUTPUT_LEN];
+        h_context[..self.hash.output_len]
+            .clone_from_slice(digest::digest(self.hash,
+                                             context.unwrap_or(&[]))
+                              .as_ref());
+
+        _hkdf_expand_label(out,
+                           &hmac::SigningKey::new(self.hash, &secret[..self.hash.output_len]),
+                           b'exporter',
+                           &h_context[..self.hash.output_len]);
+        Ok(())
+    }
+}
+
+fn _hkdf_expand_label_vec(secret: &hmac::SigningKey,
+                          label: &[u8],
+                          context: &[u8],
+                          len: usize) -> Vec<u8> {
+    let mut v = Vec::new();
+    v.resize(len, 0u8);
+    _hkdf_expand_label(&mut v,
+                       secret,
+                       label,
+                       context);
+    v
+}
+
+fn _hkdf_expand_label(output: &mut [u8],
+                      secret: &hmac::SigningKey,
+                      label: &[u8],
+                      context: &[u8]) {
+    let label_prefix = b'tls13 ';
+
+    let mut hkdflabel = Vec::new();
+    codec::encode_u16(output.len() as u16, &mut hkdflabel);
+    codec::encode_u8((label.len() + label_prefix.len()) as u8, &mut hkdflabel);
+    hkdflabel.extend_from_slice(label_prefix);
+    hkdflabel.extend_from_slice(label);
+    codec::encode_u8(context.len() as u8, &mut hkdflabel);
+    hkdflabel.extend_from_slice(context);
+
+    hkdf::expand(secret, &hkdflabel, output)
+}
+
+pub fn derive_traffic_key(hash: &' static digest :: Algorithm , secret : & [ u8 ] , len : usize",49,213
+3,1,53,2,3,"derive_traffic_iv@215-217@crypto_codebases/rustls/rustls_2018/ccn_lib/src/key_schedule.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/key_schedule.rs","derive_traffic_iv","derive_traffic_iv hash : & ' static digest :: Algorithm , secret : & [ u8 ] , len : usize",215,217
+17,1,129,0,18,"smoke_test@225-242@crypto_codebases/rustls/rustls_2018/ccn_lib/src/key_schedule.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/key_schedule.rs","smoke_test","smoke_test",225,242
+102,1,1092,0,124,"test_vectors@245-368@crypto_codebases/rustls/rustls_2018/ccn_lib/src/key_schedule.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/key_schedule.rs","test_vectors","test_vectors",245,368
+6,1,62,1,6,"concat_sign@6-11@crypto_codebases/rustls/rustls_2018/ccn_lib/src/prf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/prf.rs","concat_sign","concat_sign key : & hmac :: SigningKey , a : & [ u8 ] , b : & [ u8 ]",6,11
+33,1,65,1,33,"p@13-45@crypto_codebases/rustls/rustls_2018/ccn_lib/src/prf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/prf.rs","p","p out : & mut [ u8 ] , hashalg : & 'static digest::Algorithm, secret: &[u8], seed: &[u8]) {
+    let hmac_key = hmac::SigningKey::new(hashalg, secret);
+
+    // A(1)
+    let mut current_a = hmac::sign(&hmac_key, seed);
+
+    let mut offs = 0;
+
+    while offs < out.len() {
+        // P_hash[i] = HMAC_hash(secret, A(i) + seed)
+        let p_term = concat_sign(&hmac_key, current_a.as_ref(), seed);
+        offs += out[offs..].as_mut().write(p_term.as_ref()).unwrap();
+
+        // A(i+1) = HMAC_hash(secret, A(i))
+        current_a = hmac::sign(&hmac_key, current_a.as_ref());
+    }
+}
+
+fn concat(a: &[u8], b: &[u8]) -> Vec<u8> {
+    let mut ret = Vec::new();
+    ret.extend_from_slice(a);
+    ret.extend_from_slice(b);
+    ret
+}
+
+pub fn prf(out: &mut [u8],
+           hashalg: &' static digest :: Algorithm , secret : & [ u8 ] , label : & [ u8 ] , seed : & [ u8 ]",13,45
+10,1,93,0,11,"check_sha256@52-62@crypto_codebases/rustls/rustls_2018/ccn_lib/src/prf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/prf.rs","check_sha256","check_sha256",52,62
+10,1,93,0,11,"check_sha512@65-75@crypto_codebases/rustls/rustls_2018/ccn_lib/src/prf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/prf.rs","check_sha512","check_sha512",65,75
+78,2,321,2,149,"read_tls@38-186@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","read_tls","read_tls & mut self , rd : & mut Read",38,186
+9,1,48,0,10,"for_server@199-208@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","for_server","for_server",199,208
+9,1,48,0,10,"for_client@210-219@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","for_client","for_client",210,219
+6,1,71,0,6,"join_randoms@222-227@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","join_randoms","join_randoms first : & [ u8 ] , second : & [ u8 ]",222,227
+30,1,83,2,30,"new_ems@255-284@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","new_ems","new_ems randoms : & SessionRandoms , hs_hash : & [ u8 ] , hashalg : & 'static ring::digest::Algorithm,
+                   pms: &[u8]) -> SessionSecrets {
+        let mut ret = SessionSecrets {
+            randoms: randoms.clone(),
+            hash: hashalg,
+            master_secret: [0u8; 48]
+        };
+
+        prf::prf(&mut ret.master_secret,
+                 ret.hash,
+                 pms,
+                 b'extended master secret',
+                 hs_hash);
+        ret
+    }
+
+    pub fn new_resume(randoms: &SessionRandoms,
+                      hashalg: &' static ring :: digest :: Algorithm , master_secret : & [ u8 ]",255,284
+11,1,81,2,15,"make_key_block@286-300@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","make_key_block","make_key_block & self , len : usize",286,300
+5,1,34,1,5,"get_master_secret@302-306@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","get_master_secret","get_master_secret & self",302,306
+10,1,69,1,11,"make_verify_data@308-318@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","make_verify_data","make_verify_data & self , handshake_hash : & [ u8 ] , label : & [ u8 ]",308,318
+3,1,29,1,3,"client_verify_data@320-322@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","client_verify_data","client_verify_data & self , handshake_hash : & [ u8 ]",320,322
+3,1,29,1,3,"server_verify_data@324-326@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","server_verify_data","server_verify_data & self , handshake_hash : & [ u8 ]",324,326
+18,2,131,1,19,"export_keying_material@328-346@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","export_keying_material","export_keying_material & self , output : & mut [ u8 ] , label : & [ u8 ] , context : Option < & [ u8 ] >",328,346
+17,3,60,1,17,"get_suite_assert@418-434@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","get_suite_assert","get_suite_assert & self",418,434
+3,1,24,1,3,"get_mut_key_schedule@436-438@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","get_mut_key_schedule","get_mut_key_schedule & mut self",436,438
+3,1,22,1,3,"get_key_schedule@440-442@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","get_key_schedule","get_key_schedule & self",440,442
+3,1,22,2,3,"set_key_schedule@444-446@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","set_key_schedule","set_key_schedule & mut self , ks : KeySchedule",444,446
+6,1,34,1,6,"set_message_encrypter@448-453@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","set_message_encrypter","set_message_encrypter & mut self , cipher : Box < MessageEncrypter >",448,453
+6,1,34,1,6,"set_message_decrypter@455-460@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","set_message_decrypter","set_message_decrypter & mut self , cipher : Box < MessageDecrypter >",455,460
+3,1,18,1,3,"has_readable_plaintext@462-464@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","has_readable_plaintext","has_readable_plaintext & self",462,464
+4,1,31,2,4,"set_buffer_limit@466-469@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","set_buffer_limit","set_buffer_limit & mut self , limit : usize",466,469
+5,1,42,2,5,"encrypt_outgoing@471-475@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","encrypt_outgoing","encrypt_outgoing & mut self , plain : BorrowMessage",471,475
+12,3,83,2,18,"decrypt_incoming@477-494@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","decrypt_incoming","decrypt_incoming & mut self , encr : Message",477,494
+26,6,165,2,33,"process_alert@496-528@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","process_alert","process_alert & mut self , msg : Message",496,528
+17,3,112,1,22,"do_write_key_update@530-551@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","do_write_key_update","do_write_key_update & mut self",530,551
+10,3,65,2,12,"send_msg_encrypt@555-566@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","send_msg_encrypt","send_msg_encrypt & mut self , m : Message",555,566
+20,4,119,2,28,"send_appdata_encrypt@569-596@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","send_appdata_encrypt","send_appdata_encrypt & mut self , payload : & [ u8 ] , limit : Limit",569,596
+10,3,54,2,16,"send_single_fragment@598-613@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","send_single_fragment","send_single_fragment & mut self , m : BorrowMessage",598,613
+3,2,22,1,3,"connection_at_eof@618-620@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","connection_at_eof","connection_at_eof & self",618,620
+3,1,30,2,3,"read_tls@625-627@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","read_tls","read_tls & mut self , rd : & mut Read",625,627
+3,1,30,2,3,"write_tls@629-631@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","write_tls","write_tls & mut self , wr : & mut Write",629,631
+3,1,33,1,3,"send_some_plaintext@638-640@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","send_some_plaintext","send_some_plaintext & mut self , data : & [ u8 ]",638,640
+14,4,110,2,20,"send_plain@643-662@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","send_plain","send_plain & mut self , data : & [ u8 ] , limit : Limit",643,662
+4,1,21,1,4,"start_traffic@664-667@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","start_traffic","start_traffic & mut self",664,667
+10,3,56,1,11,"flush_plaintext@671-681@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","flush_plaintext","flush_plaintext & mut self",671,681
+3,1,26,2,3,"queue_tls_message@684-686@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","queue_tls_message","queue_tls_message & mut self , m : Message",684,686
+11,3,68,3,11,"send_msg@689-699@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","send_msg","send_msg & mut self , m : Message , must_encrypt : bool",689,699
+3,1,24,2,3,"take_received_plaintext@701-703@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","take_received_plaintext","take_received_plaintext & mut self , bytes : Payload",701,703
+8,5,80,1,10,"read@705-714@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","read","read & mut self , buf : & mut [ u8 ]",705,714
+6,1,55,2,6,"start_encryption_tls12@716-721@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","start_encryption_tls12","start_encryption_tls12 & mut self , secrets : SessionSecrets",716,721
+3,1,15,1,3,"peer_now_encrypting@723-725@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","peer_now_encrypting","peer_now_encrypting & mut self",723,725
+3,1,15,1,3,"we_now_encrypting@727-729@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","we_now_encrypting","we_now_encrypting & mut self",727,729
+6,1,51,2,6,"send_warning_alert@731-736@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","send_warning_alert","send_warning_alert & mut self , desc : AlertDescription",731,736
+6,1,51,2,6,"send_fatal_alert@738-743@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","send_fatal_alert","send_fatal_alert & mut self , desc : AlertDescription",738,743
+3,1,17,1,3,"send_close_notify@745-747@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","send_close_notify","send_close_notify & mut self",745,747
+30,4,188,3,36,"process_key_update@749-784@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","process_key_update","process_key_update & mut self , kur : & KeyUpdateRequest , read_kind : SecretKind",749,784
+20,4,120,1,20,"export_keying_material@786-805@crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/session.rs","export_keying_material","export_keying_material & self , output : & mut [ u8 ] , label : & [ u8 ] , context : Option < & [ u8 ] >",786,805
+9,5,64,1,11,"complete_prior_io@26-36@crypto_codebases/rustls/rustls_2018/ccn_lib/src/stream.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/stream.rs","complete_prior_io","complete_prior_io & mut self",26,36
+7,4,59,1,9,"read@40-48@crypto_codebases/rustls/rustls_2018/ccn_lib/src/stream.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/stream.rs","read","read & mut self , buf : & mut [ u8 ]",40,48
+6,4,57,1,7,"write@52-58@crypto_codebases/rustls/rustls_2018/ccn_lib/src/stream.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/stream.rs","write","write & mut self , buf : & [ u8 ]",52,58
+8,5,58,1,9,"flush@60-68@crypto_codebases/rustls/rustls_2018/ccn_lib/src/stream.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/stream.rs","flush","flush & mut self",60,68
+3,1,17,1,3,"as_ref@20-22@crypto_codebases/rustls/rustls_2018/ccn_lib/src/key.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/key.rs","as_ref","as_ref & self",20,22
+8,3,57,0,9,"first_in_both@2-10@crypto_codebases/rustls/rustls_2018/ccn_lib/src/util.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/util.rs","first_in_both","first_in_both prefs : & [ T ] , avail : & [ T ]",2,10
+8,1,31,0,8,"new@29-36@crypto_codebases/rustls/rustls_2018/ccn_lib/src/hash_hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/hash_hs.rs","new","new",29,36
+4,1,27,1,4,"set_client_auth_enabled@40-43@crypto_codebases/rustls/rustls_2018/ccn_lib/src/hash_hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/hash_hs.rs","set_client_auth_enabled","set_client_auth_enabled & mut self",40,43
+4,1,25,1,4,"abandon_client_auth@47-50@crypto_codebases/rustls/rustls_2018/ccn_lib/src/hash_hs.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/hash_hs.rs","abandon_client_auth","abandon_client_auth & mut self",47,50
+6,1,56,0,6,"join@78-83@crypto_codebases/rustls/rustls_2018/ccn_lib/src/error.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/error.rs","join","join items : & [ T ]",78,83
+31,2,256,2,31,"fmt@86-116@crypto_codebases/rustls/rustls_2018/ccn_lib/src/error.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/error.rs","fmt","fmt & self , f : & mut fmt :: Formatter",86,116
+22,2,143,1,22,"description@120-141@crypto_codebases/rustls/rustls_2018/ccn_lib/src/error.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/error.rs","description","description & self",120,141
+32,2,219,0,34,"smoke@147-180@crypto_codebases/rustls/rustls_2018/ccn_lib/src/error.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/error.rs","smoke","smoke",147,180
+13,4,118,0,14,"wrap_in_asn1_len@5-18@crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","wrap_in_asn1_len","wrap_in_asn1_len bytes : & mut Vec < u8 >",5,18
+4,1,34,0,4,"wrap_in_sequence@21-24@crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","wrap_in_sequence","wrap_in_sequence bytes : & mut Vec < u8 >",21,24
+6,1,37,0,6,"test_empty@27-32@crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","test_empty","test_empty",27,32
+10,1,81,0,10,"test_small@35-44@crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","test_small","test_small",35,44
+7,1,63,0,7,"test_medium@47-53@crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","test_medium","test_medium",47,53
+7,1,63,0,7,"test_large@56-62@crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/x509.rs","test_large","test_large",56,62
+6,1,30,0,6,"timebase@12-17@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","timebase","timebase",12,17
+5,1,45,0,5,"new@48-52@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","new","new",48,52
+3,1,11,1,3,"enabled@56-58@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","enabled","enabled & self",56,58
+3,1,13,1,3,"get_lifetime@59-61@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","get_lifetime","get_lifetime & self",59,61
+14,2,151,1,17,"encrypt@64-80@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","encrypt","encrypt & self , message : & [ u8 ]",64,80
+16,3,156,1,20,"decrypt@83-102@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","decrypt","decrypt & self , ciphertext : & [ u8 ]",83,102
+13,1,64,1,13,"new@125-137@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","new","new lifetime : u32 , generator : fn -> Box < ProducesTickets >",125,137
+8,2,77,1,9,"maybe_roll@145-153@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","maybe_roll","maybe_roll & self",145,153
+3,1,15,1,3,"get_lifetime@157-159@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","get_lifetime","get_lifetime & self",157,159
+3,1,11,1,3,"enabled@160-162@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","enabled","enabled & self",160,162
+8,1,47,1,9,"encrypt@164-172@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","encrypt","encrypt & self , message : & [ u8 ]",164,172
+10,3,92,1,12,"decrypt@174-185@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","decrypt","decrypt & self , ciphertext : & [ u8 ]",174,185
+3,1,21,0,3,"generate_inner@191-193@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","generate_inner","generate_inner",191,193
+3,1,28,0,3,"new@200-202@crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/ticketer.rs","new","new",200,202
+6,1,38,1,6,"check_handshake_message@5-10@crypto_codebases/rustls/rustls_2018/ccn_lib/src/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/handshake.rs","check_handshake_message","check_handshake_message m : & Message , handshake_types : & [ HandshakeType ]",5,10
+25,5,157,1,27,"check_message@12-38@crypto_codebases/rustls/rustls_2018/ccn_lib/src/handshake.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/handshake.rs","check_message","check_message m : & Message , content_types : & [ ContentType ] , handshake_types : & [ HandshakeType ]",12,38
+34,7,235,4,39,"extract@8-46@crypto_codebases/rustls/rustls_2018/ccn_lib/src/pemfile.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/pemfile.rs","extract","extract rd : & mut io :: BufRead , start_mark : & str , end_mark : & str , f : & Fn Vec < u8 > -> A",8,46
+6,1,45,1,6,"certs@51-56@crypto_codebases/rustls/rustls_2018/ccn_lib/src/pemfile.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/pemfile.rs","certs","certs rd : & mut io :: BufRead",51,56
+6,1,45,1,6,"rsa_private_keys@60-65@crypto_codebases/rustls/rustls_2018/ccn_lib/src/pemfile.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/pemfile.rs","rsa_private_keys","rsa_private_keys rd : & mut io :: BufRead",60,65
+6,1,45,1,6,"pkcs8_private_keys@69-74@crypto_codebases/rustls/rustls_2018/ccn_lib/src/pemfile.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/pemfile.rs","pkcs8_private_keys","pkcs8_private_keys rd : & mut io :: BufRead",69,74
+1,1,15,0,1,"assertion@41-41@crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","assertion","assertion",41,41
+1,1,15,0,1,"assertion@44-44@crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","assertion","assertion",44,44
+1,1,15,0,1,"assertion@50-50@crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","assertion","assertion",50,50
+1,1,15,0,1,"assertion@57-57@crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","assertion","assertion",57,57
+1,1,11,1,1,"offer_client_auth@76-76@crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","offer_client_auth","offer_client_auth & self",76,76
+1,1,15,1,1,"client_auth_mandatory@80-80@crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/verify.rs","client_auth_mandatory","client_auth_mandatory & self",80,80
+10,1,83,1,25,"sign@31-55@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","sign","sign & self , message : & [ u8 ]",31,55
+8,1,45,0,8,"new@62-69@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","new","new cert : Vec < key :: Certificate > , key : Arc < Box < SigningKey > >",62,69
+3,1,33,1,3,"end_entity_cert@72-74@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","end_entity_cert","end_entity_cert & self",72,74
+3,1,32,1,3,"take_cert@77-79@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","take_cert","take_cert & mut self",77,79
+3,1,17,1,3,"has_ocsp@82-84@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","has_ocsp","has_ocsp & self",82,84
+3,1,29,1,3,"take_ocsp@87-89@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","take_ocsp","take_ocsp & mut self",87,89
+3,1,17,1,3,"has_sct_list@92-94@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","has_sct_list","has_sct_list & self",92,94
+3,1,29,1,3,"take_sct_list@97-99@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","take_sct_list","take_sct_list & mut self",97,99
+17,5,142,1,27,"cross_check_end_entity_cert@109-135@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","cross_check_end_entity_cert","cross_check_end_entity_cert & self , name : Option < webpki :: DNSNameRef >",109,135
+58,1,83,1,161,"choose_scheme@22-182@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","choose_scheme","choose_scheme & self , offered : & [ SignatureScheme ]",22,182
+12,2,108,1,13,"new@185-197@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","new","new key : Arc < RSAKeyPair > , scheme : SignatureScheme",185,197
+9,2,135,1,11,"sign@201-211@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","sign","sign & self , message : & [ u8 ]",201,211
+3,1,13,1,3,"get_scheme@213-215@crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/sign.rs","get_scheme","get_scheme & self",213,215
+3,1,22,0,3,"new@16-18@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","new","new",16,18
+3,1,19,2,3,"set_limit@27-29@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","set_limit","set_limit & mut self , new_limit : usize",27,29
+3,1,17,1,3,"is_empty@32-34@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","is_empty","is_empty & self",32,34
+7,2,34,1,7,"len@37-43@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","len","len & self",37,43
+8,2,50,2,8,"apply_limit@48-55@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","apply_limit","apply_limit & self , len : usize",48,55
+5,1,49,1,5,"append_limited_copy@59-63@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","append_limited_copy","append_limited_copy & mut self , bytes : & [ u8 ]",59,63
+7,2,46,1,9,"append@66-74@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","append","append & mut self , bytes : Vec < u8 >",66,74
+3,1,25,1,3,"take_one@78-80@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","take_one","take_one & mut self",78,80
+13,5,125,1,17,"read@84-100@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","read","read & mut self , buf : & mut [ u8 ]",84,100
+12,4,102,2,16,"write_to@103-118@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","write_to","write_to & mut self , wr : & mut io :: Write",103,118
+13,1,125,0,14,"short_append_copy_with_limit@126-139@crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/vecbuf.rs","short_append_copy_with_limit","short_append_copy_with_limit",126,139
+5,2,43,0,5,"xor@14-18@crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","xor","xor accum : & mut [ u8 ] , offset : & [ u8 ]",14,18
+3,1,19,0,3,"invalid@31-33@crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","invalid","invalid",31,33
+5,1,29,3,8,"encrypt@27-34@crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","encrypt","encrypt & self , m : BorrowMessage , seq : u64",27,34
+3,1,19,0,3,"invalid@37-39@crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","invalid","invalid",37,39
+10,1,94,4,10,"make_tls12_aad@45-54@crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","make_tls12_aad","make_tls12_aad seq : u64 , typ : ContentType , vers : ProtocolVersion , len : usize , out : & mut [ u8 ]",45,54
+176,4,533,25,188,"new_tls12@58-245@crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","new_tls12","new_tls12 scs : & 'static SupportedCipherSuite,
+                 secrets: &SessionSecrets)
+                 -> MessageCipherPair {
+    // Make a key block, and chop it up.
+    // nb. we don' t implement any ciphersuites with nonzero mac_key_len . let key_block = secrets . make_key_block scs . key_block_len ; let mut offs = 0 ; let client_write_key = & key_block [ offs . . offs + scs . enc_key_len ] ; offs += scs . enc_key_len ; let server_write_key = & key_block [ offs . . offs + scs . enc_key_len ] ; offs += scs . enc_key_len ; let client_write_iv = & key_block [ offs . . offs + scs . fixed_iv_len ] ; offs += scs . fixed_iv_len ; let server_write_iv = & key_block [ offs . . offs + scs . fixed_iv_len ] ; offs += scs . fixed_iv_len ; let explicit_nonce_offs = & key_block [ offs . . offs + scs . explicit_nonce_len ] ; let write_key , write_iv = if secrets . randoms . we_are_client { client_write_key , client_write_iv } else { server_write_key , server_write_iv } ; let read_key , read_iv = if secrets . randoms . we_are_client { server_write_key , server_write_iv } else { client_write_key , client_write_iv } ; let aead_alg = scs . get_aead_alg ; match scs . bulk { BulkAlgorithm :: AES_128_GCM | BulkAlgorithm :: AES_256_GCM => { Box :: new GCMMessageDecrypter :: new aead_alg , read_key , read_iv , Box :: new GCMMessageEncrypter :: new aead_alg , write_key , write_iv , explicit_nonce_offs } BulkAlgorithm :: CHACHA20_POLY1305 => { Box :: new ChaCha20Poly1305MessageDecrypter :: new aead_alg , read_key , read_iv , Box :: new ChaCha20Poly1305MessageEncrypter :: new aead_alg , write_key , write_iv } } } pub fn new_tls13_read scs : & 'static SupportedCipherSuite,
+                      secret: &[u8]) -> Box<MessageDecrypter> {
+    let hash = scs.get_hash();
+    let key = derive_traffic_key(hash, secret, scs.enc_key_len);
+    let iv = derive_traffic_iv(hash, secret, scs.fixed_iv_len);
+    let aead_alg = scs.get_aead_alg();
+
+    Box::new(TLS13MessageDecrypter::new(aead_alg, &key, &iv))
+}
+
+pub fn new_tls13_write(scs: &' static SupportedCipherSuite , secret : & [ u8 ] -> Box < MessageEncrypter > { let hash = scs . get_hash ; let key = derive_traffic_key hash , secret , scs . enc_key_len ; let iv = derive_traffic_iv hash , secret , scs . fixed_iv_len ; let aead_alg = scs . get_aead_alg ; Box :: new TLS13MessageEncrypter :: new aead_alg , & key , & iv } pub struct GCMMessageEncrypter { alg : & 'static ring::aead::Algorithm,
+    enc_key: ring::aead::SealingKey,
+    enc_salt: [u8; 4],
+    nonce_offset: [u8; 8],
+}
+
+/// A `MessageDecrypter` for AES-GCM AEAD ciphersuites.  TLS1.2 only.
+pub struct GCMMessageDecrypter {
+    dec_key: ring::aead::OpeningKey,
+    dec_salt: [u8; 4],
+}
+
+const GCM_EXPLICIT_NONCE_LEN: usize = 8;
+const GCM_OVERHEAD: usize = GCM_EXPLICIT_NONCE_LEN + 16;
+
+impl MessageDecrypter for GCMMessageDecrypter {
+    fn decrypt(&self, mut msg: Message, seq: u64) -> Result<Message, TLSError> {
+        let payload = msg.take_opaque_payload()
+            .ok_or(TLSError::DecryptError)?;
+        let mut buf = payload.0;
+
+        if buf.len() < GCM_OVERHEAD {
+            return Err(TLSError::DecryptError);
+        }
+
+        let mut nonce = [0u8; 12];
+        nonce.as_mut().write_all(&self.dec_salt).unwrap();
+        nonce[4..].as_mut().write_all(&buf[..8]).unwrap();
+
+        let mut aad = [0u8; TLS12_AAD_SIZE];
+        make_tls12_aad(seq, msg.typ, msg.version, buf.len() - GCM_OVERHEAD, &mut aad);
+
+        let plain_len = ring::aead::open_in_place(&self.dec_key,
+                                                  &nonce,
+                                                  &aad,
+                                                  GCM_EXPLICIT_NONCE_LEN,
+                                                  &mut buf)
+            .map_err(|_| TLSError::DecryptError)?
+            .len();
+
+        if plain_len > MAX_FRAGMENT_LEN {
+            return Err(TLSError::PeerSentOversizedRecord);
+        }
+
+        buf.truncate(plain_len);
+
+        Ok(Message {
+            typ: msg.typ,
+            version: msg.version,
+            payload: MessagePayload::new_opaque(buf),
+        })
+    }
+}
+
+impl MessageEncrypter for GCMMessageEncrypter {
+    fn encrypt(&self, msg: BorrowMessage, seq: u64) -> Result<Message, TLSError> {
+        // The GCM nonce is constructed from a 32-bit ' salt ' derived
+        // from the master-secret, and a 64-bit explicit part,
+        // with no specified construction.  Thanks for that.
+        //
+        // We use the same construction as TLS1.3/ChaCha20Poly1305:
+        // a starting point extracted from the key block, xored with
+        // the sequence number.
+        //
+        let mut nonce = [0u8; 12];
+        nonce.as_mut().write_all(&self.enc_salt).unwrap();
+        codec::put_u64(seq, &mut nonce[4..]);
+        xor(&mut nonce[4..], &self.nonce_offset);
+
+        // make output buffer with room for nonce/tag
+        let tag_len = self.alg.tag_len();
+        let total_len = 8 + msg.payload.len() + tag_len;
+        let mut buf = Vec::with_capacity(total_len);
+        buf.extend_from_slice(&nonce[4..]);
+        buf.extend_from_slice(msg.payload);
+        buf.resize(total_len, 0u8);
+
+        let mut aad = [0u8; TLS12_AAD_SIZE];
+        make_tls12_aad(seq, msg.typ, msg.version, msg.payload.len(), &mut aad);
+
+        ring::aead::seal_in_place(&self.enc_key, &nonce, &aad, &mut buf[8..], tag_len)
+            .map_err(|_| TLSError::General('encrypt failed'.to_string()))?;
+
+        Ok(Message {
+            typ: msg.typ,
+            version: msg.version,
+            payload: MessagePayload::new_opaque(buf),
+        })
+    }
+}
+
+impl GCMMessageEncrypter {
+    fn new(alg: &' static ring :: aead :: Algorithm , enc_key : & [ u8 ] , enc_iv : & [ u8 ] , nonce_offset : & [ u8 ]",58,245
+12,1,71,3,225,"decrypt@22-246@crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","decrypt","decrypt & self , m : Message , seq : u64",22,246
+116,1,120,3,118,"new@249-366@crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/cipher.rs","new","new alg : & 'static ring::aead::Algorithm,
+           dec_key: &[u8],
+           dec_iv: &[u8]) -> GCMMessageDecrypter {
+        let mut ret = GCMMessageDecrypter {
+            dec_key: ring::aead::OpeningKey::new(alg, dec_key).unwrap(),
+            dec_salt: [0u8; 4],
+        };
+
+        debug_assert_eq!(dec_iv.len(), 4);
+        ret.dec_salt.as_mut().write_all(dec_iv).unwrap();
+        ret
+    }
+}
+
+struct TLS13MessageEncrypter {
+    alg: &' static ring :: aead :: Algorithm , enc_key : ring :: aead :: SealingKey , enc_offset : [ u8 ; 12 ] , } struct TLS13MessageDecrypter { alg : & 'static ring::aead::Algorithm,
+    dec_key: ring::aead::OpeningKey,
+    dec_offset: [u8; 12],
+}
+
+fn unpad_tls13(v: &mut Vec<u8>) -> ContentType {
+    loop {
+        match v.pop() {
+            Some(0) => {}
+
+            Some(content_type) => return ContentType::read_bytes(&[content_type]).unwrap(),
+
+            None => return ContentType::Unknown(0),
+        }
+    }
+}
+
+impl MessageEncrypter for TLS13MessageEncrypter {
+    fn encrypt(&self, msg: BorrowMessage, seq: u64) -> Result<Message, TLSError> {
+        let mut nonce = [0u8; 12];
+        codec::put_u64(seq, &mut nonce[4..]);
+        xor(&mut nonce, &self.enc_offset);
+
+        // make output buffer with room for content type and tag
+        let tag_len = self.alg.tag_len();
+        let total_len = msg.payload.len() + 1 + tag_len;
+        let mut buf = Vec::with_capacity(total_len);
+        buf.extend_from_slice(msg.payload);
+        msg.typ.encode(&mut buf);
+        buf.resize(total_len, 0u8);
+
+        ring::aead::seal_in_place(&self.enc_key, &nonce, &[], &mut buf, tag_len)
+            .map_err(|_| TLSError::General('encrypt failed'.to_string()))?;
+
+        Ok(Message {
+            typ: ContentType::ApplicationData,
+            version: ProtocolVersion::TLSv1_2,
+            payload: MessagePayload::new_opaque(buf),
+        })
+    }
+}
+
+impl MessageDecrypter for TLS13MessageDecrypter {
+    fn decrypt(&self, mut msg: Message, seq: u64) -> Result<Message, TLSError> {
+        let mut nonce = [0u8; 12];
+        codec::put_u64(seq, &mut nonce[4..]);
+        xor(&mut nonce, &self.dec_offset);
+
+        let payload = msg.take_opaque_payload()
+            .ok_or(TLSError::DecryptError)?;
+        let mut buf = payload.0;
+
+        if buf.len() < self.alg.tag_len() {
+            return Err(TLSError::DecryptError);
+        }
+
+        let plain_len = ring::aead::open_in_place(&self.dec_key, &nonce, &[], 0, &mut buf)
+            .map_err(|_| TLSError::DecryptError)?
+            .len();
+
+        buf.truncate(plain_len);
+
+        if buf.len() > MAX_FRAGMENT_LEN + 1 {
+            return Err(TLSError::PeerSentOversizedRecord);
+        }
+
+        let content_type = unpad_tls13(&mut buf);
+        if content_type == ContentType::Unknown(0) {
+            let msg = 'peer sent bad TLSInnerPlaintext'.to_string();
+            return Err(TLSError::PeerMisbehavedError(msg));
+        }
+
+        if buf.len() > MAX_FRAGMENT_LEN {
+            return Err(TLSError::PeerSentOversizedRecord);
+        }
+
+        Ok(Message {
+            typ: content_type,
+            version: ProtocolVersion::TLSv1_3,
+            payload: MessagePayload::new_opaque(buf),
+        })
+    }
+}
+
+impl TLS13MessageEncrypter {
+    fn new(alg: &' static ring :: aead :: Algorithm , enc_key : & [ u8 ] , enc_iv : & [ u8 ]",249,366
+6,1,68,0,7,"client_ecdhe@47-53@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","client_ecdhe","client_ecdhe kx_params : & [ u8 ]",47,53
+14,1,122,1,16,"start_ecdhe@55-70@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","start_ecdhe","start_ecdhe named_group : NamedGroup",55,70
+3,1,27,1,3,"check_client_params@72-74@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","check_client_params","check_client_params & self , kx_params : & [ u8 ]",72,74
+9,2,63,1,9,"decode_client_params@76-84@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","decode_client_params","decode_client_params & self , kx_params : & [ u8 ]",76,84
+4,1,43,1,4,"server_complete@86-89@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","server_complete","server_complete self , kx_params : & [ u8 ]",86,89
+18,2,107,1,20,"complete@91-110@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","complete","complete self , peer : & [ u8 ]",91,110
+3,1,22,2,3,"eq@151-153@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","eq","eq & self , other : & SupportedCipherSuite",151,153
+28,2,58,1,28,"get_hash@158-185@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","get_hash","get_hash & self",158,185
+16,2,129,1,24,"resolve_sig_scheme@190-213@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","resolve_sig_scheme","resolve_sig_scheme & self , offered : & [ SignatureScheme ]",190,213
+52,1,76,1,53,"get_aead_alg@216-268@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","get_aead_alg","get_aead_alg & self",216,268
+10,1,77,0,10,"test_client_pref@424-433@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","test_client_pref","test_client_pref",424,433
+10,1,77,0,10,"test_server_pref@436-445@crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/suites.rs","test_server_pref","test_server_pref",436,445
+5,1,28,0,5,"fill_random@10-14@crypto_codebases/rustls/rustls_2018/ccn_lib/src/rand.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/rand.rs","fill_random","fill_random bytes : & mut [ u8 ]",10,14
+6,1,42,1,6,"random_vec@18-23@crypto_codebases/rustls/rustls_2018/ccn_lib/src/rand.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/rand.rs","random_vec","random_vec len : usize",18,23
+6,1,36,0,6,"random_u32@26-31@crypto_codebases/rustls/rustls_2018/ccn_lib/src/rand.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/rand.rs","random_u32","random_u32",26,31
+7,1,55,1,7,"from_trust_anchor@21-27@crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","from_trust_anchor","from_trust_anchor t : & webpki :: TrustAnchor",21,27
+7,1,53,1,7,"to_trust_anchor@29-35@crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","to_trust_anchor","to_trust_anchor & self",29,35
+3,1,18,0,3,"empty@48-50@crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","empty","empty",48,50
+3,1,17,1,3,"is_empty@53-55@crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","is_empty","is_empty & self",53,55
+3,1,17,1,3,"len@58-60@crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","len","len & self",58,60
+10,2,71,1,12,"get_subjects@63-74@crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","get_subjects","get_subjects & self",63,74
+9,2,81,2,10,"add@77-86@crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","add","add & mut self , der : & key :: Certificate",77,86
+7,2,42,2,7,"add_server_trust_anchors@90-96@crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","add_server_trust_anchors","add_server_trust_anchors & mut self , & webpki :: TLSServerTrustAnchors anchors : & webpki :: TLSServerTrustAnchors",90,96
+19,4,121,2,22,"add_pem_file@108-129@crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/anchors.rs","add_pem_file","add_pem_file & mut self , rd : & mut io :: BufRead",108,129
+3,1,36,1,3,"duration_nanos@18-20@crypto_codebases/rustls/rustls_2018/ccn_lib/src/verifybench.rs","crypto_codebases/rustls/rustls_2018/ccn_lib/src/verifybench.rs","duration_nanos","duration_nanos d : Duration",18,20

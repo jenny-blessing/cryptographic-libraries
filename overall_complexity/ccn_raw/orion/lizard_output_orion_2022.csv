@@ -1,0 +1,1189 @@
+8,1,50,2,8,"bitxor@35-42@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","bitxor","bitxor self , _rhs : Self",35,42
+6,1,45,2,6,"bitxor_assign@46-51@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","bitxor_assign","bitxor_assign & mut self , _rhs : Self",46,51
+6,1,41,1,6,"zeroize@55-60@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","zeroize","zeroize & mut self",55,60
+3,4,46,2,3,"eq@65-67@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","eq","eq & self , other : & Self",65,67
+8,1,60,2,8,"wrapping_add@72-79@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","wrapping_add","wrapping_add self , _rhs : Self",72,79
+3,1,27,1,3,"shl_1@82-84@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","shl_1","shl_1 self",82,84
+3,1,27,1,3,"shl_2@87-89@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","shl_2","shl_2 self",87,89
+3,1,27,1,3,"shl_3@92-94@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","shl_3","shl_3 self",92,94
+8,1,52,2,8,"rotate_right@97-104@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","rotate_right","rotate_right self , n : u32",97,104
+8,1,148,1,8,"store_into_le@106-113@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u64x4.rs","store_into_le","store_into_le self , slice_in : & mut [ u8 ]",106,113
+8,1,50,2,8,"bitxor@35-42@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","bitxor","bitxor self , _rhs : Self",35,42
+6,1,41,1,6,"zeroize@46-51@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","zeroize","zeroize & mut self",46,51
+8,1,60,2,8,"wrapping_add@56-63@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","wrapping_add","wrapping_add self , _rhs : Self",56,63
+3,1,27,1,3,"shl_1@66-68@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","shl_1","shl_1 self",66,68
+3,1,27,1,3,"shl_2@71-73@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","shl_2","shl_2 self",71,73
+3,1,27,1,3,"shl_3@76-78@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","shl_3","shl_3 self",76,78
+8,1,52,2,8,"rotate_left@81-88@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","rotate_left","rotate_left self , n : u32",81,88
+8,1,149,1,8,"store_into_le@90-97@crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/u32x4.rs","store_into_le","store_into_le & self , slice_in : & mut [ u8 ]",90,97
+7,2,55,0,9,"secure_rand_bytes@76-84@crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","secure_rand_bytes","secure_rand_bytes dst : & mut [ u8 ]",76,84
+7,2,56,0,7,"secure_cmp@115-121@crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","secure_cmp","secure_cmp a : & [ u8 ] , b : & [ u8 ]",115,121
+4,1,27,0,4,"rand_key_len_ok@129-132@crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","rand_key_len_ok","rand_key_len_ok",129,132
+6,1,55,0,7,"rand_key_len_error@136-142@crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","rand_key_len_error","rand_key_len_error",136,142
+6,1,58,0,7,"test_ct_eq_ok@145-151@crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","test_ct_eq_ok","test_ct_eq_ok",145,151
+6,1,58,0,7,"test_ct_eq_diff_len@154-160@crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","test_ct_eq_diff_len","test_ct_eq_diff_len",154,160
+6,1,58,0,7,"test_ct_ne@163-169@crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","test_ct_ne","test_ct_ne",163,169
+4,1,52,0,4,"test_ct_ne_reg@172-175@crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","test_ct_ne_reg","test_ct_ne_reg",172,175
+7,2,54,0,7,"prop_secure_cmp@179-185@crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/mod.rs","prop_secure_cmp","prop_secure_cmp a : Vec < u8 > , b : Vec < u8 >",179,185
+3,1,16,0,3,"test_load_single_src_high@151-153@crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","test_load_single_src_high","test_load_single_src_high",151,153
+3,1,16,0,3,"test_load_single_src_low@157-159@crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","test_load_single_src_low","test_load_single_src_low",157,159
+3,1,16,0,3,"test_load_single_src_ok@162-164@crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","test_load_single_src_ok","test_load_single_src_ok",162,164
+47,1,523,0,54,"test_results_store_and_load_u32_into_le@167-220@crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","test_results_store_and_load_u32_into_le","test_results_store_and_load_u32_into_le",167,220
+69,1,701,0,76,"test_results_store_and_load_u64_into_le@223-298@crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","test_results_store_and_load_u64_into_le","test_results_store_and_load_u64_into_le",223,298
+5,1,44,0,6,"test_results_load_u32@301-306@crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","test_results_load_u32","test_results_load_u32",301,306
+12,3,112,0,15,"prop_load_store_u32_le@311-325@crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","prop_load_store_u32_le","prop_load_store_u32_le src : Vec < u8 >",311,325
+11,3,96,0,13,"prop_load_store_u64_le@330-342@crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","prop_load_store_u64_le","prop_load_store_u64_le src : Vec < u8 >",330,342
+10,2,99,0,12,"prop_store_load_u32_le@347-358@crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","prop_store_load_u32_le","prop_store_load_u32_le src : Vec < u32 >",347,358
+7,1,73,0,8,"prop_store_load_u64_le@363-370@crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/util/endianness.rs","prop_store_load_u64_le","prop_store_load_u64_le src : Vec < u64 >",363,370
+32,2,316,5,32,"AeadTestRunner@34-65@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","AeadTestRunner","AeadTestRunner sealer : Sealer , opener : Opener , key : Key , nonce : Nonce , input : & [ u8 ] , expected_ct_with_tag : Option < & [ u8 ] > , tag_size : usize , aad : & [ u8 ] ,",34,65
+20,3,281,4,26,"seal_dst_out_length@70-95@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","seal_dst_out_length","seal_dst_out_length sealer : & Sealer , key : & Key , nonce : & Nonce , input : & [ u8 ] , tag_size : usize , aad : & [ u8 ] ,",70,95
+20,3,257,4,23,"seal_plaintext_length@100-122@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","seal_plaintext_length","seal_plaintext_length sealer : & Sealer , key : & Key , nonce : & Nonce , tag_size : usize , aad : & [ u8 ] ,",100,122
+31,5,380,5,36,"open_dst_out_length@127-162@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","open_dst_out_length","open_dst_out_length sealer : & Sealer , opener : & Opener , key : & Key , nonce : & Nonce , input : & [ u8 ] , tag_size : usize , aad : & [ u8 ] ,",127,162
+26,3,275,5,30,"open_ciphertext_with_tag_length@166-195@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","open_ciphertext_with_tag_length","open_ciphertext_with_tag_length sealer : & Sealer , opener : & Opener , key : & Key , nonce : & Nonce , tag_size : usize , aad : & [ u8 ] ,",166,195
+27,5,305,5,29,"seal_open_equals_expected@200-228@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","seal_open_equals_expected","seal_open_equals_expected sealer : & Sealer , opener : & Opener , key : & Key , nonce : & Nonce , input : & [ u8 ] , expected_ct_with_tag : Option < & [ u8 ] > , tag_size : usize , aad : & [ u8 ] ,",200,228
+19,3,234,5,22,"open_modified_tag_err@232-253@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","open_modified_tag_err","open_modified_tag_err sealer : & Sealer , opener : & Opener , key : & Key , nonce : & Nonce , input : & [ u8 ] , tag_size : usize , aad : & [ u8 ] ,",232,253
+23,4,251,5,26,"open_modified_ciphertext_err@257-282@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","open_modified_ciphertext_err","open_modified_ciphertext_err sealer : & Sealer , opener : & Opener , key : & Key , nonce : & Nonce , input : & [ u8 ] , tag_size : usize , aad : & [ u8 ] ,",257,282
+18,3,225,5,20,"open_modified_aad_err@286-305@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","open_modified_aad_err","open_modified_aad_err sealer : & Sealer , opener : & Opener , key : & Key , nonce : & Nonce , input : & [ u8 ] , tag_size : usize , aad : & [ u8 ] ,",286,305
+34,2,286,5,37,"none_or_empty_some_aad_same_result@309-345@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","none_or_empty_some_aad_same_result","none_or_empty_some_aad_same_result sealer : & Sealer , opener : & Opener , key : & Key , nonce : & Nonce , input : & [ u8 ] , tag_size : usize ,",309,345
+24,2,311,3,30,"test_diff_params_err@350-379@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/aead_interface.rs","test_diff_params_err","test_diff_params_err sealer : & Sealer , opener : & Opener , input : & [ u8 ] , tag_size : usize ,",350,379
+31,3,220,0,34,"gen@32-65@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","gen","gen",32,65
+13,3,75,1,18,"counter_increase_times@71-88@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","counter_increase_times","counter_increase_times a : f32",71,88
+18,3,197,5,21,"return_if_counter_will_overflow@91-111@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","return_if_counter_will_overflow","return_if_counter_will_overflow encryptor : & Encryptor , decryptor : & Decryptor , key : & Key , nonce : & Nonce , counter : u32 , input : & [ u8 ] ,",91,111
+13,2,166,4,13,"encrypt_decrypt_input_empty@114-126@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","encrypt_decrypt_input_empty","encrypt_decrypt_input_empty encryptor : & Encryptor , decryptor : & Decryptor , key : & Key , nonce : & Nonce ,",114,126
+24,2,366,4,28,"encrypt_decrypt_out_length@129-156@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","encrypt_decrypt_out_length","encrypt_decrypt_out_length encryptor : & Encryptor , decryptor : & Decryptor , key : & Key , nonce : & Nonce , input : & [ u8 ] ,",129,156
+35,5,324,5,41,"encrypt_decrypt_equals_expected@160-200@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","encrypt_decrypt_equals_expected","encrypt_decrypt_equals_expected encryptor : & Encryptor , decryptor : & Decryptor , key : & Key , nonce : & Nonce , counter : u32 , input : & [ u8 ] , expected_ct : Option < & [ u8 ] > ,",160,200
+27,2,170,4,27,"initial_counter_overflow_err@204-230@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","initial_counter_overflow_err","initial_counter_overflow_err encryptor : & Encryptor , decryptor : & Decryptor , key : & Key , nonce : & Nonce ,",204,230
+27,2,170,4,27,"initial_counter_max_ok@234-260@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","initial_counter_max_ok","initial_counter_max_ok encryptor : & Encryptor , decryptor : & Decryptor , key : & Key , nonce : & Nonce ,",234,260
+30,2,380,2,40,"test_diff_params_diff_output@266-305@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/streamcipher_interface.rs","test_diff_params_diff_output","test_diff_params_diff_output encryptor : & Encryptor , decryptor : & Decryptor ,",266,305
+13,1,137,1,26,"reset@29-54@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","reset","reset & mut self",29,54
+7,1,28,2,7,"new@63-69@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","new","new streaming_context : T , blocksize : usize",63,69
+15,1,110,1,18,"run_all_tests_property@78-95@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","run_all_tests_property","run_all_tests_property & self , data : & [ u8 ]",78,95
+16,1,142,1,19,"run_all_tests@100-118@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","run_all_tests","run_all_tests & self",100,118
+15,1,136,1,15,"run_all_tests@123-137@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","run_all_tests","run_all_tests & self",123,137
+37,2,387,1,56,"consistency@145-200@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","consistency","consistency & self , data : & [ u8 ]",145,200
+15,1,160,1,23,"produces_same_state@205-227@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","produces_same_state","produces_same_state & self , data : & [ u8 ]",205,227
+24,5,223,1,28,"incremental_processing_with_leftover@233-260@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","incremental_processing_with_leftover","incremental_processing_with_leftover & self",233,260
+7,1,73,1,8,"incremental_and_one_shot@263-270@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","incremental_and_one_shot","incremental_and_one_shot & self , data : & [ u8 ]",263,270
+7,1,75,1,7,"double_finalize_with_reset_no_update_ok@273-279@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","double_finalize_with_reset_no_update_ok","double_finalize_with_reset_no_update_ok & self , data : & [ u8 ]",273,279
+8,1,86,1,8,"double_finalize_with_reset_ok@282-289@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","double_finalize_with_reset_ok","double_finalize_with_reset_ok & self , data : & [ u8 ]",282,289
+6,1,65,1,6,"double_finalize_err@292-297@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","double_finalize_err","double_finalize_err & self , data : & [ u8 ]",292,297
+7,1,76,1,7,"update_after_finalize_with_reset_ok@300-306@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","update_after_finalize_with_reset_ok","update_after_finalize_with_reset_ok & self , data : & [ u8 ]",300,306
+6,1,66,1,6,"update_after_finalize_err@310-315@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","update_after_finalize_err","update_after_finalize_err & self , data : & [ u8 ]",310,315
+7,1,75,1,7,"double_reset_ok@318-324@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","double_reset_ok","double_reset_ok & self , data : & [ u8 ]",318,324
+4,1,34,1,4,"immediate_finalize@327-330@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","immediate_finalize","immediate_finalize & self",327,330
+4,1,44,0,4,"verify_same_input_ok@333-336@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","verify_same_input_ok","verify_same_input_ok data : & [ u8 ]",333,336
+4,1,45,0,4,"verify_diff_input_err@339-342@crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/test_framework/incremental_interface.rs","verify_diff_input_err","verify_diff_input_err data : & [ u8 ]",339,342
+7,1,60,2,7,"lower_mult_add@122-128@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","lower_mult_add","lower_mult_add x : u64 , y : u64",122,128
+10,1,141,4,10,"g@131-140@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","g","g a : & mut u64 , b : & mut u64 , c : & mut u64 , d : & mut u64",131,140
+27,1,190,16,27,"permutation_p@143-169@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","permutation_p","permutation_p v0 : & mut u64 , v1 : & mut u64 , v2 : & mut u64 , v3 : & mut u64 , v4 : & mut u64 , v5 : & mut u64 , v6 : & mut u64 , v7 : & mut u64 , v8 : & mut u64 , v9 : & mut u64 , v10 : & mut u64 , v11 : & mut u64 , v12 : & mut u64 , v13 : & mut u64 , v14 : & mut u64 , v15 : & mut u64 ,",143,169
+29,11,348,3,35,"initial_hash@172-206@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","initial_hash","initial_hash hash_length : u32 , memory_kib : u32 , passes : u32 , p : & [ u8 ] , s : & [ u8 ] , k : & [ u8 ] , x : & [ u8 ] ,",172,206
+33,18,329,0,41,"extended_hash@209-249@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","extended_hash","extended_hash input : & [ u8 ] , dst : & mut [ u8 ]",209,249
+42,3,843,0,54,"fill_block@252-305@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","fill_block","fill_block w : & mut [ u64 ; 128 ]",252,305
+13,1,91,3,14,"new@316-329@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","new","new blocks : u32 , passes : u32 , segment_length : u32",316,329
+7,1,81,4,12,"init@331-342@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","init","init & mut self , pass_n : u32 , segment_n : u32 , offset : u32 , tmp_block : & mut [ u64 ; 128 ]",331,342
+9,1,81,1,11,"next_addresses@344-354@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","next_addresses","next_addresses & mut self , tmp_block : & mut [ u64 ; 128 ]",344,354
+25,7,230,2,36,"get_next@356-391@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","get_next","get_next & mut self , segment_idx : u32 , tmp_block : & mut [ u64 ; 128 ]",356,391
+114,23,828,2,137,"derive_key@397-533@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","derive_key","derive_key password : & [ u8 ] , salt : & [ u8 ] , iterations : u32 , memory : u32 , secret : Option < & [ u8 ] > , ad : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",397,533
+13,2,97,2,13,"verify@538-550@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","verify","verify expected : & [ u8 ] , password : & [ u8 ] , salt : & [ u8 ] , iterations : u32 , memory : u32 , secret : Option < & [ u8 ] > , ad : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",538,550
+30,6,206,2,33,"prop_test_same_input_verify_true@563-595@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","prop_test_same_input_verify_true","prop_test_same_input_verify_true hlen : u32 , kib : u32 , p : Vec < u8 > , s : Vec < u8 > , k : Vec < u8 > , x : Vec < u8 > ,",563,595
+6,1,118,0,7,"test_invalid_mem@602-608@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","test_invalid_mem","test_invalid_mem",602,608
+5,1,84,0,5,"test_invalid_passes@611-615@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","test_invalid_passes","test_invalid_passes",611,615
+8,1,138,0,8,"test_dst_out@618-625@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","test_dst_out","test_dst_out",618,625
+6,1,118,0,6,"test_invalid_salt@628-633@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","test_invalid_salt","test_invalid_salt",628,633
+16,1,111,0,18,"test_some_or_none_same_result@636-653@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","test_some_or_none_same_result","test_some_or_none_same_result",636,653
+28,1,442,0,31,"test_hash_1@656-686@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","test_hash_1","test_hash_1",656,686
+36,1,698,0,38,"test_hash_2@689-726@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","test_hash_2","test_hash_2",689,726
+52,1,1210,0,55,"test_hash_3@729-783@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","test_hash_3","test_hash_3",729,783
+80,1,2234,0,83,"test_hash_4@786-868@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","test_hash_4","test_hash_4",786,868
+136,1,4282,0,138,"test_hash_5@871-1008@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","test_hash_5","test_hash_5",871,1008
+29,1,495,0,30,"initial_hash_test_1@1021-1050@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","initial_hash_test_1","initial_hash_test_1",1021,1050
+35,1,687,0,36,"initial_hash_test_2@1053-1088@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","initial_hash_test_2","initial_hash_test_2",1053,1088
+47,1,1071,0,48,"initial_hash_test_3@1091-1138@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","initial_hash_test_3","initial_hash_test_3",1091,1138
+13,1,115,3,14,"prop_test_same_result@1142-1155@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","prop_test_same_result","prop_test_same_result hlen : u32 , kib : u32 , passes : u32 , p : Vec < u8 > , s : Vec < u8 > , k : Vec < u8 > , x : Vec < u8 > ,",1142,1155
+5,1,43,0,6,"err_on_empty_dst@1162-1167@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","err_on_empty_dst","err_on_empty_dst",1162,1167
+18,1,311,0,18,"extended_hash_test_1@1170-1187@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","extended_hash_test_1","extended_hash_test_1",1170,1187
+26,1,567,0,26,"extended_hash_test_2@1190-1215@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","extended_hash_test_2","extended_hash_test_2",1190,1215
+40,1,1079,0,40,"extended_hash_test_3@1218-1257@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","extended_hash_test_3","extended_hash_test_3",1218,1257
+20,1,375,0,20,"extended_hash_test_4@1260-1279@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","extended_hash_test_4","extended_hash_test_4",1260,1279
+29,1,695,0,29,"extended_hash_test_5@1282-1310@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","extended_hash_test_5","extended_hash_test_5",1282,1310
+48,1,1335,0,48,"extended_hash_test_6@1313-1360@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","extended_hash_test_6","extended_hash_test_6",1313,1360
+10,3,97,0,13,"prop_test_same_result@1364-1376@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","prop_test_same_result","prop_test_same_result input : Vec < u8 > , out : Vec < u8 >",1364,1376
+10,3,97,0,13,"prop_test_diff_result@1380-1392@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","prop_test_diff_result","prop_test_diff_result input : Vec < u8 > , out : Vec < u8 >",1380,1392
+1051,13,25650,0,1112,"gidx_test@1399-2510@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","gidx_test","gidx_test",1399,2510
+15,1,117,0,18,"g_test@2517-2534@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","g_test","g_test",2517,2534
+54,1,442,0,57,"p_test@2541-2597@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/argon2i.rs","p_test","p_test",2541,2597
+28,9,183,4,30,"_function_f@79-108@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","_function_f","_function_f salt : & [ u8 ] , iterations : usize , index : u32 , dk_block : & mut [ u8 ] , block_len : usize , u_step : & mut [ u8 ] , hmac : & mut Hmac ,",79,108
+30,7,182,1,35,"_derive_key@115-149@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","_derive_key","_derive_key padded_password : & [ u8 ] , salt : & [ u8 ] , iterations : usize , dest : & mut [ u8 ] ,",115,149
+14,3,102,1,14,"_verify@156-169@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","_verify","_verify expected : & [ u8 ] , padded_password : & [ u8 ] , salt : & [ u8 ] , iterations : usize , dest : & mut [ u8 ] ,",156,169
+13,1,67,2,13,"derive_key@195-207@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","derive_key","derive_key password : & Password , salt : & [ u8 ] , iterations : usize , dst_out : & mut [ u8 ] ,",195,207
+15,1,76,2,15,"verify@211-225@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","verify","verify expected : & [ u8 ] , password : & Password , salt : & [ u8 ] , iterations : usize , dst_out : & mut [ u8 ] ,",211,225
+13,1,67,2,13,"derive_key@252-264@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","derive_key","derive_key password : & Password , salt : & [ u8 ] , iterations : usize , dst_out : & mut [ u8 ] ,",252,264
+15,1,76,2,15,"verify@268-282@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","verify","verify expected : & [ u8 ] , password : & Password , salt : & [ u8 ] , iterations : usize , dst_out : & mut [ u8 ] ,",268,282
+13,1,67,2,13,"derive_key@309-321@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","derive_key","derive_key password : & Password , salt : & [ u8 ] , iterations : usize , dst_out : & mut [ u8 ] ,",309,321
+15,1,76,2,15,"verify@325-339@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","verify","verify expected : & [ u8 ] , password : & Password , salt : & [ u8 ] , iterations : usize , dst_out : & mut [ u8 ] ,",325,339
+36,1,246,0,40,"verify_true@351-390@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","verify_true","verify_true",351,390
+36,1,249,0,40,"verify_false_wrong_salt@393-432@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","verify_false_wrong_salt","verify_false_wrong_salt",393,432
+36,1,282,0,40,"verify_false_wrong_password@434-473@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","verify_false_wrong_password","verify_false_wrong_password",434,473
+36,1,246,0,40,"verify_diff_dklen_error@476-515@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","verify_diff_dklen_error","verify_diff_dklen_error",476,515
+21,1,246,0,25,"verify_diff_iter_error@518-542@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","verify_diff_iter_error","verify_diff_iter_error",518,542
+11,1,164,0,13,"zero_iterations_err@549-561@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","zero_iterations_err","zero_iterations_err",549,561
+11,1,164,0,13,"zero_dklen_err@564-576@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/pbkdf2.rs","zero_dklen_err","zero_dklen_err",564,576
+14,5,100,0,16,"_extract@68-83@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","_extract","_extract salt : & [ u8 ] , ikm : & [ u8 ] ,",68,83
+38,13,297,0,47,"_expand@86-132@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","_expand","_expand prk : & [ u8 ] , info : Option < & [ u8 ] > , dest : & mut [ u8 ] ,",86,132
+11,3,92,0,11,"_derive_key@137-147@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","_derive_key","_derive_key salt : & [ u8 ] , ikm : & [ u8 ] , info : Option < & [ u8 ] > , dest : & mut [ u8 ] ,",137,147
+6,2,54,0,6,"extract@157-162@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","extract","extract salt : & [ u8 ] , ikm : & [ u8 ]",157,162
+11,1,62,1,11,"expand@166-176@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","expand","expand prk : & Tag , info : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",166,176
+8,1,68,0,8,"derive_key@180-187@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","derive_key","derive_key salt : & [ u8 ] , ikm : & [ u8 ] , info : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",180,187
+18,3,164,1,21,"prop_test_derive_key_same_separate@201-221@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","prop_test_derive_key_same_separate","prop_test_derive_key_same_separate salt : Vec < u8 > , ikm : Vec < u8 > , info : Vec < u8 > , outsize : usize ,",201,221
+6,2,54,0,6,"extract@233-238@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","extract","extract salt : & [ u8 ] , ikm : & [ u8 ]",233,238
+11,1,62,1,11,"expand@242-252@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","expand","expand prk : & Tag , info : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",242,252
+8,1,68,0,8,"derive_key@256-263@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","derive_key","derive_key salt : & [ u8 ] , ikm : & [ u8 ] , info : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",256,263
+18,3,164,1,21,"prop_test_derive_key_same_separate@277-297@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","prop_test_derive_key_same_separate","prop_test_derive_key_same_separate salt : Vec < u8 > , ikm : Vec < u8 > , info : Vec < u8 > , outsize : usize ,",277,297
+6,2,54,0,6,"extract@309-314@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","extract","extract salt : & [ u8 ] , ikm : & [ u8 ]",309,314
+11,1,62,1,11,"expand@318-328@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","expand","expand prk : & Tag , info : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",318,328
+8,1,68,0,8,"derive_key@332-339@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","derive_key","derive_key salt : & [ u8 ] , ikm : & [ u8 ] , info : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",332,339
+18,3,164,1,21,"prop_test_derive_key_same_separate@353-373@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","prop_test_derive_key_same_separate","prop_test_derive_key_same_separate salt : Vec < u8 > , ikm : Vec < u8 > , info : Vec < u8 > , outsize : usize ,",353,373
+14,1,267,0,16,"hkdf_above_maximum_length_err@386-401@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","hkdf_above_maximum_length_err","hkdf_above_maximum_length_err",386,401
+14,1,261,0,16,"hkdf_exact_maximum_length_ok@404-419@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","hkdf_exact_maximum_length_ok","hkdf_exact_maximum_length_ok",404,419
+12,1,235,0,15,"hkdf_zero_length_err@422-436@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","hkdf_zero_length_err","hkdf_zero_length_err",422,436
+16,1,257,0,20,"hkdf_info_param@439-458@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","hkdf_info_param","hkdf_info_param",439,458
+16,1,203,0,19,"hkdf_wrong_salt@461-479@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","hkdf_wrong_salt","hkdf_wrong_salt",461,479
+16,1,203,0,19,"hkdf_verify_wrong_ikm@482-500@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","hkdf_verify_wrong_ikm","hkdf_verify_wrong_ikm",482,500
+16,1,224,0,19,"verify_diff_length@503-521@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/kdf/hkdf.rs","verify_diff_length","verify_diff_length",503,521
+7,1,56,1,7,"poly1305_key_gen@123-129@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","poly1305_key_gen","poly1305_key_gen ctx : & mut ChaCha20 , tmp_buffer : & mut Zeroizing < [ u8 ; CHACHA_BLOCKSIZE ] > ,",123,129
+16,4,170,1,18,"process_authentication@132-149@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","process_authentication","process_authentication auth_ctx : & mut Poly1305 , ad : & [ u8 ] , ciphertext : & [ u8 ] ,",132,149
+30,7,275,2,34,"seal@153-186@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","seal","seal secret_key : & SecretKey , nonce : & Nonce , plaintext : & [ u8 ] , ad : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",153,186
+35,8,277,2,39,"open@190-228@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","open","open secret_key : & SecretKey , nonce : & Nonce , ciphertext_with_tag : & [ u8 ] , ad : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",190,228
+16,1,88,0,16,"prop_aead_interface@239-254@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","prop_aead_interface","prop_aead_interface input : Vec < u8 > , ad : Vec < u8 >",239,254
+19,1,202,0,21,"rfc8439_poly1305_key_gen_1@263-283@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","rfc8439_poly1305_key_gen_1","rfc8439_poly1305_key_gen_1",263,283
+24,1,263,0,26,"rfc8439_poly1305_key_gen_2@286-311@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","rfc8439_poly1305_key_gen_2","rfc8439_poly1305_key_gen_2",286,311
+24,1,263,0,26,"rfc8439_poly1305_key_gen_3@314-339@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/chacha20poly1305.rs","rfc8439_poly1305_key_gen_3","rfc8439_poly1305_key_gen_3",314,339
+10,1,79,2,10,"seal@97-106@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/xchacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/xchacha20poly1305.rs","seal","seal secret_key : & SecretKey , nonce : & Nonce , plaintext : & [ u8 ] , ad : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",97,106
+10,1,79,2,10,"open@110-119@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/xchacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/xchacha20poly1305.rs","open","open secret_key : & SecretKey , nonce : & Nonce , ciphertext_with_tag : & [ u8 ] , ad : Option < & [ u8 ] > , dst_out : & mut [ u8 ] ,",110,119
+16,1,76,0,16,"prop_aead_interface@131-146@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/xchacha20poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/xchacha20poly1305.rs","prop_aead_interface","prop_aead_interface input : Vec < u8 > , ad : Vec < u8 >",131,146
+8,2,39,1,8,"as_byte@130-137@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/streaming.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/streaming.rs","as_byte","as_byte & self",130,137
+9,2,65,1,9,"try_from@143-151@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/streaming.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/streaming.rs","try_from","try_from byte : u8",143,151
+3,1,36,2,3,"eq@155-157@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/streaming.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/streaming.rs","eq","eq & self , other : & StreamTag",155,157
+11,3,40,1,13,"padding@171-183@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/streaming.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/aead/streaming.rs","padding","padding input : usize",171,183
+3,1,21,1,3,"big_sigma_0@101-103@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","big_sigma_0","big_sigma_0 x : WordU64",101,103
+3,1,21,1,3,"big_sigma_1@106-108@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","big_sigma_1","big_sigma_1 x : WordU64",106,108
+3,1,21,1,3,"small_sigma_0@111-113@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","small_sigma_0","small_sigma_0 x : WordU64",111,113
+3,1,21,1,3,"small_sigma_1@116-118@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","small_sigma_1","small_sigma_1 x : WordU64",116,118
+3,1,13,0,3,"default@128-130@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","default","default",128,130
+7,1,37,0,7,"new@135-141@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","new","new",135,141
+3,1,17,1,3,"reset@144-146@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","reset","reset & mut self",144,146
+3,1,32,1,3,"update@150-152@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","update","update & mut self , data : & [ u8 ]",150,152
+3,1,33,1,3,"_finalize_internal@155-157@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","_finalize_internal","_finalize_internal & mut self , dest : & mut [ u8 ]",155,157
+5,2,45,1,6,"finalize@161-166@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","finalize","finalize & mut self",161,166
+5,2,42,0,5,"digest@170-174@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","digest","digest data : & [ u8 ]",170,174
+3,1,13,0,3,"_new@185-187@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","_new","_new",185,187
+3,1,30,1,3,"_update@190-192@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","_update","_update & mut self , data : & [ u8 ]",190,192
+3,1,31,1,3,"_finalize@195-197@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","_finalize","_finalize & mut self , dest : & mut [ u8 ]",195,197
+5,2,52,0,5,"_digest@200-204@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","_digest","_digest data : & [ u8 ] , dest : & mut [ u8 ]",200,204
+3,1,25,2,3,"compare_state_to_other@207-209@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","compare_state_to_other","compare_state_to_other & self , other : & Self",207,209
+5,1,36,0,5,"test_default_equals_new@218-222@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","test_default_equals_new","test_default_equals_new",218,222
+6,1,39,0,6,"test_debug_impl@226-231@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","test_debug_impl","test_debug_impl",226,231
+3,1,25,1,3,"reset@238-240@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","reset","reset & mut self",238,240
+3,1,30,1,3,"update@242-244@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","update","update & mut self , input : & [ u8 ]",242,244
+3,1,21,1,3,"finalize@246-248@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","finalize","finalize & mut self",246,248
+3,1,25,0,3,"one_shot@250-252@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","one_shot","one_shot input : & [ u8 ]",250,252
+8,3,57,1,9,"verify_result@254-262@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","verify_result","verify_result expected : & Digest , input : & [ u8 ]",254,262
+3,1,27,2,3,"compare_states@264-266@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","compare_states","compare_states state_1 : & Sha384 , state_2 : & Sha384",264,266
+8,1,42,0,9,"default_consistency_tests@270-278@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","default_consistency_tests","default_consistency_tests",270,278
+9,1,53,0,10,"prop_input_to_consistency@284-293@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","prop_input_to_consistency","prop_input_to_consistency data : Vec < u8 >",284,293
+15,1,240,0,20,"test_mlen_increase_values@306-325@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","test_mlen_increase_values","test_mlen_increase_values",306,325
+6,1,67,0,9,"test_panic_on_second_overflow@329-337@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha384.rs","test_panic_on_second_overflow","test_panic_on_second_overflow",329,337
+3,1,33,1,3,"big_sigma_0@121-123@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","big_sigma_0","big_sigma_0 x : WordU32",121,123
+3,1,33,1,3,"big_sigma_1@126-128@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","big_sigma_1","big_sigma_1 x : WordU32",126,128
+3,1,36,1,3,"small_sigma_0@131-133@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","small_sigma_0","small_sigma_0 x : WordU32",131,133
+3,1,36,1,3,"small_sigma_1@136-138@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","small_sigma_1","small_sigma_1 x : WordU32",136,138
+3,1,13,0,3,"default@148-150@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","default","default",148,150
+7,1,37,0,7,"new@155-161@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","new","new",155,161
+3,1,17,1,3,"reset@164-166@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","reset","reset & mut self",164,166
+3,1,32,1,3,"update@170-172@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","update","update & mut self , data : & [ u8 ]",170,172
+3,1,33,1,3,"_finalize_internal@175-177@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","_finalize_internal","_finalize_internal & mut self , dest : & mut [ u8 ]",175,177
+5,2,45,1,6,"finalize@181-186@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","finalize","finalize & mut self",181,186
+5,2,42,0,5,"digest@190-194@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","digest","digest data : & [ u8 ]",190,194
+3,1,13,0,3,"_new@205-207@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","_new","_new",205,207
+3,1,30,1,3,"_update@210-212@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","_update","_update & mut self , data : & [ u8 ]",210,212
+3,1,31,1,3,"_finalize@215-217@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","_finalize","_finalize & mut self , dest : & mut [ u8 ]",215,217
+5,2,52,0,5,"_digest@220-224@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","_digest","_digest data : & [ u8 ] , dest : & mut [ u8 ]",220,224
+3,1,25,2,3,"compare_state_to_other@227-229@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","compare_state_to_other","compare_state_to_other & self , other : & Self",227,229
+5,1,36,0,5,"test_default_equals_new@238-242@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","test_default_equals_new","test_default_equals_new",238,242
+6,1,39,0,6,"test_debug_impl@246-251@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","test_debug_impl","test_debug_impl",246,251
+3,1,25,1,3,"reset@258-260@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","reset","reset & mut self",258,260
+3,1,30,1,3,"update@262-264@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","update","update & mut self , input : & [ u8 ]",262,264
+3,1,21,1,3,"finalize@266-268@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","finalize","finalize & mut self",266,268
+3,1,25,0,3,"one_shot@270-272@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","one_shot","one_shot input : & [ u8 ]",270,272
+8,3,57,1,9,"verify_result@274-282@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","verify_result","verify_result expected : & Digest , input : & [ u8 ]",274,282
+3,1,27,2,3,"compare_states@284-286@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","compare_states","compare_states state_1 : & Sha256 , state_2 : & Sha256",284,286
+8,1,42,0,9,"default_consistency_tests@290-298@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","default_consistency_tests","default_consistency_tests",290,298
+9,1,53,0,10,"prop_input_to_consistency@304-313@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","prop_input_to_consistency","prop_input_to_consistency data : Vec < u8 >",304,313
+15,1,240,0,20,"test_mlen_increase_values@326-345@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","test_mlen_increase_values","test_mlen_increase_values",326,345
+5,1,54,0,7,"test_panic_on_second_overflow@349-355@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha256.rs","test_panic_on_second_overflow","test_panic_on_second_overflow",349,355
+3,1,33,1,3,"big_sigma_0@124-126@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","big_sigma_0","big_sigma_0 x : WordU64",124,126
+3,1,33,1,3,"big_sigma_1@129-131@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","big_sigma_1","big_sigma_1 x : WordU64",129,131
+3,1,36,1,3,"small_sigma_0@134-136@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","small_sigma_0","small_sigma_0 x : WordU64",134,136
+3,1,36,1,3,"small_sigma_1@139-141@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","small_sigma_1","small_sigma_1 x : WordU64",139,141
+3,1,13,0,3,"default@151-153@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","default","default",151,153
+7,1,37,0,7,"new@158-164@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","new","new",158,164
+3,1,17,1,3,"reset@167-169@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","reset","reset & mut self",167,169
+3,1,32,1,3,"update@173-175@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","update","update & mut self , data : & [ u8 ]",173,175
+3,1,33,1,3,"_finalize_internal@178-180@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","_finalize_internal","_finalize_internal & mut self , dest : & mut [ u8 ]",178,180
+5,2,45,1,6,"finalize@184-189@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","finalize","finalize & mut self",184,189
+5,2,42,0,5,"digest@193-197@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","digest","digest data : & [ u8 ]",193,197
+3,1,13,0,3,"_new@208-210@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","_new","_new",208,210
+3,1,30,1,3,"_update@213-215@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","_update","_update & mut self , data : & [ u8 ]",213,215
+3,1,31,1,3,"_finalize@218-220@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","_finalize","_finalize & mut self , dest : & mut [ u8 ]",218,220
+5,2,52,0,5,"_digest@223-227@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","_digest","_digest data : & [ u8 ] , dest : & mut [ u8 ]",223,227
+3,1,25,2,3,"compare_state_to_other@230-232@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","compare_state_to_other","compare_state_to_other & self , other : & Self",230,232
+5,1,36,0,5,"test_default_equals_new@241-245@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","test_default_equals_new","test_default_equals_new",241,245
+6,1,39,0,6,"test_debug_impl@249-254@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","test_debug_impl","test_debug_impl",249,254
+3,1,25,1,3,"reset@261-263@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","reset","reset & mut self",261,263
+3,1,30,1,3,"update@265-267@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","update","update & mut self , input : & [ u8 ]",265,267
+3,1,21,1,3,"finalize@269-271@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","finalize","finalize & mut self",269,271
+3,1,25,0,3,"one_shot@273-275@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","one_shot","one_shot input : & [ u8 ]",273,275
+8,3,57,1,9,"verify_result@277-285@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","verify_result","verify_result expected : & Digest , input : & [ u8 ]",277,285
+3,1,27,2,3,"compare_states@287-289@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","compare_states","compare_states state_1 : & Sha512 , state_2 : & Sha512",287,289
+8,1,42,0,9,"default_consistency_tests@293-301@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","default_consistency_tests","default_consistency_tests",293,301
+9,1,53,0,10,"prop_input_to_consistency@307-316@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","prop_input_to_consistency","prop_input_to_consistency data : Vec < u8 >",307,316
+15,1,240,0,20,"test_mlen_increase_values@329-348@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","test_mlen_increase_values","test_mlen_increase_values",329,348
+5,1,54,0,7,"test_panic_on_second_overflow@352-358@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/sha512.rs","test_panic_on_second_overflow","test_panic_on_second_overflow",352,358
+8,1,76,1,13,"big_sigma_0@98-110@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","big_sigma_0","big_sigma_0 x : W",98,110
+3,1,39,3,3,"maj@113-115@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","maj","maj x : W , y : W , z : W",113,115
+7,1,61,1,7,"drop@146-152@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","drop","drop & mut self",146,152
+545,1,63,2,545,"fmt@163-707@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","fmt","fmt & self , f : & mut core :: fmt :: Formatter < '_>) -> core::fmt::Result {
+            write!(
+                f,
+                'State {{ working_state: [***OMITTED***], buffer: [***OMITTED***], leftover: {:?}, \
+             message_len: {:?}, is_finalized: {:?} }}',
+                self.leftover, self.message_len, self.is_finalized
+            )
+        }
+    }
+
+    impl<
+            W: Word,
+            T: Variant<W, { N_CONSTS }>,
+            const BLOCKSIZE: usize,
+            const OUTSIZE: usize,
+            const N_CONSTS: usize,
+        > State<W, T, BLOCKSIZE, OUTSIZE, N_CONSTS>
+    {
+        /// Increment the message length during processing of data.
+        pub(crate) fn increment_mlen(&mut self, length: &W) {
+            // The checked shift checks that the right-hand side is a legal shift.
+            // The result can still overflow if length > $primitive::MAX / 8.
+            // Should be impossible for a user to trigger, because update() processes
+            // in SHA(256/384/512)_BLOCKSIZE chunks.
+            #[cfg(any(debug_assertions, test))]
+            debug_assert!(length.less_than_or_equal(W::MAX / W::from(8)));
+
+            // left-shift to get bit-sized representation of length
+            // using .unwrap() because it should not panic in practice
+            let len = length.checked_shl(3).unwrap();
+            let (res, was_overflow) = self.message_len[1].overflowing_add(len);
+            self.message_len[1] = res;
+
+            if was_overflow {
+                // If this panics size limit is reached.
+                self.message_len[0] = self.message_len[0].checked_add(W::one()).unwrap();
+            }
+        }
+
+        #[allow(clippy::many_single_char_names)]
+        #[allow(clippy::too_many_arguments)]
+        /// Message compression adopted from [mbed
+        /// TLS](https://github.com/ARMmbed/mbedtls/blob/master/library/sha512.c).
+        pub(crate) fn compress(
+            a: W,
+            b: W,
+            c: W,
+            d: &mut W,
+            e: W,
+            f: W,
+            g: W,
+            h: &mut W,
+            x: W,
+            ki: W,
+        ) {
+            let temp1 = h
+                .wrapping_add(T::big_sigma_1(e))
+                .wrapping_add(ch(e, f, g))
+                .wrapping_add(ki)
+                .wrapping_add(x);
+
+            let temp2 = T::big_sigma_0(a).wrapping_add(maj(a, b, c));
+
+            *d = d.wrapping_add(temp1);
+            *h = temp1.wrapping_add(temp2);
+        }
+
+        #[rustfmt::skip]
+        #[allow(clippy::many_single_char_names)]
+        /// Process data in `self.buffer` or optionally `data`.
+        pub(crate) fn process(&mut self, data: Option<&[u8]>) {
+            let mut w = [W::default(); N_CONSTS];
+            // If `data.is_none()` then we want to process leftover data within `self.buffer`.
+            match data {
+                Some(bytes) => {
+                    debug_assert_eq!(bytes.len(), BLOCKSIZE);
+                    W::from_be_bytes(bytes, &mut w[..16]);
+                }
+                None => W::from_be_bytes(&self.buffer, &mut w[..16]),
+            }
+
+            for t in 16..T::K.len() {
+                w[t] = T::small_sigma_1(w[t - 2])
+                    .wrapping_add(w[t - 7])
+                    .wrapping_add(T::small_sigma_0(w[t - 15]))
+                    .wrapping_add(w[t - 16]);
+            }
+
+            let mut a = self.working_state[0];
+            let mut b = self.working_state[1];
+            let mut c = self.working_state[2];
+            let mut d = self.working_state[3];
+            let mut e = self.working_state[4];
+            let mut f = self.working_state[5];
+            let mut g = self.working_state[6];
+            let mut h = self.working_state[7];
+
+            let mut t = 0;
+            while t < T::K.len() {
+                Self::compress(a, b, c, &mut d, e, f, g, &mut h, w[t], T::K[t]); t += 1;
+                Self::compress(h, a, b, &mut c, d, e, f, &mut g, w[t], T::K[t]); t += 1;
+                Self::compress(g, h, a, &mut b, c, d, e, &mut f, w[t], T::K[t]); t += 1;
+                Self::compress(f, g, h, &mut a, b, c, d, &mut e, w[t], T::K[t]); t += 1;
+                Self::compress(e, f, g, &mut h, a, b, c, &mut d, w[t], T::K[t]); t += 1;
+                Self::compress(d, e, f, &mut g, h, a, b, &mut c, w[t], T::K[t]); t += 1;
+                Self::compress(c, d, e, &mut f, g, h, a, &mut b, w[t], T::K[t]); t += 1;
+                Self::compress(b, c, d, &mut e, f, g, h, &mut a, w[t], T::K[t]); t += 1;
+            }
+
+            self.working_state[0] = self.working_state[0].wrapping_add(a);
+            self.working_state[1] = self.working_state[1].wrapping_add(b);
+            self.working_state[2] = self.working_state[2].wrapping_add(c);
+            self.working_state[3] = self.working_state[3].wrapping_add(d);
+            self.working_state[4] = self.working_state[4].wrapping_add(e);
+            self.working_state[5] = self.working_state[5].wrapping_add(f);
+            self.working_state[6] = self.working_state[6].wrapping_add(g);
+            self.working_state[7] = self.working_state[7].wrapping_add(h);
+        }
+
+        /// Initialize a new state.
+        pub(crate) fn _new() -> Self {
+            Self {
+                _variant: PhantomData::<T>,
+                working_state: T::H0,
+                buffer: [0u8; BLOCKSIZE],
+                leftover: 0,
+                message_len: [W::default(); 2],
+                is_finalized: false,
+            }
+        }
+
+        /// Reset to `new()` state.
+        pub(crate) fn _reset(&mut self) {
+            self.working_state = T::H0;
+            self.buffer = [0u8; BLOCKSIZE];
+            self.leftover = 0;
+            self.message_len = [W::default(); 2];
+            self.is_finalized = false;
+        }
+
+        /// Update state with `data`. This can be called multiple times.
+        pub(crate) fn _update(&mut self, data: &[u8]) -> Result<(), UnknownCryptoError> {
+            if self.is_finalized {
+                return Err(UnknownCryptoError);
+            }
+            if data.is_empty() {
+                return Ok(());
+            }
+
+            let mut bytes = data;
+
+            if self.leftover != 0 {
+                debug_assert!(self.leftover <= BLOCKSIZE);
+
+                let mut want = BLOCKSIZE - self.leftover;
+                if want > bytes.len() {
+                    want = bytes.len();
+                }
+
+                for (idx, itm) in bytes.iter().enumerate().take(want) {
+                    self.buffer[self.leftover + idx] = *itm;
+                }
+
+                bytes = &bytes[want..];
+                self.leftover += want;
+                self.increment_mlen(&W::from(want));
+
+                if self.leftover < BLOCKSIZE {
+                    return Ok(());
+                }
+
+                self.process(None);
+                self.leftover = 0;
+            }
+
+            while bytes.len() >= BLOCKSIZE {
+                self.process(Some(bytes[..BLOCKSIZE].as_ref()));
+                self.increment_mlen(&W::from(BLOCKSIZE));
+                bytes = &bytes[BLOCKSIZE..];
+            }
+
+            if !bytes.is_empty() {
+                debug_assert_eq!(self.leftover, 0);
+                self.buffer[..bytes.len()].copy_from_slice(bytes);
+                self.leftover = bytes.len();
+                self.increment_mlen(&W::from(bytes.len()));
+            }
+
+            Ok(())
+        }
+
+        /// Finalize the hash and put the final digest into `dest`.
+        pub(crate) fn _finalize(&mut self, dest: &mut [u8]) -> Result<(), UnknownCryptoError> {
+            // NOTE: We need to support less than OUTSIZE in HKDF through HMAC.
+            // debug_assert_eq!(dest.len(), OUTSIZE);
+            if self.is_finalized {
+                return Err(UnknownCryptoError);
+            }
+
+            self.is_finalized = true;
+            // self.leftover should not be greater than SHA(256/384/512)_BLOCKSIZE
+            // as that would have been processed in the update call
+            debug_assert!(self.leftover < BLOCKSIZE);
+            self.buffer[self.leftover] = 0x80;
+            self.leftover += 1;
+
+            for itm in self.buffer.iter_mut().skip(self.leftover) {
+                *itm = 0;
+            }
+
+            let lenpad = W::size_of();
+            // Check for available space for length padding
+            if (BLOCKSIZE - self.leftover) < lenpad * 2 {
+                self.process(None);
+                for itm in self.buffer.iter_mut().take(self.leftover) {
+                    *itm = 0;
+                }
+            }
+
+            self.message_len[0]
+                .as_be(&mut self.buffer[BLOCKSIZE - (lenpad * 2)..BLOCKSIZE - lenpad]);
+            self.message_len[1].as_be(&mut self.buffer[BLOCKSIZE - lenpad..BLOCKSIZE]);
+            self.process(None);
+
+            let to_use = OUTSIZE / W::size_of();
+            W::as_be_bytes(&self.working_state[..to_use], &mut dest[..OUTSIZE]);
+
+            Ok(())
+        }
+
+        #[cfg(test)]
+        /// Compare two Sha2 state objects to check if their fields
+        /// are the same.
+        pub(crate) fn compare_state_to_other(&self, other: &Self) {
+            for idx in 0..8 {
+                assert_eq!(self.working_state[idx], other.working_state[idx]);
+            }
+            assert_eq!(self.buffer, other.buffer);
+            assert_eq!(self.leftover, other.leftover);
+            assert_eq!(self.message_len[0], other.message_len[0]);
+            assert_eq!(self.message_len[1], other.message_len[1]);
+            assert_eq!(self.is_finalized, other.is_finalized);
+        }
+    }
+}
+
+pub(crate) mod w32 {
+    use core::convert::{From, TryFrom, TryInto};
+    use core::ops::*;
+    use zeroize::Zeroize;
+
+    #[derive(Debug, PartialEq, Copy, Clone, Default)]
+    pub(crate) struct WordU32(pub(crate) u32);
+
+    impl Zeroize for WordU32 {
+        fn zeroize(&mut self) {
+            self.0.zeroize();
+        }
+    }
+
+    impl BitOr for WordU32 {
+        type Output = Self;
+
+        fn bitor(self, rhs: Self) -> Self::Output {
+            Self(self.0 | rhs.0)
+        }
+    }
+
+    impl BitAnd for WordU32 {
+        type Output = Self;
+
+        fn bitand(self, rhs: Self) -> Self::Output {
+            Self(self.0 & rhs.0)
+        }
+    }
+
+    impl BitXor for WordU32 {
+        type Output = Self;
+
+        fn bitxor(self, rhs: Self) -> Self::Output {
+            Self(self.0 ^ rhs.0)
+        }
+    }
+
+    impl From<usize> for WordU32 {
+        fn from(value: usize) -> Self {
+            // NOTE: Should never panic
+            Self(u32::try_from(value).unwrap())
+        }
+    }
+
+    impl From<u32> for WordU32 {
+        fn from(value: u32) -> Self {
+            Self(value)
+        }
+    }
+
+    impl Div<Self> for WordU32 {
+        type Output = Self;
+
+        fn div(self, rhs: Self) -> Self::Output {
+            Self(self.0 / rhs.0)
+        }
+    }
+
+    impl Shr<WordU32> for WordU32 {
+        type Output = Self;
+
+        fn shr(self, Self(rhs): Self) -> Self::Output {
+            let Self(lhs) = self;
+            Self(lhs >> rhs)
+        }
+    }
+
+    impl super::sha2_core::Word for WordU32 {
+        const MAX: Self = Self(u32::MAX);
+
+        #[inline]
+        fn wrapping_add(&self, rhs: Self) -> Self {
+            Self(self.0.wrapping_add(rhs.0))
+        }
+
+        #[inline]
+        fn overflowing_add(&self, rhs: Self) -> (Self, bool) {
+            let (res, did_overflow) = self.0.overflowing_add(rhs.0);
+
+            (Self(res), did_overflow)
+        }
+
+        #[inline]
+        fn checked_add(&self, rhs: Self) -> Option<Self> {
+            self.0.checked_add(rhs.0).map(Self)
+        }
+
+        #[inline]
+        fn checked_shl(&self, rhs: u32) -> Option<Self> {
+            self.0.checked_shl(rhs).map(Self)
+        }
+
+        #[inline]
+        fn rotate_right(&self, rhs: u32) -> Self {
+            Self(self.0.rotate_right(rhs))
+        }
+
+        #[inline]
+        fn one() -> Self {
+            Self(1u32)
+        }
+
+        #[inline]
+        fn size_of() -> usize {
+            core::mem::size_of::<u32>()
+        }
+
+        #[inline]
+        fn as_be(&self, dest: &mut [u8]) {
+            debug_assert_eq!(dest.len(), Self::size_of());
+            dest.copy_from_slice(&self.0.to_be_bytes());
+        }
+
+        #[inline]
+        fn from_be(src: &[u8]) -> Self {
+            Self(u32::from_be_bytes(src.try_into().unwrap()))
+        }
+
+        #[inline]
+        fn as_be_bytes(src: &[Self], dest: &mut [u8]) {
+            debug_assert_eq!(dest.len(), src.len() * Self::size_of());
+            for (src_elem, dst_chunk) in src.iter().zip(dest.chunks_exact_mut(Self::size_of())) {
+                src_elem.as_be(dst_chunk);
+            }
+        }
+
+        #[inline]
+        fn from_be_bytes(src: &[u8], dest: &mut [Self]) {
+            debug_assert_eq!(dest.len(), src.len() / Self::size_of());
+            for (src_chunk, dst_elem) in src.chunks_exact(Self::size_of()).zip(dest.iter_mut()) {
+                *dst_elem = Self::from_be(src_chunk);
+            }
+        }
+
+        #[cfg(any(debug_assertions, test))]
+        fn less_than_or_equal(&self, rhs: Self) -> bool {
+            self.0 <= rhs.0
+        }
+    }
+}
+
+pub(crate) mod w64 {
+    use core::convert::{From, TryFrom, TryInto};
+    use core::ops::*;
+    use zeroize::Zeroize;
+
+    #[derive(Debug, PartialEq, Copy, Clone, Default)]
+    pub(crate) struct WordU64(pub(crate) u64);
+
+    impl Zeroize for WordU64 {
+        fn zeroize(&mut self) {
+            self.0.zeroize();
+        }
+    }
+
+    impl BitOr for WordU64 {
+        type Output = Self;
+
+        fn bitor(self, rhs: Self) -> Self::Output {
+            Self(self.0 | rhs.0)
+        }
+    }
+
+    impl BitAnd for WordU64 {
+        type Output = Self;
+
+        fn bitand(self, rhs: Self) -> Self::Output {
+            Self(self.0 & rhs.0)
+        }
+    }
+
+    impl BitXor for WordU64 {
+        type Output = Self;
+
+        fn bitxor(self, rhs: Self) -> Self::Output {
+            Self(self.0 ^ rhs.0)
+        }
+    }
+
+    impl From<usize> for WordU64 {
+        fn from(value: usize) -> Self {
+            // NOTE: Should never panic
+            Self(u64::try_from(value).unwrap())
+        }
+    }
+
+    impl From<u64> for WordU64 {
+        fn from(value: u64) -> Self {
+            Self(value)
+        }
+    }
+
+    impl Div<Self> for WordU64 {
+        type Output = Self;
+
+        fn div(self, rhs: Self) -> Self::Output {
+            Self(self.0 / rhs.0)
+        }
+    }
+
+    impl Shr<WordU64> for WordU64 {
+        type Output = Self;
+
+        fn shr(self, Self(rhs): Self) -> Self::Output {
+            let Self(lhs) = self;
+            Self(lhs >> rhs)
+        }
+    }
+
+    impl super::sha2_core::Word for WordU64 {
+        const MAX: Self = Self(u64::MAX);
+
+        #[inline]
+        fn wrapping_add(&self, rhs: Self) -> Self {
+            Self(self.0.wrapping_add(rhs.0))
+        }
+
+        #[inline]
+        fn overflowing_add(&self, rhs: Self) -> (Self, bool) {
+            let (res, did_overflow) = self.0.overflowing_add(rhs.0);
+
+            (Self(res), did_overflow)
+        }
+
+        #[inline]
+        fn checked_add(&self, rhs: Self) -> Option<Self> {
+            self.0.checked_add(rhs.0).map(Self)
+        }
+
+        #[inline]
+        fn checked_shl(&self, rhs: u32) -> Option<Self> {
+            self.0.checked_shl(rhs).map(Self)
+        }
+
+        #[inline]
+        fn rotate_right(&self, rhs: u32) -> Self {
+            Self(self.0.rotate_right(rhs))
+        }
+
+        #[inline]
+        fn one() -> Self {
+            Self(1u64)
+        }
+
+        #[inline]
+        fn size_of() -> usize {
+            core::mem::size_of::<u64>()
+        }
+
+        #[inline]
+        fn as_be(&self, dest: &mut [u8]) {
+            debug_assert_eq!(dest.len(), Self::size_of());
+            dest.copy_from_slice(&self.0.to_be_bytes());
+        }
+
+        #[inline]
+        fn from_be(src: &[u8]) -> Self {
+            Self(u64::from_be_bytes(src.try_into().unwrap()))
+        }
+
+        #[inline]
+        fn as_be_bytes(src: &[Self], dest: &mut [u8]) {
+            debug_assert_eq!(dest.len(), src.len() * Self::size_of());
+            for (src_elem, dst_chunk) in src.iter().zip(dest.chunks_exact_mut(Self::size_of())) {
+                src_elem.as_be(dst_chunk);
+            }
+        }
+
+        #[inline]
+        fn from_be_bytes(src: &[u8], dest: &mut [Self]) {
+            debug_assert_eq!(dest.len(), src.len() / Self::size_of());
+            for (src_chunk, dst_elem) in src.chunks_exact(Self::size_of()).zip(dest.iter_mut()) {
+                *dst_elem = Self::from_be(src_chunk);
+            }
+        }
+
+        #[cfg(any(debug_assertions, test))]
+        fn less_than_or_equal(&self, rhs: Self) -> bool {
+            self.0 <= rhs.0
+        }
+    }
+}
+
+#[cfg(test)]
+mod test_word {
+    use super::sha2_core::Word;
+    use super::w32::WordU32;
+    use super::w64::WordU64;
+
+    #[test]
+    #[should_panic]
+    #[cfg(target_pointer_width = '64')]
+    // We can only test this on 64-bit platforms.
+    // On 32-bit platforms, due to the on-by-default #[deny(arithmetic_overflow)]
+    // this won' t compile because of ` u32 :: MAX as usize + 1",163,707
+3,1,21,0,3,"w64_panic_on_above_from@713-715@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","w64_panic_on_above_from","w64_panic_on_above_from",713,715
+4,1,34,0,4,"equiv_max@718-721@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_max","equiv_max",718,721
+4,1,50,0,4,"equiv_sizeof@724-727@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_sizeof","equiv_sizeof",724,727
+4,1,40,0,4,"equiv_one@730-733@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_one","equiv_one",730,733
+4,1,42,0,4,"equiv_default@736-739@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_default","equiv_default",736,739
+63,1,656,0,70,"test_results_store_and_load_u32_into_be@742-811@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","test_results_store_and_load_u32_into_be","test_results_store_and_load_u32_into_be",742,811
+72,1,834,0,79,"test_results_store_and_load_u64_into_be@814-892@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","test_results_store_and_load_u64_into_be","test_results_store_and_load_u64_into_be",814,892
+5,3,48,2,7,"equiv_from@900-906@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_from","equiv_from n : u32 , m : u64",900,906
+23,15,350,4,31,"equiv_ops@910-940@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_ops","equiv_ops n1 : u32 , n2 : u32 , m1 : u64 , m2 : u64",910,940
+9,2,112,4,11,"equiv_wrapping_add@943-953@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_wrapping_add","equiv_wrapping_add n1 : u32 , n2 : u32 , m1 : u64 , m2 : u64",943,953
+17,4,210,4,19,"equiv_overflowing_add@956-974@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_overflowing_add","equiv_overflowing_add n1 : u32 , n2 : u32 , m1 : u64 , m2 : u64",956,974
+17,4,182,4,19,"equiv_checked_add@977-995@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_checked_add","equiv_checked_add n1 : u32 , n2 : u32 , m1 : u64 , m2 : u64",977,995
+15,4,158,3,17,"equiv_checked_shl@998-1014@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_checked_shl","equiv_checked_shl n : u32 , m : u64 , x : u32",998,1014
+7,3,82,3,9,"equiv_rotate_right@1018-1026@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_rotate_right","equiv_rotate_right n : u32 , m : u64 , x : u32",1018,1026
+13,5,156,2,19,"equiv_into_from_be@1030-1048@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_into_from_be","equiv_into_from_be n : u32 , m : u64",1030,1048
+9,3,100,4,11,"equiv_less_than_or_equal@1054-1064@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/sha2/mod.rs","equiv_less_than_or_equal","equiv_less_than_or_equal n1 : u32 , n2 : u32 , m1 : u64 , m2 : u64",1054,1064
+6,1,46,1,6,"drop@132-137@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","drop","drop & mut self",132,137
+9,1,59,1,9,"fmt@141-149@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","fmt","fmt & self , f : & mut core :: fmt :: Formatter < ' _ >",141,149
+7,2,68,2,8,"_increment_offset@154-161@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","_increment_offset","_increment_offset & mut self , value : u64",154,161
+33,2,420,1,36,"_compress_f@164-199@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","_compress_f","_compress_f & mut self , data : Option < & [ u8 ] >",164,199
+35,6,274,1,39,"_new@204-242@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","_new","_new sk : & [ u8 ] , size : usize",204,242
+22,5,210,1,29,"_reset@245-273@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","_reset","_reset & mut self , sk : & [ u8 ]",245,273
+35,7,299,1,43,"_update@276-318@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","_update","_update & mut self , data : & [ u8 ]",276,318
+20,3,158,1,26,"_finalize@323-348@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","_finalize","_finalize & mut self , dest : & mut [ u8 ; BLAKE2B_OUTSIZE ] ,",323,348
+11,1,131,2,11,"compare_blake2b_states@352-362@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","compare_blake2b_states","compare_blake2b_states state_1 : & State , state_2 : & State",352,362
+6,1,48,0,6,"test_debug_impl@371-376@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","test_debug_impl","test_debug_impl",371,376
+13,1,181,0,15,"test_switching_keyed_modes_fails@379-393@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","test_switching_keyed_modes_fails","test_switching_keyed_modes_fails",379,393
+21,1,156,0,23,"test_offset_increase_values@400-422@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","test_offset_increase_values","test_offset_increase_values",400,422
+14,1,81,0,15,"test_panic_on_second_overflow@426-440@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/mod.rs","test_panic_on_second_overflow","test_panic_on_second_overflow",426,440
+5,2,38,1,5,"new@87-91@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","new","new size : usize",87,91
+3,1,27,1,3,"reset@95-97@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","reset","reset & mut self",95,97
+3,1,32,1,3,"update@101-103@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","update","update & mut self , data : & [ u8 ]",101,103
+5,2,54,1,6,"finalize@107-112@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","finalize","finalize & mut self",107,112
+10,4,76,1,11,"digest@128-138@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","digest","digest & self , data : & [ u8 ]",128,138
+7,2,53,1,7,"init@142-148@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","init","init & self",142,148
+3,1,22,1,3,"reset@164-166@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","reset","reset & mut self",164,166
+3,1,30,1,3,"update@168-170@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","update","update & mut self , input : & [ u8 ]",168,170
+3,1,21,1,3,"finalize@172-174@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","finalize","finalize & mut self",172,174
+5,3,44,0,5,"one_shot@176-180@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","one_shot","one_shot input : & [ u8 ]",176,180
+8,3,55,1,9,"verify_result@182-190@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","verify_result","verify_result expected : & Digest , input : & [ u8 ]",182,190
+3,1,27,2,3,"compare_states@192-194@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","compare_states","compare_states state_1 : & Blake2b , state_2 : & Blake2b",192,194
+8,1,47,0,9,"default_consistency_tests@198-206@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","default_consistency_tests","default_consistency_tests",198,206
+9,1,58,0,10,"prop_input_to_consistency@212-221@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","prop_input_to_consistency","prop_input_to_consistency data : Vec < u8 >",212,221
+14,1,222,0,17,"test_hasher_interface_no_panic_and_same_result@228-244@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","test_hasher_interface_no_panic_and_same_result","test_hasher_interface_no_panic_and_same_result",228,244
+9,3,157,0,11,"prop_hasher_digest_no_panic_and_same_result@251-261@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","prop_hasher_digest_no_panic_and_same_result","prop_hasher_digest_no_panic_and_same_result data : Vec < u8 >",251,261
+7,1,90,0,10,"prop_hasher_digest_256_same_as_streaming@267-276@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","prop_hasher_digest_256_same_as_streaming","prop_hasher_digest_256_same_as_streaming data : Vec < u8 >",267,276
+7,1,90,0,10,"prop_hasher_digest_384_same_as_streaming@282-291@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","prop_hasher_digest_384_same_as_streaming","prop_hasher_digest_384_same_as_streaming data : Vec < u8 >",282,291
+7,1,90,0,10,"prop_hasher_digest_512_same_as_streaming@297-306@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","prop_hasher_digest_512_same_as_streaming","prop_hasher_digest_512_same_as_streaming data : Vec < u8 >",297,306
+9,3,145,0,11,"prop_hasher_digest_diff_input_diff_result@312-322@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","prop_hasher_digest_diff_input_diff_result","prop_hasher_digest_diff_input_diff_result data : Vec < u8 >",312,322
+6,1,54,0,7,"prop_hasher_init_no_panic@327-333@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","prop_hasher_init_no_panic","prop_hasher_init_no_panic",327,333
+6,1,66,0,6,"test_init_size@340-345@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/hash/blake2/blake2b.rs","test_init_size","test_init_size",340,345
+3,1,21,1,3,"drop@178-180@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","drop","drop & mut self",178,180
+42,6,334,1,51,"new@187-237@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","new","new sk : & [ u8 ] , n : & [ u8 ] , is_ietf : bool",187,237
+40,4,414,2,49,"keystream_block@240-288@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","keystream_block","keystream_block & mut self , block_counter : u32 , inplace : & mut [ u8 ]",240,288
+21,4,133,2,23,"xor_keystream@292-314@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","xor_keystream","xor_keystream ctx : & mut ChaCha20 , initial_counter : u32 , tmp_block : & mut [ u8 ] , bytes : & mut [ u8 ] ,",292,314
+13,3,105,3,14,"encrypt_in_place@317-330@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","encrypt_in_place","encrypt_in_place secret_key : & SecretKey , nonce : & Nonce , initial_counter : u32 , bytes : & mut [ u8 ] ,",317,330
+21,3,115,3,22,"encrypt@334-355@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","encrypt","encrypt secret_key : & SecretKey , nonce : & Nonce , initial_counter : u32 , plaintext : & [ u8 ] , dst_out : & mut [ u8 ] ,",334,355
+9,1,55,3,9,"decrypt@359-367@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","decrypt","decrypt secret_key : & SecretKey , nonce : & Nonce , initial_counter : u32 , ciphertext : & [ u8 ] , dst_out : & mut [ u8 ] ,",359,367
+9,2,74,1,10,"hchacha20@370-379@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","hchacha20","hchacha20 secret_key : & SecretKey , nonce : & [ u8 ] ,",370,379
+3,1,13,0,3,"gen@392-394@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","gen","gen",392,394
+5,1,44,0,5,"gen@398-402@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","gen","gen",398,402
+7,1,74,1,8,"prop_streamcipher_interface@406-413@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","prop_streamcipher_interface","prop_streamcipher_interface input : Vec < u8 > , counter : u32",406,413
+6,1,150,0,6,"test_nonce_length@423-428@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_nonce_length","test_nonce_length",423,428
+7,1,82,0,9,"test_diff_keys_diff_output@431-439@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_diff_keys_diff_output","test_diff_keys_diff_output",431,439
+7,1,82,0,9,"test_diff_nonce_diff_output@442-450@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_diff_nonce_diff_output","test_diff_nonce_diff_output",442,450
+8,1,88,3,9,"hchacha_test_runner@452-460@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","hchacha_test_runner","hchacha_test_runner key : & str , nonce : & str , output_expected : & str",452,460
+7,1,30,0,7,"test_case_0@467-473@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_0","test_case_0",467,473
+7,1,30,0,7,"test_case_1@475-481@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_1","test_case_1",475,481
+7,1,30,0,7,"test_case_2@483-489@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_2","test_case_2",483,489
+7,1,30,0,7,"test_case_3@491-497@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_3","test_case_3",491,497
+7,1,30,0,7,"test_case_4@499-505@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_4","test_case_4",499,505
+7,1,30,0,7,"test_case_5@507-513@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_5","test_case_5",507,513
+7,1,30,0,7,"test_case_6@515-521@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_6","test_case_6",515,521
+7,1,30,0,7,"test_case_7@523-529@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_7","test_case_7",523,529
+7,1,30,0,7,"test_case_8@531-537@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_8","test_case_8",531,537
+7,1,30,0,7,"test_case_9@539-545@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_9","test_case_9",539,545
+7,1,30,0,7,"test_case_10@547-553@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_10","test_case_10",547,553
+7,1,30,0,7,"test_case_11@555-561@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_11","test_case_11",555,561
+7,1,30,0,7,"test_case_12@563-569@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_12","test_case_12",563,569
+7,1,30,0,7,"test_case_13@571-577@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_13","test_case_13",571,577
+7,1,30,0,7,"test_case_14@579-585@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_14","test_case_14",579,585
+7,1,30,0,7,"test_case_15@587-593@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_15","test_case_15",587,593
+7,1,30,0,7,"test_case_16@595-601@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_16","test_case_16",595,601
+7,1,30,0,7,"test_case_17@603-609@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_17","test_case_17",603,609
+7,1,30,0,7,"test_case_18@611-617@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_18","test_case_18",611,617
+7,1,30,0,7,"test_case_19@619-625@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_19","test_case_19",619,625
+7,1,30,0,7,"test_case_20@627-633@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_20","test_case_20",627,633
+7,1,30,0,7,"test_case_21@635-641@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_21","test_case_21",635,641
+7,1,30,0,7,"test_case_22@643-649@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_22","test_case_22",643,649
+7,1,30,0,7,"test_case_23@651-657@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_23","test_case_23",651,657
+7,1,30,0,7,"test_case_24@659-665@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_24","test_case_24",659,665
+7,1,30,0,7,"test_case_25@667-673@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_25","test_case_25",667,673
+7,1,30,0,7,"test_case_26@675-681@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_26","test_case_26",675,681
+7,1,30,0,7,"test_case_27@683-689@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_27","test_case_27",683,689
+7,1,30,0,7,"test_case_28@691-697@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_28","test_case_28",691,697
+7,1,30,0,7,"test_case_29@699-705@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_29","test_case_29",699,705
+7,1,30,0,7,"test_case_30@707-713@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_30","test_case_30",707,713
+7,1,30,0,7,"test_case_31@715-721@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_31","test_case_31",715,721
+7,1,30,0,7,"test_case_32@723-729@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_32","test_case_32",723,729
+7,1,30,0,7,"test_case_33@731-737@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_33","test_case_33",731,737
+7,1,30,0,7,"test_case_34@739-745@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_34","test_case_34",739,745
+7,1,30,0,7,"test_case_35@747-753@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_35","test_case_35",747,753
+7,1,30,0,7,"test_case_36@755-761@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_36","test_case_36",755,761
+7,1,30,0,7,"test_case_37@763-769@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_37","test_case_37",763,769
+7,1,30,0,7,"test_case_38@771-777@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_38","test_case_38",771,777
+7,1,30,0,7,"test_case_39@779-785@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_39","test_case_39",779,785
+7,1,30,0,7,"test_case_40@787-793@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_40","test_case_40",787,793
+7,1,30,0,7,"test_case_41@795-801@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_41","test_case_41",795,801
+7,1,30,0,7,"test_case_42@803-809@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_42","test_case_42",803,809
+7,1,30,0,7,"test_case_43@811-817@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_43","test_case_43",811,817
+7,1,30,0,7,"test_case_44@819-825@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_44","test_case_44",819,825
+7,1,30,0,7,"test_case_45@827-833@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_45","test_case_45",827,833
+7,1,30,0,7,"test_case_46@835-841@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_46","test_case_46",835,841
+7,1,30,0,7,"test_case_47@843-849@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_47","test_case_47",843,849
+7,1,30,0,7,"test_case_48@851-857@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_48","test_case_48",851,857
+7,1,30,0,7,"test_case_49@859-865@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_case_49","test_case_49",859,865
+12,1,180,0,13,"test_nonce_length@878-890@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_nonce_length","test_nonce_length",878,890
+7,2,75,0,7,"prop_test_nonce_length_ietf@894-900@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","prop_test_nonce_length_ietf","prop_test_nonce_length_ietf nonce : Vec < u8 >",894,900
+7,2,67,0,7,"prop_test_nonce_length_hchacha@906-912@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","prop_test_nonce_length_hchacha","prop_test_nonce_length_hchacha nonce : Vec < u8 >",906,912
+7,1,78,0,7,"test_xor_keystream_err_bad_tmp@921-927@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_xor_keystream_err_bad_tmp","test_xor_keystream_err_bad_tmp",921,927
+7,1,80,0,7,"test_xor_keystream_err_empty_input@930-936@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_xor_keystream_err_empty_input","test_xor_keystream_err_empty_input",930,936
+6,1,67,0,6,"test_enc_in_place_err_empty_input@939-944@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_enc_in_place_err_empty_input","test_enc_in_place_err_empty_input",939,944
+9,1,87,0,12,"test_xor_keystream_block_ignore_counter_when_hchacha@951-962@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_xor_keystream_block_ignore_counter_when_hchacha","test_xor_keystream_block_ignore_counter_when_hchacha",951,962
+8,1,77,0,10,"test_xor_keystream_block_invalid_blocksize_ietf@967-976@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_xor_keystream_block_invalid_blocksize_ietf","test_xor_keystream_block_invalid_blocksize_ietf",967,976
+8,1,77,0,10,"test_xor_keystream_block_invalid_blocksize_hchacha@981-990@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_xor_keystream_block_invalid_blocksize_hchacha","test_xor_keystream_block_invalid_blocksize_hchacha",981,990
+16,2,111,0,18,"test_xor_keystream_panic_on_too_much_keystream_data_ietf@994-1011@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_xor_keystream_panic_on_too_much_keystream_data_ietf","test_xor_keystream_panic_on_too_much_keystream_data_ietf",994,1011
+16,2,111,0,18,"test_xor_keystream_panic_on_too_much_keystream_data_hchacha@1015-1032@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","test_xor_keystream_panic_on_too_much_keystream_data_hchacha","test_xor_keystream_panic_on_too_much_keystream_data_hchacha",1015,1032
+3,4,46,2,3,"eq@1044-1046@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","eq","eq & self , other : & Self",1044,1046
+3,2,40,0,3,"init@1050-1052@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","init","init key : & [ u8 ] , nonce : & [ u8 ]",1050,1052
+29,1,373,0,34,"rfc8439_chacha20_block_results@1054-1087@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","rfc8439_chacha20_block_results","rfc8439_chacha20_block_results",1054,1087
+21,1,294,0,23,"rfc8439_chacha20_block_test_1@1090-1112@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","rfc8439_chacha20_block_test_1","rfc8439_chacha20_block_test_1",1090,1112
+21,1,294,0,23,"rfc8439_chacha20_block_test_2@1115-1137@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","rfc8439_chacha20_block_test_2","rfc8439_chacha20_block_test_2",1115,1137
+21,1,294,0,23,"rfc8439_chacha20_block_test_3@1140-1162@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","rfc8439_chacha20_block_test_3","rfc8439_chacha20_block_test_3",1140,1162
+21,1,294,0,23,"rfc8439_chacha20_block_test_4@1165-1187@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","rfc8439_chacha20_block_test_4","rfc8439_chacha20_block_test_4",1165,1187
+21,1,294,0,23,"rfc8439_chacha20_block_test_5@1190-1212@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","rfc8439_chacha20_block_test_5","rfc8439_chacha20_block_test_5",1190,1212
+43,1,544,0,51,"rfc8439_key_schedule@1215-1265@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/chacha20.rs","rfc8439_key_schedule","rfc8439_key_schedule",1215,1265
+7,1,99,2,9,"subkey_and_nonce@110-118@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/xchacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/xchacha20.rs","subkey_and_nonce","subkey_and_nonce secret_key : & SecretKey , nonce : & Nonce",110,118
+10,1,73,3,11,"encrypt@122-132@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/xchacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/xchacha20.rs","encrypt","encrypt secret_key : & SecretKey , nonce : & Nonce , initial_counter : u32 , plaintext : & [ u8 ] , dst_out : & mut [ u8 ] ,",122,132
+9,1,55,3,9,"decrypt@136-144@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/xchacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/xchacha20.rs","decrypt","decrypt secret_key : & SecretKey , nonce : & Nonce , initial_counter : u32 , ciphertext : & [ u8 ] , dst_out : & mut [ u8 ] ,",136,144
+3,1,13,0,3,"gen@157-159@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/xchacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/xchacha20.rs","gen","gen",157,159
+7,1,64,1,8,"prop_streamcipher_interface@164-171@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/xchacha20.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/stream/xchacha20.rs","prop_streamcipher_interface","prop_streamcipher_interface input : Vec < u8 > , counter : u32",164,171
+5,2,45,2,5,"new@108-112@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","new","new secret_key : & SecretKey , size : usize",108,112
+3,1,34,2,3,"reset@116-118@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","reset","reset & mut self , secret_key : & SecretKey",116,118
+3,1,32,1,3,"update@122-124@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","update","update & mut self , data : & [ u8 ]",122,124
+5,2,70,1,6,"finalize@128-133@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","finalize","finalize & mut self",128,133
+14,5,81,3,15,"verify@137-151@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","verify","verify expected : & Tag , secret_key : & SecretKey , size : usize , data : & [ u8 ] ,",137,151
+4,1,39,1,4,"reset@169-172@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","reset","reset & mut self",169,172
+3,1,30,1,3,"update@174-176@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","update","update & mut self , input : & [ u8 ]",174,176
+3,1,21,1,3,"finalize@178-180@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","finalize","finalize & mut self",178,180
+6,3,62,0,6,"one_shot@182-187@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","one_shot","one_shot input : & [ u8 ]",182,187
+8,3,55,1,9,"verify_result@189-197@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","verify_result","verify_result expected : & Tag , input : & [ u8 ]",189,197
+3,1,27,2,3,"compare_states@199-201@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","compare_states","compare_states state_1 : & Blake2b , state_2 : & Blake2b",199,201
+9,1,65,0,10,"default_consistency_tests@205-214@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","default_consistency_tests","default_consistency_tests",205,214
+10,1,76,0,11,"prop_input_to_consistency@220-230@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","prop_input_to_consistency","prop_input_to_consistency data : Vec < u8 >",220,230
+7,1,97,0,7,"test_init_size@237-243@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","test_init_size","test_init_size",237,243
+8,1,102,0,9,"prop_verify_diff_key_false@254-262@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","prop_verify_diff_key_false","prop_verify_diff_key_false data : Vec < u8 >",254,262
+15,3,181,2,17,"prop_verify_diff_size_false@268-284@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","prop_verify_diff_size_false","prop_verify_diff_size_false data : Vec < u8 > , size_one : usize , size_two : usize",268,284
+37,2,433,2,56,"produces_same_hash@294-349@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","produces_same_hash","produces_same_hash sk : & SecretKey , size : usize , data : & [ u8 ]",294,349
+15,1,195,2,23,"produces_same_state@354-376@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","produces_same_state","produces_same_state sk : & SecretKey , size : usize , data : & [ u8 ]",354,376
+7,1,65,0,7,"test_produce_same_state@380-386@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","test_produce_same_state","test_produce_same_state",380,386
+11,1,109,0,12,"test_produce_same_hash@390-401@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","test_produce_same_hash","test_produce_same_hash",390,401
+8,3,66,1,11,"prop_same_hash_different_usage@407-417@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","prop_same_hash_different_usage","prop_same_hash_different_usage data : Vec < u8 > , size : usize",407,417
+8,3,66,1,11,"prop_same_state_different_usage@423-433@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/blake2b.rs","prop_same_state_different_usage","prop_same_state_different_usage data : Vec < u8 > , size : usize",423,433
+16,2,127,0,28,"_new@103-130@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_new","_new secret_key : & [ u8 ]",103,130
+7,1,39,1,7,"fmt@133-139@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","fmt","fmt & self , f : & mut core :: fmt :: Formatter < ' _ >",133,139
+27,7,204,0,38,"_new@151-188@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_new","_new secret_key : & [ u8 ]",151,188
+7,2,45,1,7,"_update@190-196@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_update","_update & mut self , data : & [ u8 ]",190,196
+11,4,90,1,12,"_finalize@198-209@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_finalize","_finalize & mut self , dest : & mut [ u8 ]",198,209
+4,1,27,1,4,"_reset@211-214@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_reset","_reset & mut self",211,214
+7,1,61,2,7,"compare_state_to_other@219-225@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","compare_state_to_other","compare_state_to_other & self , other : & Self",219,225
+5,2,45,0,5,"_new@269-273@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_new","_new secret_key : & [ u8 ]",269,273
+3,1,26,1,4,"new@277-280@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","new","new secret_key : & SecretKey",277,280
+3,1,16,1,3,"reset@283-285@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","reset","reset & mut self",283,285
+3,1,32,1,3,"update@289-291@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","update","update & mut self , data : & [ u8 ]",289,291
+6,1,34,1,6,"_finalize_internal@294-299@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_finalize_internal","_finalize_internal & mut self , dest : & mut [ u8 ] ,",294,299
+5,2,47,1,6,"finalize@303-308@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","finalize","finalize & mut self",303,308
+5,2,48,1,5,"hmac@312-316@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","hmac","hmac secret_key : & SecretKey , data : & [ u8 ]",312,316
+11,3,58,2,11,"verify@320-330@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","verify","verify expected : & Tag , secret_key : & SecretKey , data : & [ u8 ] ,",320,330
+3,1,25,0,3,"_new@338-340@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_new","_new secret_key : & [ u8 ]",338,340
+3,1,32,1,3,"_update@343-345@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_update","_update & mut self , data : & [ u8 ]",343,345
+3,1,33,1,3,"_finalize@352-354@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_finalize","_finalize & mut self , dest : & mut [ u8 ]",352,354
+3,1,16,1,3,"_reset@357-359@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_reset","_reset & mut self",357,359
+7,1,50,0,7,"test_debug_impl@368-374@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","test_debug_impl","test_debug_impl",368,374
+8,1,94,0,9,"prop_verify_diff_key_false@384-392@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","prop_verify_diff_key_false","prop_verify_diff_key_false data : Vec < u8 >",384,392
+3,1,25,1,3,"reset@402-404@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","reset","reset & mut self",402,404
+3,1,30,1,3,"update@406-408@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","update","update & mut self , input : & [ u8 ]",406,408
+3,1,21,1,3,"finalize@410-412@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","finalize","finalize & mut self",410,412
+3,1,38,0,3,"one_shot@414-416@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","one_shot","one_shot input : & [ u8 ]",414,416
+3,1,46,1,5,"verify_result@418-422@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","verify_result","verify_result expected : & Tag , input : & [ u8 ]",418,422
+3,1,27,2,3,"compare_states@424-426@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","compare_states","compare_states state_1 : & HmacSha256 , state_2 : & HmacSha256",424,426
+8,1,54,0,9,"default_consistency_tests@430-438@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","default_consistency_tests","default_consistency_tests",430,438
+9,1,65,0,10,"prop_input_to_consistency@444-453@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","prop_input_to_consistency","prop_input_to_consistency data : Vec < u8 >",444,453
+5,2,45,0,5,"_new@499-503@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_new","_new secret_key : & [ u8 ]",499,503
+3,1,26,1,4,"new@507-510@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","new","new secret_key : & SecretKey",507,510
+3,1,16,1,3,"reset@513-515@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","reset","reset & mut self",513,515
+3,1,32,1,3,"update@519-521@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","update","update & mut self , data : & [ u8 ]",519,521
+6,1,34,1,6,"_finalize_internal@524-529@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_finalize_internal","_finalize_internal & mut self , dest : & mut [ u8 ] ,",524,529
+5,2,47,1,6,"finalize@533-538@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","finalize","finalize & mut self",533,538
+5,2,48,1,5,"hmac@542-546@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","hmac","hmac secret_key : & SecretKey , data : & [ u8 ]",542,546
+11,3,58,2,11,"verify@550-560@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","verify","verify expected : & Tag , secret_key : & SecretKey , data : & [ u8 ] ,",550,560
+3,1,25,0,3,"_new@568-570@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_new","_new secret_key : & [ u8 ]",568,570
+3,1,32,1,3,"_update@573-575@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_update","_update & mut self , data : & [ u8 ]",573,575
+3,1,33,1,3,"_finalize@582-584@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_finalize","_finalize & mut self , dest : & mut [ u8 ]",582,584
+3,1,16,1,3,"_reset@587-589@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_reset","_reset & mut self",587,589
+7,1,50,0,7,"test_debug_impl@598-604@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","test_debug_impl","test_debug_impl",598,604
+8,1,94,0,9,"prop_verify_diff_key_false@614-622@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","prop_verify_diff_key_false","prop_verify_diff_key_false data : Vec < u8 >",614,622
+3,1,25,1,3,"reset@632-634@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","reset","reset & mut self",632,634
+3,1,30,1,3,"update@636-638@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","update","update & mut self , input : & [ u8 ]",636,638
+3,1,21,1,3,"finalize@640-642@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","finalize","finalize & mut self",640,642
+3,1,38,0,3,"one_shot@644-646@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","one_shot","one_shot input : & [ u8 ]",644,646
+3,1,46,1,5,"verify_result@648-652@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","verify_result","verify_result expected : & Tag , input : & [ u8 ]",648,652
+3,1,27,2,3,"compare_states@654-656@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","compare_states","compare_states state_1 : & HmacSha384 , state_2 : & HmacSha384",654,656
+8,1,54,0,9,"default_consistency_tests@660-668@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","default_consistency_tests","default_consistency_tests",660,668
+9,1,65,0,10,"prop_input_to_consistency@674-683@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","prop_input_to_consistency","prop_input_to_consistency data : Vec < u8 >",674,683
+5,2,45,0,5,"_new@729-733@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_new","_new secret_key : & [ u8 ]",729,733
+3,1,26,1,4,"new@737-740@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","new","new secret_key : & SecretKey",737,740
+3,1,16,1,3,"reset@743-745@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","reset","reset & mut self",743,745
+3,1,32,1,3,"update@749-751@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","update","update & mut self , data : & [ u8 ]",749,751
+6,1,34,1,6,"_finalize_internal@754-759@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_finalize_internal","_finalize_internal & mut self , dest : & mut [ u8 ] ,",754,759
+5,2,47,1,6,"finalize@763-768@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","finalize","finalize & mut self",763,768
+5,2,48,1,5,"hmac@772-776@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","hmac","hmac secret_key : & SecretKey , data : & [ u8 ]",772,776
+11,3,58,2,11,"verify@780-790@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","verify","verify expected : & Tag , secret_key : & SecretKey , data : & [ u8 ] ,",780,790
+3,1,25,0,3,"_new@798-800@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_new","_new secret_key : & [ u8 ]",798,800
+3,1,32,1,3,"_update@803-805@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_update","_update & mut self , data : & [ u8 ]",803,805
+3,1,33,1,3,"_finalize@812-814@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_finalize","_finalize & mut self , dest : & mut [ u8 ]",812,814
+3,1,16,1,3,"_reset@817-819@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","_reset","_reset & mut self",817,819
+7,1,50,0,7,"test_debug_impl@828-834@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","test_debug_impl","test_debug_impl",828,834
+8,1,94,0,9,"prop_verify_diff_key_false@844-852@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","prop_verify_diff_key_false","prop_verify_diff_key_false data : Vec < u8 >",844,852
+3,1,25,1,3,"reset@862-864@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","reset","reset & mut self",862,864
+3,1,30,1,3,"update@866-868@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","update","update & mut self , input : & [ u8 ]",866,868
+3,1,21,1,3,"finalize@870-872@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","finalize","finalize & mut self",870,872
+3,1,38,0,3,"one_shot@874-876@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","one_shot","one_shot input : & [ u8 ]",874,876
+3,1,46,1,5,"verify_result@878-882@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","verify_result","verify_result expected : & Tag , input : & [ u8 ]",878,882
+3,1,27,2,3,"compare_states@884-886@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","compare_states","compare_states state_1 : & HmacSha512 , state_2 : & HmacSha512",884,886
+8,1,54,0,9,"default_consistency_tests@890-898@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","default_consistency_tests","default_consistency_tests",890,898
+9,1,65,0,10,"prop_input_to_consistency@904-913@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/hmac.rs","prop_input_to_consistency","prop_input_to_consistency data : Vec < u8 >",904,913
+7,1,46,1,7,"drop@126-132@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/poly1305.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/mac/poly1305.rs","drop","drop & mut self",126,132
+4,1,39,2,4,"eq@96-99@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","eq","eq & self , other : & Self",96,99
+6,1,51,2,8,"mul@106-113@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","mul","mul self , rhs : Self",106,113
+8,1,70,2,10,"add@120-129@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","add","add self , rhs : Self",120,129
+8,1,70,2,10,"sub@136-145@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","sub","sub self , rhs : Self",136,145
+3,1,22,0,3,"zero@150-152@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","zero","zero",150,152
+3,1,22,0,3,"one@155-157@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","one","one",155,157
+6,1,42,1,9,"as_bytes@160-168@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","as_bytes","as_bytes & self",160,168
+9,1,69,0,14,"from_bytes@173-186@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","from_bytes","from_bytes bytes : & [ u8 ; 32 ]",173,186
+8,2,92,3,13,"conditional_swap@189-201@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","conditional_swap","conditional_swap swap : u8 , a : & mut Self , b : & mut Self",189,201
+6,1,41,1,8,"square@204-211@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","square","square & self",204,211
+6,1,41,1,8,"mul_121666@214-221@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","mul_121666","mul_121666 & self",214,221
+53,9,333,1,58,"invert@226-283@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","invert","invert & mut self",226,283
+4,1,26,1,4,"drop@291-294@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","drop","drop & mut self",291,294
+4,1,35,2,4,"eq@298-301@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","eq","eq & self , other : & Self",298,301
+11,2,80,0,14,"from_slice@311-324@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","from_slice","from_slice slice : & [ u8 ]",311,324
+40,2,316,2,46,"mont_ladder@333-378@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","mont_ladder","mont_ladder scalar : & Scalar , point : FieldElement",333,378
+8,3,70,1,10,"eq@395-404@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","eq","eq & self , other : && [ u8 ]",395,404
+5,1,28,0,5,"from@409-413@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","from","from bytes : [ u8 ; PUBLIC_KEY_SIZE ]",409,413
+6,2,60,1,9,"try_from@423-431@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","try_from","try_from private_key : & PrivateKey",423,431
+10,2,70,0,13,"from_slice@437-449@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","from_slice","from_slice slice : & [ u8 ]",437,449
+3,1,11,1,3,"len@453-455@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","len","len & self",453,455
+3,1,13,1,3,"is_empty@462-464@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","is_empty","is_empty & self",462,464
+3,1,21,1,3,"to_bytes@468-470@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","to_bytes","to_bytes & self",468,470
+6,3,45,1,6,"eq@519-524@crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/hazardous/ecc/x25519.rs","eq","eq & self , other : && [ u8 ]",519,524
+8,2,50,0,9,"new@105-113@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","new","new",105,113
+3,1,15,1,3,"public_key@116-118@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","public_key","public_key & self",116,118
+3,1,15,1,3,"private_key@121-123@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","private_key","private_key & self",121,123
+11,5,99,2,12,"establish_with_server@127-138@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","establish_with_server","establish_with_server self , server_public_key : & PublicKey ,",127,138
+8,2,50,0,9,"new@150-158@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","new","new",150,158
+3,1,15,1,3,"public_key@161-163@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","public_key","public_key & self",161,163
+3,1,15,1,3,"private_key@166-168@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","private_key","private_key & self",166,168
+11,5,99,2,12,"establish_with_client@172-183@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","establish_with_client","establish_with_client self , client_public_key : & PublicKey ,",172,183
+3,1,15,1,3,"receiving@195-197@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","receiving","receiving & self",195,197
+3,1,15,1,3,"transport@200-202@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","transport","transport & self",200,202
+11,5,85,3,11,"establish_session_keys@206-216@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","establish_session_keys","establish_session_keys shared_secret : & x25519 :: SharedKey , client_pk : & PublicKey , server_pk : & PublicKey ,",206,216
+17,1,163,0,22,"test_basic_key_exchange@224-245@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","test_basic_key_exchange","test_basic_key_exchange",224,245
+12,1,126,0,14,"test_error_on_low_order_public@248-261@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","test_error_on_low_order_public","test_error_on_low_order_public",248,261
+46,1,342,0,53,"libsodium_compat_test_1@265-317@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","libsodium_compat_test_1","libsodium_compat_test_1",265,317
+46,1,342,0,53,"libsodium_compat_test_2@320-372@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","libsodium_compat_test_2","libsodium_compat_test_2",320,372
+46,1,342,0,53,"libsodium_compat_test_3@375-427@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","libsodium_compat_test_3","libsodium_compat_test_3",375,427
+46,1,342,0,53,"libsodium_compat_test_4@430-482@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","libsodium_compat_test_4","libsodium_compat_test_4",430,482
+46,1,342,0,53,"libsodium_compat_test_5@485-537@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kex.rs","libsodium_compat_test_5","libsodium_compat_test_5",485,537
+6,4,53,1,10,"parse_decimal_value@187-196@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","parse_decimal_value","parse_decimal_value value : & str",187,196
+14,3,64,2,14,"encode@199-212@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","encode","encode password_hash : & [ u8 ] , salt : & [ u8 ] , iterations : u32 , memory : u32 ,",199,212
+27,7,138,2,29,"from_slice@216-244@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","from_slice","from_slice password_hash : & [ u8 ] , salt : & [ u8 ] , iterations : u32 , memory : u32 ,",216,244
+69,24,488,1,79,"from_encoded@248-326@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","from_encoded","from_encoded password_hash : & str",248,326
+3,1,18,1,3,"unprotected_as_encoded@331-333@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","unprotected_as_encoded","unprotected_as_encoded & self",331,333
+3,1,20,1,3,"unprotected_as_bytes@338-340@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","unprotected_as_bytes","unprotected_as_bytes & self",338,340
+3,1,17,1,3,"len@344-346@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","len","len & self",344,346
+5,1,39,1,5,"is_empty@353-357@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/pwhash.rs","is_empty","is_empty & self",353,357
+23,5,156,1,27,"seal@98-124@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","seal","seal secret_key : & SecretKey , plaintext : & [ u8 ]",98,124
+18,5,127,1,22,"open@128-149@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","open","open secret_key : & SecretKey , ciphertext_with_tag_and_nonce : & [ u8 ] ,",128,149
+8,2,81,1,9,"new@255-263@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","new","new secret_key : & SecretKey",255,263
+14,3,98,2,16,"seal_chunk@267-282@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","seal_chunk","seal_chunk & mut self , plaintext : & [ u8 ] , tag : & StreamTag ,",267,282
+6,2,61,2,7,"new@294-300@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","new","new secret_key : & SecretKey , nonce : & Nonce",294,300
+13,3,92,1,15,"open_chunk@303-317@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","open_chunk","open_chunk & mut self , ciphertext : & [ u8 ] ,",303,317
+8,1,90,0,9,"test_auth_enc_encryption_decryption@330-338@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_auth_enc_encryption_decryption","test_auth_enc_encryption_decryption",330,338
+5,1,40,0,6,"test_auth_enc_plaintext_empty_err@341-346@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_auth_enc_plaintext_empty_err","test_auth_enc_plaintext_empty_err",341,346
+5,1,43,0,6,"test_auth_enc_ciphertext_less_than_41_err@349-354@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_auth_enc_ciphertext_less_than_41_err","test_auth_enc_ciphertext_less_than_41_err",349,354
+7,1,64,0,9,"test_modified_nonce_err@357-365@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_modified_nonce_err","test_modified_nonce_err",357,365
+7,1,64,0,9,"test_modified_ciphertext_err@368-376@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_modified_ciphertext_err","test_modified_ciphertext_err",368,376
+8,1,75,0,10,"test_modified_tag_err@379-388@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_modified_tag_err","test_modified_tag_err",379,388
+7,1,65,0,8,"test_diff_secret_key_err@391-398@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_diff_secret_key_err","test_diff_secret_key_err",391,398
+6,1,61,0,7,"test_secret_length_err@401-407@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_secret_length_err","test_secret_length_err",401,407
+11,1,142,0,12,"test_auth_enc_encryption_decryption@415-426@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_auth_enc_encryption_decryption","test_auth_enc_encryption_decryption",415,426
+6,1,64,0,7,"test_seal_chunk_plaintext_empty_ok@429-435@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_seal_chunk_plaintext_empty_ok","test_seal_chunk_plaintext_empty_ok",429,435
+7,1,80,0,8,"test_open_chunk_less_than_abytes_err@438-445@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_open_chunk_less_than_abytes_err","test_open_chunk_less_than_abytes_err",438,445
+11,1,118,0,12,"test_open_chunk_abytes_exact_ok@448-459@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_open_chunk_abytes_exact_ok","test_open_chunk_abytes_exact_ok",448,459
+9,1,106,0,11,"test_modified_tag_err@462-472@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_modified_tag_err","test_modified_tag_err",462,472
+9,1,106,0,11,"test_modified_ciphertext_err@475-485@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_modified_ciphertext_err","test_modified_ciphertext_err",475,485
+10,1,117,0,12,"test_modified_mac_err@488-499@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_modified_mac_err","test_modified_mac_err",488,499
+9,1,107,0,11,"test_diff_secret_key_err@502-512@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_diff_secret_key_err","test_diff_secret_key_err",502,512
+5,1,59,0,5,"test_secret_length_err@515-519@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_secret_length_err","test_secret_length_err",515,519
+15,1,193,0,16,"same_input_generates_different_ciphertext@522-537@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","same_input_generates_different_ciphertext","same_input_generates_different_ciphertext",522,537
+13,1,110,0,17,"same_input_on_same_init_different_ct@540-556@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","same_input_on_same_init_different_ct","same_input_on_same_init_different_ct",540,556
+20,1,264,0,21,"test_stream_seal_and_open@559-579@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","test_stream_seal_and_open","test_stream_seal_and_open",559,579
+8,2,114,0,11,"prop_stream_seal_open_same_input@583-593@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","prop_stream_seal_open_same_input","prop_stream_seal_open_same_input input : Vec < u8 >",583,593
+11,2,81,0,14,"prop_seal_open_same_input@598-611@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","prop_seal_open_same_input","prop_seal_open_same_input input : Vec < u8 >",598,611
+11,2,83,0,13,"prop_fail_on_diff_key@617-629@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/aead.rs","prop_fail_on_diff_key","prop_fail_on_diff_key input : Vec < u8 >",617,629
+9,5,85,1,9,"authenticate@89-97@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","authenticate","authenticate secret_key : & SecretKey , data : & [ u8 ]",89,97
+11,4,85,2,11,"authenticate_verify@101-111@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","authenticate_verify","authenticate_verify expected : & Tag , secret_key : & SecretKey , data : & [ u8 ] ,",101,111
+8,1,98,0,9,"test_authenticate_verify_bad_key@121-129@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","test_authenticate_verify_bad_key","test_authenticate_verify_bad_key",121,129
+7,1,89,0,8,"test_authenticate_verify_bad_msg@132-139@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","test_authenticate_verify_bad_msg","test_authenticate_verify_bad_msg",132,139
+5,1,50,0,6,"test_authenticate_key_too_small@142-147@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","test_authenticate_key_too_small","test_authenticate_key_too_small",142,147
+6,1,76,0,7,"test_authenticate_verify_key_too_small@150-156@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","test_authenticate_verify_key_too_small","test_authenticate_verify_key_too_small",150,156
+5,1,62,0,5,"prop_authenticate_verify@163-167@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","prop_authenticate_verify","prop_authenticate_verify input : Vec < u8 >",163,167
+6,1,71,0,7,"prop_verify_fail_diff_key@173-179@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","prop_verify_fail_diff_key","prop_verify_fail_diff_key input : Vec < u8 >",173,179
+5,1,58,0,6,"prop_verify_fail_diff_input@185-190@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","prop_verify_fail_diff_input","prop_verify_fail_diff_input input : Vec < u8 >",185,190
+14,5,119,0,14,"prop_authenticate_key_size@198-211@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/auth.rs","prop_authenticate_key_size","prop_authenticate_key_size input : Vec < u8 >",198,211
+22,4,105,5,25,"derive_key@81-105@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","derive_key","derive_key password : & Password , salt : & Salt , iterations : u32 , memory : u32 , length : u32 ,",81,105
+7,1,96,0,8,"test_derive_key@116-123@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","test_derive_key","test_derive_key",116,123
+7,1,96,0,8,"test_derive_key_err_diff_iter@126-133@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","test_derive_key_err_diff_iter","test_derive_key_err_diff_iter",126,133
+7,1,96,0,8,"test_derive_key_err_diff_mem@136-143@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","test_derive_key_err_diff_mem","test_derive_key_err_diff_mem",136,143
+14,1,111,0,15,"test_derive_key_err_diff_salt@146-160@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","test_derive_key_err_diff_salt","test_derive_key_err_diff_salt",146,160
+7,1,96,0,8,"test_derive_key_err_diff_len@163-170@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","test_derive_key_err_diff_len","test_derive_key_err_diff_len",163,170
+14,1,111,0,15,"test_derive_key_err_diff_pass@173-187@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","test_derive_key_err_diff_pass","test_derive_key_err_diff_pass",173,187
+7,1,113,0,8,"test_derive_key_bad_length@190-197@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","test_derive_key_bad_length","test_derive_key_bad_length",190,197
+7,1,113,0,8,"test_derive_key_bad_iter@200-207@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","test_derive_key_bad_iter","test_derive_key_bad_iter",200,207
+7,1,113,0,8,"test_derive_key_bad_mem@210-217@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/kdf.rs","test_derive_key_bad_mem","test_derive_key_bad_mem",210,217
+3,1,29,0,3,"digest@66-68@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/hash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/hash.rs","digest","digest data : & [ u8 ]",66,68
+3,1,41,0,3,"prop_digest_same_result@78-80@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/hash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/hash.rs","prop_digest_same_result","prop_digest_same_result input : Vec < u8 >",78,80
+3,1,37,0,3,"prop_digest_diff_result@84-86@crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/hash.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/high_level/hash.rs","prop_digest_diff_result","prop_digest_diff_result input : Vec < u8 >",84,86
+9,1,31,1,9,"fmt@30-38@crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","fmt","fmt & self , f : & mut fmt :: Formatter < '_>) -> fmt::Result {
+        write!(f, 'UnknownCryptoError')
+    }
+}
+
+impl fmt::Debug for UnknownCryptoError {
+    fn fmt(&self, f: &mut fmt::Formatter<' _ >",30,38
+3,1,25,1,3,"source@43-45@crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","source","source & self",43,45
+3,1,14,1,3,"from@50-52@crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","from","from _ : getrandom :: Error",50,52
+3,1,14,1,3,"from@57-59@crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","from","from _ : ct_codecs :: Error",57,59
+3,1,16,1,3,"from@63-65@crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","from","from _ : core :: num :: ParseIntError",63,65
+6,1,44,0,8,"test_unknown_crypto_error_debug_display@71-78@crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","test_unknown_crypto_error_debug_display","test_unknown_crypto_error_debug_display",71,78
+9,1,91,0,13,"test_unknown_crypto_from_getrandom@83-95@crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","test_unknown_crypto_from_getrandom","test_unknown_crypto_from_getrandom",83,95
+4,1,27,0,4,"test_source@99-102@crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","test_source","test_source",99,102
+17,1,95,0,20,"test_unknown_crypto_from_decode_error@106-125@crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","test_unknown_crypto_from_decode_error","test_unknown_crypto_from_decode_error",106,125
+9,1,58,0,11,"test_unknown_crypto_from_parseint_error@129-139@crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/errors.rs","test_unknown_crypto_from_parseint_error","test_unknown_crypto_from_parseint_error",129,139
+5,1,47,0,6,"default@32-37@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","default","default",32,37
+5,1,43,2,6,"eq@48-53@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","eq","eq & self , other : & $ name",48,53
+5,2,40,1,6,"eq@59-64@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","eq","eq & self , other : && [ u8 ]",59,64
+12,1,51,1,12,"fmt@73-84@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","fmt","fmt & self , f : & mut core :: fmt :: Formatter < '_>) -> core::fmt::Result {
+            write!(f, '{} {{***OMITTED***}}', stringify!($name))
+        }
+    }
+));
+
+/// Macro that implements the `Debug` trait on a object called `$name`.
+macro_rules! impl_normal_debug_trait (($name:ident) => (
+    impl core::fmt::Debug for $name {
+        fn fmt(&self, f: &mut core::fmt::Formatter<' _ >",73,84
+7,2,57,2,7,"serialize@98-104@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","serialize","serialize & self , serializer : S",98,104
+3,1,27,1,3,"as_ref@142-144@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","as_ref","as_ref & self",142,144
+31,3,61,1,33,"deserialize@113-145@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","deserialize","deserialize deserializer : D",113,145
+6,1,29,0,6,"from@156-161@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","from","from bytes : [ u8 ; $ size ]",156,161
+3,1,27,0,3,"try_from@171-173@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","try_from","try_from slice : & [ u8 ]",171,173
+9,2,89,0,13,"from_slice@189-201@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","from_slice","from_slice slice : & [ u8 ]",189,201
+6,3,71,0,8,"from_slice@211-218@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","from_slice","from_slice slice : & [ u8 ]",211,218
+3,1,27,1,3,"unprotected_as_bytes@228-230@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","unprotected_as_bytes","unprotected_as_bytes & self",228,230
+3,1,13,1,3,"len@238-240@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","len","len & self",238,240
+3,1,15,1,3,"is_empty@250-252@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","is_empty","is_empty & self",250,252
+5,1,51,0,8,"generate@260-267@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","generate","generate",260,267
+8,3,78,1,12,"generate@277-288@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","generate","generate length : usize",277,288
+7,1,73,0,7,"test_serde_serialized_equivalence_to_bytes_fn@298-304@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_serde_serialized_equivalence_to_bytes_fn","test_serde_serialized_equivalence_to_bytes_fn",298,304
+6,1,60,0,6,"test_serde_deserialized_equivalence_to_bytes_fn@307-312@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_serde_deserialized_equivalence_to_bytes_fn","test_serde_deserialized_equivalence_to_bytes_fn",307,312
+5,1,36,0,8,"test_bound_params@318-325@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_bound_params","test_bound_params",318,325
+6,1,152,0,8,"test_partial_eq@331-338@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_partial_eq","test_partial_eq",331,338
+11,2,175,0,14,"test_from_slice@344-357@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_from_slice","test_from_slice",344,357
+20,2,290,0,28,"test_as_bytes@363-390@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_as_bytes","test_as_bytes",363,390
+6,1,58,0,8,"test_generate@398-405@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_generate","test_generate",398,405
+5,1,67,0,5,"test_omitted_debug@414-418@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_omitted_debug","test_omitted_debug",414,418
+5,1,67,0,5,"test_normal_debug@427-431@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_normal_debug","test_normal_debug",427,431
+6,1,90,0,6,"test_from_slice_variable@439-444@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_from_slice_variable","test_from_slice_variable",439,444
+10,1,133,0,12,"test_generate_variable@452-463@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_generate_variable","test_generate_variable",452,463
+10,3,102,0,13,"from_slice@840-852@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","from_slice","from_slice slice : & [ u8 ]",840,852
+5,1,77,0,5,"test_key_size@867-871@crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","crypto_codebases/orion/orion_2022/ccn_lib/src/typedefs.rs","test_key_size","test_key_size",867,871

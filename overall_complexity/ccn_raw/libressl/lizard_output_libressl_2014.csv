@@ -1,0 +1,4 @@
+4,1,9,1,4,"issetugid@23-26@crypto_codebases/libressl/libressl_2014/ccn_lib/crypto/compat/issetugid_win.c","crypto_codebases/libressl/libressl_2014/ccn_lib/crypto/compat/issetugid_win.c","issetugid","issetugid( void)",23,26
+13,5,57,1,28,"issetugid@20-47@crypto_codebases/libressl/libressl_2014/ccn_lib/crypto/compat/issetugid_linux.c","crypto_codebases/libressl/libressl_2014/ccn_lib/crypto/compat/issetugid_linux.c","issetugid","issetugid( void)",20,47
+37,9,223,3,40,"vasprintf@43-82@crypto_codebases/libressl/libressl_2014/ccn_lib/crypto/compat/bsd-asprintf.c","crypto_codebases/libressl/libressl_2014/ccn_lib/crypto/compat/bsd-asprintf.c","vasprintf","vasprintf( char ** str , const char * fmt , va_list ap)",43,82
+10,1,52,2,12,"asprintf@86-97@crypto_codebases/libressl/libressl_2014/ccn_lib/crypto/compat/bsd-asprintf.c","crypto_codebases/libressl/libressl_2014/ccn_lib/crypto/compat/bsd-asprintf.c","asprintf","asprintf( char ** str , const char * fmt , ...)",86,97

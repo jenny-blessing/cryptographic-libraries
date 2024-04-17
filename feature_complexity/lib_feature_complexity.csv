@@ -1,0 +1,73 @@
+library,component,path,CCN_AVG,CCN_MED,CCN_STDDEV
+OpenSSL,TLS,openssl/ssl,7.9,4,11.6
+OpenSSL,X.509,openssl/crypto/x509,6.52,4,8.6
+OpenSSL,AES,openssl/crypto/aes,5.1,2,5.93
+OpenSSL,RSA,openssl/crypto/rsa,7.13,4,10.5
+OpenSSL,EC,openssl/crypto/ec,5.63,3,8.4
+OpenSSL,SHA,openssl/crypto/sha,3.2,2,2.6
+OpenSSL,PKCS,openssl/crypto/pkcs/,5.9,4,7.2
+OpenSSL,DH,openssl/crypto/dh,5.4,3,5.82
+WolfSSL,TLS,wolfssl/src/tls_ssl,7.1,3,13.8
+WolfSSL,X.509,wolfssl/src/x509,10.25,5,20.7
+WolfSSL,AES,wolfssl/wolfcrypt/src/aes,9.1,5.5,10.1
+WolfSSL,RSA,wolfssl/wolfcrypt/src/rsa,13.3,5,19.2
+WolfSSL,EC,wolfssl/wolfcrypt/src/ecc,11.35,5,16.9
+WolfSSL,SHA,wolfssl/wolfcrypt/src/sha,5.4,3.5,5.78
+WolfSSL,PKCS,wolfssl/wolfcrypt/src/pkcs,19.6,10,30.5
+WolfSSL,DH,wolfssl/wolfcrypt/src/dh,15.1,11,14.1
+GnuTLS,TLS,gnutls/lib/tls13,7.6,6,5.9
+GnuTLS,X.509,gnutls/lib/x509,7.1,5,7.3
+GnuTLS,AES,gnutls/lib/accelerated/x86/aes,2.6,2,1.65
+GnuTLS,RSA,gnutls/lib/rsa,7,5,5.76
+GnuTLS,EC,lib/algorithms/ecc.c,3.6,4,1.5
+GnuTLS,SHA,gnutls/lib/accelerated/x86/sha,3.1,2,2.1
+GnuTLS,PKCS,"gnutls/lib/pkcs11, lib/x509/pkcs7.c",7.8,5,9.1
+GnuTLS,DH,gnutls/lib/dh,5.9,4,5.5
+NSS,TLS,nss/lib/ssl,7.1,4,8.9
+NSS,X.509,nss/lib/x509,7.8,5,11.2
+NSS,AES,nss/lib/freebl/aes,5.9,6,5
+NSS,RSA,nss/lib/freebl/rsa,7.1,6,5.7
+NSS,EC,nss/lib/freebl/ec,6.9,3,8.9
+NSS,SHA,nss/lib/freebl/sha,2.6,1,2.6
+NSS,PKCS,nss/lib/pkcs,7.9,4,12.5
+NSS,DH,nss/lib/freebl/dh,9.3,6.5,6.4
+LibreSSL,TLS,libressl-3.5.3/tls_ssl,6.5,4,9.5
+LibreSSL,X.509,libressl-3.5.3/crypto/x509,6.3,4,7
+LibreSSL,AES,libressl-3.5.3/crypto/aes,6,4,6
+LibreSSL,RSA,libressl-3.5.3/crypto/rsa,7,4,9.4
+LibreSSL,EC,libressl-3.5.3/crypto/ecc,7.8,3,10.8
+LibreSSL,SHA,libressl-3.5.3/crypto/sha,3.7,2.5,2.7
+LibreSSL,PKCS,libressl-3.5.3/crypto/pkcs,6.7,4,8.1
+LibreSSL,DH,libressl-3.5.3/crypto/dh,5.3,3,5.3
+BoringSSL,TLS,boringssl/lib/ssl,6.4,4,9.5
+BoringSSL,X.509,boringssl/crypto/x509,5.8,3,7.5
+BoringSSL,AES,boringssl/crypto/fipsmodule/aes,3,2,2.78
+BoringSSL,RSA,boringssl/crypto/rsa,5.6,4,3.5
+BoringSSL,EC,"boringssl/crypto/ec, ecdh, ecdsa",6.4,5,6.4
+BoringSSL,SHA,boringssl/crypto/fipsmodule/sha,1.79,1,1.54
+BoringSSL,PKCS,boringssl/crypto/pkcs,7.7,5,9.6
+BoringSSL,DH,boringssl/crypto/dh_extra,7.1,5,6.4
+MatrixSSL,TLS,matrixssl/matrixssl/tls_ssl,11.4,5.5,21.2
+MatrixSSL,X.509,matrixssl/crypto/keyformat/x509_,21.9,9,31.2
+MatrixSSL,AES,matrixssl/crypto/symmetric/aes,4,2,4.6
+MatrixSSL,RSA,matrixssl/crypto/pubkey/rsa,6.6,5,5.8
+MatrixSSL,EC,"matrixssl/crypto/crypto_sign, crypto/pubkey/ecc_math.c",4.65,2,2.32
+MatrixSSL,SHA,matrixssl/crypto/digest,4,3,2.9
+MatrixSSL,PKCS,matrixssl/keyformat/pkcs,6.7,4,8
+MatrixSSL,DH,matrixssl/crypto/pubkey/dh,6.5,5,4.9
+Botan,TLS,botan/src/lib/tls,3.8,2,5.8
+Botan,X.509,botan/src/lib/x509/,4,2,5.9
+Botan,AES,botan/src/lib/block/aes,2.8,2,2.4
+Botan,RSA,botan/src/lib/pubkey/rsa,2.6,1,3.2
+Botan,EC,"botan/src/lib/pubkey/ecdsa, pubkey/ecdh",3.7,3,2.4
+Botan,SHA,botan/src/lib/hash/sha3,2.8,2,2.2
+Botan,PKCS,botan/src/lib/prov/pkcs11,1.5,1,1.42
+Botan,DH,botan/src/lib/pubkey/dh,2,2,1
+Mbed TLS,TLS,mbedtls/library/tls_ssl,7.59,4,11.9
+Mbed TLS,X.509,mbedtls/library/x509,6.9,4,7.3
+Mbed TLS,AES,mbedtls/library/aes,9.52,5,16.3
+Mbed TLS,RSA,mbedtls/library/rsa,11,8.5,7.76
+Mbed TLS,EC,"mbedtls/library/ecdsa, library/ecp_curves.c",3.8,2,4.3
+Mbed TLS,SHA,mbedtls/library/sha,4,2,3.8
+Mbed TLS,PKCS,mbedtls/library/pkcs12,12.7,9.5,8.6
+Mbed TLS,DH,mbedtls/library/dhm,4.8,4,3.4
